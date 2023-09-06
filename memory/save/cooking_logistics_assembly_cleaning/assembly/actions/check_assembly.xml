@@ -1,0 +1,17 @@
+<root>
+    <action name="check_assembly">
+        <explanation>check if a specific assembly task has been completed</explanation>
+        <synonyms>inspect assembly</synonyms>
+        <synonyms>verify integration</synonyms>
+        <synonyms>examine assembly</synonyms>
+        <synonyms>review construction</synonyms>
+        <synonyms>validate joining</synonyms>
+        <synonyms>assess assembly</synonyms>
+        <synonyms>audit integration</synonyms>
+        <synonyms>confirm piece joining</synonyms>
+        <synonyms>scrutinize component assembly</synonyms>
+        <synonyms>check the assembly afterwards</synonyms><synonyms>execute the task of checking the quality of the assembly</synonyms><synonyms>check unit construction</synonyms>
+        <pattern>^(inspect|verif|examin|review|scrutiniz).*(assembly|integration|construction|joining)$</pattern>
+        <pattern>^(validat|assess|audit|confirm|check).*(assembly|integration|construction|joining)$</pattern>
+    </action>
+</root>

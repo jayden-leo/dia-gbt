@@ -1,0 +1,16 @@
+<root>
+    <action name="scanning">
+        <explanation>scan the current environment, identify and record all movable objects for subsequent operations</explanation>
+        <synonyms>scan surroundings</synonyms>
+        <synonyms>detect</synonyms>
+        <synonyms>search</synonyms>
+        <synonyms>probe</synonyms>
+        <synonyms>measure</synonyms>
+        <synonyms>inspect</synonyms>
+        <synonyms>observe</synonyms>
+        <synonyms>investigate</synonyms>
+        <pattern>(scan.*?).*(surroundings)</pattern>
+        <pattern>(measur.*?|detect.*?|search.*?|prob.*?)</pattern>
+        <pattern>(inspect.*?|observ.*?|investigat.*?)</pattern>
+    </action>
+</root>

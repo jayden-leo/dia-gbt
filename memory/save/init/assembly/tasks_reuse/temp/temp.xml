@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <task name="temp">
+    <bt>
+      <sequence name="sequence">
+        <correct_positioning name="correct_positioning"/>
+        <check_assembly name="check_assembly"/>
+      </sequence>
+    </bt>
+  </task>
+</root>

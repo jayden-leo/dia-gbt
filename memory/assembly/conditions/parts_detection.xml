@@ -1,0 +1,17 @@
+<root>
+    <condition name="parts_detection">
+        <explanation>scan and probe the environment for the location and presence of specific components</explanation>
+        <synonyms>element sensing</synonyms>
+        <synonyms>component detection</synonyms>
+        <synonyms>element identification</synonyms>
+        <synonyms>part inspection</synonyms>
+        <synonyms>component sensing</synonyms>
+        <synonyms>part recognition</synonyms>
+        <synonyms>part sensing</synonyms>
+        <synonyms>element detection</synonyms>
+        <synonyms>piece identification</synonyms>
+        <synonyms>component identification</synonyms>
+        <pattern>^(element|component|part|piec).*(sensing|detection|identification|inspection|recognition)$</pattern>
+        <pattern>^(sens|detect|identificat|inspect|recogni).*(element|component|part|piece)</pattern>
+    </condition>
+</root>

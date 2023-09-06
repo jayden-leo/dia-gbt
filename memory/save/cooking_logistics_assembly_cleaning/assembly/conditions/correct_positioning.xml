@@ -1,0 +1,22 @@
+<root>
+    <condition name="correct_positioning">
+        <explanation>check that the object has been placed correctly in the target position</explanation>
+        <synonyms>adjust alignment</synonyms>
+        <synonyms>rectify placement</synonyms>
+        <synonyms>fix positioning</synonyms>
+        <synonyms>align properly</synonyms>
+        <synonyms>rectify configuration</synonyms>
+        <synonyms>properly position</synonyms>
+        <synonyms>rectify arrangement</synonyms>
+        <synonyms>correctly align</synonyms>
+        <synonyms>revise position</synonyms>
+        <synonyms>the target position</synonyms>
+        <synonyms>correct location</synonyms>
+        <synonyms>verify that it is in the correct position</synonyms>
+        <synonyms>position the parts</synonyms>
+        <synonyms>if it is in the correct position</synonyms>
+        <synonyms>first check if the position is correct</synonyms><synonyms>first check whether the workpiece is placed correctly</synonyms><synonyms>confirm the correct positioning of the workpiece</synonyms><synonyms>adjust the position</synonyms>
+        <pattern>^(adjust|rectify|fix|align|rectify|proper|rectif|correct|revis).*(align|place|position|configurat|arrang|position)</pattern>
+        <pattern>^(align|place|position|configurat|arrang|position).*(adjust|rectify|fix|align|rectify|proper|rectif|correct|revis)</pattern>
+    </condition>
+</root>

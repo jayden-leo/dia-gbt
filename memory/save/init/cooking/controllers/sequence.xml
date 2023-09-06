@@ -1,0 +1,16 @@
+<root>
+    <controller name="sequence">
+        <explanation>execute sub tasks sequentially in a predetermined order to achieve step-by-step completion of complex tasks</explanation>
+        <synonyms>sequentially execute</synonyms>
+        <synonyms>order</synonyms>
+        <synonyms>perform step by step</synonyms>
+        <synonyms>operate in order</synonyms>
+        <synonyms>execute in sequence</synonyms>
+        <synonyms>perform consecutively</synonyms>
+        <synonyms>progressively carry out</synonyms>
+        <synonyms>implement gradually</synonyms>
+        <synonyms>check that all parts needed for assembly are available</synonyms><synonyms>execute one by one</synonyms>
+        <pattern>^(sequen.*?|progressively).*(execute|step by step|in order|in sequence|carry out|gradually|one by one)$</pattern>
+        <pattern>^(execut.*?|perform.*?|order|operat.*?|implement.*?).*(step by step|in order|in sequence|gradually|one by one)$</pattern>
+    </controller>
+</root>

@@ -1,0 +1,16 @@
+<root>
+    <condition name="cleaning_tool_detection">
+        <explanation>use scanning or inspection techniques to discover and identify available cleaning tools so that the proper tool can be selected for the cleaning task</explanation>
+        <synonyms>verify readiness of cleaning tools</synonyms>
+        <synonyms>confirm preparedness of cleaning implements</synonyms>
+        <synonyms>check if cleaning tools are ready</synonyms>
+        <synonyms>validate availability of prepared cleaning equipment</synonyms>
+        <synonyms>ensure cleaning tools are prepared</synonyms>
+        <synonyms>examine if cleaning instruments are set</synonyms>
+        <synonyms>ascertain if cleaning tools are ready</synonyms>
+        <synonyms>inspect if cleaning supplies are ready</synonyms>
+        <synonyms>grab the mop</synonyms><synonyms>it is available</synonyms><synonyms>cross-check if cleaning tools are prepared</synonyms>
+        <pattern>^(verify|confirm|check).*(readiness|ready|preparedness|avail|prepared|).*(tool|implement|equipment|instrument|suppl)</pattern>
+        <pattern>^(validat|ensur|examin|ascertain|inspect|cross-check).*(readiness|ready|preparedness|avail|prepared|).*(tool|implement|equipment|instrument|suppl)</pattern>
+    </condition>
+</root>

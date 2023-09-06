@@ -1,0 +1,17 @@
+<root>
+    <condition name="package_detection">
+        <explanation>scan and inspect packages around them for information or to confirm status</explanation>
+        <synonyms>element sensing</synonyms>
+        <synonyms>component detection</synonyms>
+        <synonyms>element identification</synonyms>
+        <synonyms>part inspection</synonyms>
+        <synonyms>component sensing</synonyms>
+        <synonyms>part recognition</synonyms>
+        <synonyms>part sensing</synonyms>
+        <synonyms>element detection</synonyms>
+        <synonyms>piece identification</synonyms>
+        <synonyms>component identification</synonyms>
+        <pattern>^(sens|detect|identif|inspect|recogni|check|scan).*(element|component|part|package|workspace|piece|object|it|parcel|deliver|mail)</pattern>
+        <pattern>^(element|component|part|package|workspace|piece|object|it|parcel|deliver|mail).*(sens|detect|identif|inspect|recogni|check|scan)</pattern>
+    </condition>
+</root>

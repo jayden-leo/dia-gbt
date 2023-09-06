@@ -1,0 +1,27 @@
+<root>
+    <condition name="navigate_to_area">
+        <explanation>calculate and determine the best route from one location to another</explanation>
+        <synonyms>path planning</synonyms>
+        <synonyms>navigation planning</synonyms>
+        <synonyms>route scheduling</synonyms>
+        <synonyms>route design</synonyms>
+        <synonyms>navigation path planning</synonyms>
+        <synonyms>route selection</synonyms>
+        <synonyms>journey planning</synonyms>
+        <synonyms>guided route planning</synonyms>
+        <synonyms>navigation path calculation</synonyms>
+        <synonyms>navigation strategy development</synonyms>
+        <synonyms>choose the correct route</synonyms>
+        <synonyms>complete the target location</synonyms>
+        <synonyms>to the target location</synonyms>
+        <synonyms>choose a route</synonyms>
+        <synonyms>performing route planning</synonyms>
+        <synonyms>execute route_plan</synonyms>
+        <synonyms>start the route planning</synonyms>
+        <synonyms>carry out the necessary route planning</synonyms>
+        <synonyms>perform a safe route plan</synonyms>
+        <synonyms>Move to the Kitchen</synonyms><synonyms>Move to Cleaning Area</synonyms><synonyms>navigate to the living room</synonyms><synonyms>execute navigation to the living room</synonyms><synonyms>navigate to the specified room</synonyms><synonyms>Move to the Study</synonyms><synonyms>reach the target area</synonyms><synonyms>navigate to the charging station</synonyms><synonyms>first , navigate to the remote control area</synonyms><synonyms>route to the correct destination</synonyms>
+        <pattern>^(plan|choos|complete|navigat|guid|calculat|select|design|schedul).*(journey|route|path|location|spot|position|warehouse|pallet|box|area|target|place)</pattern>
+        <pattern>^(journey|route|path|location|spot|position|warehouse|pallet|box|area|target|place).*(plan|choos|complete|navigat|guid|calculat|select|design|schedul)</pattern>
+    </condition>
+</root>

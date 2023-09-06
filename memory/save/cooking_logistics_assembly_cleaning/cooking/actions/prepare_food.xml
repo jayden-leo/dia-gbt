@@ -1,0 +1,18 @@
+<root>
+    <condition name="prepare_food">
+        <explanation>the ability to prepare food following specific steps and recipes, including handling, cooking and presentation</explanation>
+        <synonyms>prepare ingredients</synonyms>
+        <synonyms>handle raw materials</synonyms>
+        <synonyms>prepping food</synonyms>
+        <synonyms>process ingredients</synonyms>
+        <synonyms>organize ingredients</synonyms>
+        <synonyms>arrange foodstuffs</synonyms>
+        <synonyms>ready food materials</synonyms>
+        <synonyms>pre-process food items</synonyms>
+        <synonyms>culinary preparation</synonyms>
+        <synonyms>food preparation</synonyms>
+        <synonyms>cook</synonyms><synonyms>cook food</synonyms><synonyms>mix the cooking ingredients</synonyms><synonyms>put in the food</synonyms><synonyms>position the food</synonyms><synonyms>cook the food</synonyms><synonyms>add the pasta</synonyms><synonyms>perform cooking operations</synonyms><synonyms>cut the vegetables</synonyms><synonyms>grind the beans</synonyms><synonyms>cut the chicken into small pieces</synonyms><synonyms>put them in a bowl with the marinade</synonyms><synonyms>marinate them for 30 minutes</synonyms><synonyms>grill them for 12 minutes</synonyms><synonyms>then the frying</synonyms><synonyms>cooking</synonyms><synonyms>put the ingredients in the pot</synonyms><synonyms>ensure that the food is well cooked</synonyms><synonyms>add condiments</synonyms><synonyms>grind coffee beans</synonyms><synonyms>saut&#233; them in oil</synonyms><synonyms>add the sauce</synonyms><synonyms>cook them</synonyms><synonyms>cooked</synonyms><synonyms>serve the food</synonyms><synonyms>add noodles</synonyms><synonyms>add tomatoes</synonyms><synonyms>mix them in a bowl</synonyms><synonyms>arrange the ingredients neatly on the board</synonyms><synonyms>cook the ingredients</synonyms><synonyms>add soy sauce and salt</synonyms><synonyms>place the food materials</synonyms><synonyms>slice them into small pieces</synonyms><synonyms>marinate it</synonyms><synonyms>fry it</synonyms><synonyms>crack the eggs into the mixing bowl</synonyms><synonyms>adding lettuce , tomatoes , and cheese</synonyms><synonyms>add food ingredients</synonyms><synonyms>prepare the chicken</synonyms><synonyms>put food in</synonyms><synonyms>cook the dish</synonyms><synonyms>first crack the eggs</synonyms><synonyms>shape them into balls</synonyms><synonyms>add eggs and flour</synonyms><synonyms>cook the meal</synonyms><synonyms>Add Tea Leaves to the Cup</synonyms><synonyms>add ingredients</synonyms>
+        <pattern>^(prepar|handl|process|organiz).*(ingredient|material|food|preparation)</pattern>
+        <pattern>^(ingredient|material|food|preparation).*(prepar|handl|process|organiz)</pattern>
+    </condition>
+</root>

@@ -1,0 +1,40 @@
+<root>
+    <condition name="envs_safety">
+        <explanation>assess your surroundings for potential hazards or obstacles</explanation>
+        <synonyms>environmental security check</synonyms>
+        <synonyms>safety assessment of surroundings</synonyms>
+        <synonyms>security verification in environment</synonyms>
+        <synonyms>safety detection of environment</synonyms>
+        <synonyms>surroundings safety evaluation</synonyms>
+        <synonyms>security inspection of environment</synonyms>
+        <synonyms>environmental hazard assessment</synonyms>
+        <synonyms>safety analysis of surroundings</synonyms>
+        <synonyms>environment security scrutiny</synonyms>
+        <synonyms>if the environment is unsafe</synonyms>
+        <synonyms>encountering obstacles or dangerous situations</synonyms>
+        <synonyms>when encountering danger or obstacles</synonyms>
+        <synonyms>Scan the Environment</synonyms>
+        <synonyms>use them safely</synonyms>
+        <synonyms>after checking the safety of the environment</synonyms>
+        <synonyms>check environment safety</synonyms>
+        <synonyms>if any danger is detected</synonyms>
+        <synonyms>acquire environment safety information</synonyms>
+        <synonyms>make sure the cooking environment is safe</synonyms>
+        <synonyms>if there is a dangerous situation</synonyms>
+        <synonyms>confirm the safety of the environment</synonyms>
+        <synonyms>first check the status of envs_safety</synonyms>
+        <synonyms>environmental safety</synonyms>
+        <synonyms>if environmental safety is not ensured</synonyms>
+        <synonyms>check that the environment is safe</synonyms>
+        <synonyms>environment safety is an issue</synonyms>
+        <synonyms>confirm the environment safety</synonyms>
+        <synonyms>encountering a dangerous situation or obstacle</synonyms>
+        <synonyms>check that the kitchen environment is safe</synonyms>
+        <synonyms>check that the environment and cooking utensils are safe</synonyms>
+        <synonyms>encountering obstacles or safety hazards</synonyms>
+        <synonyms>hazardous items or obstructions are detected</synonyms>
+        <synonyms>if it is safe</synonyms><synonyms>any safety hazards</synonyms><synonyms>while checking for environmental safety</synonyms><synonyms>ensure safety</synonyms><synonyms>if there is an obstacle</synonyms><synonyms>while ensuring the environment safety</synonyms><synonyms>safely</synonyms><synonyms>assessment of environmental well-being</synonyms>
+        <pattern>^(check|assess|detect|evaluat).*(environment|surrounding)$</pattern>
+        <pattern>^(inspect|safe.*analysis).*(environment|surrounding)$</pattern>
+    </condition>
+</root>

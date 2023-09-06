@@ -1,0 +1,15 @@
+<root>
+    <controller name="selector">
+        <explanation>a suitable task is selected from multiple candidate sub tasks for execution according to condition evaluation</explanation>
+        <synonyms>fallback</synonyms>
+        <synonyms>choose one to execute</synonyms>
+        <synonyms>pick one to perform</synonyms>
+        <synonyms>select one and proceed</synonyms>
+        <synonyms>opt for one to handle</synonyms>
+        <synonyms>make a choice and operate</synonyms>
+        <synonyms>decide on one to execute</synonyms>
+        <synonyms>pick one to carry out</synonyms>
+        <synonyms>if water is boiling, move to the pantry</synonyms><synonyms>if water is boiling, move to the pot</synonyms><synonyms>if water temperature is not 100 degrees Celsius, continue heating</synonyms><synonyms>if water level is less than 80 percent, repeat toggling the tap</synonyms><synonyms>navigate to movie selection</synonyms><synonyms>choose one to implement</synonyms>
+        <pattern>^(choos.*?one|pick.*?one|select.*?|opt.*?one|mak.*?|decid.*?one).*(execute|perform|proceed|handle|operate|implement)^</pattern>
+    </controller>
+</root>

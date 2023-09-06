@@ -1,0 +1,16 @@
+<root>
+    <condition name="use_cooking_tools">
+        <explanation>use kitchen utensils (such as pots, knives, stoves, etc.) for cooking</explanation>
+        <synonyms>use cooking utensils for cooking operation</synonyms>
+        <synonyms>employ kitchen tools for cooking</synonyms>
+        <synonyms>utilize culinary equipment for cooking action</synonyms>
+        <synonyms>cook with cooking implements</synonyms>
+        <synonyms>utilize kitchen devices for cooking task</synonyms>
+        <synonyms>use cooking tools for culinary preparation</synonyms>
+        <synonyms>employ cooking instruments for cooking activity</synonyms>
+        <synonyms>use cookware for cooking</synonyms>
+        <synonyms>utilize culinary gear for cooking process</synonyms>
+        <synonyms>position cooking utensils</synonyms><synonyms>turn on the heat</synonyms><synonyms>get the frying pan</synonyms><synonyms>add the oil</synonyms><synonyms>drop cooking utensils</synonyms><synonyms>check whether cooking utensils are ready</synonyms><synonyms>heat up the pan</synonyms><synonyms>put them in the filter cup</synonyms><synonyms>check the status of the cooking utensils</synonyms><synonyms>position the tool correctly</synonyms><synonyms>grab the necessary cooking utensils</synonyms><synonyms>turn on the stove</synonyms><synonyms>heat up the cooking oil</synonyms><synonyms>use them to cook food</synonyms><synonyms>kitchen knives</synonyms><synonyms>confirm cooking utensils are ready</synonyms><synonyms>available for use</synonyms><synonyms>grasp the cooking utensils</synonyms><synonyms>then make sure the tools are ready</synonyms><synonyms>position it correctly for cooking</synonyms><synonyms>ensure the correct positioning of the cooking utensils</synonyms><synonyms>prepare the required cooking utensils and check the environment safety</synonyms>
+        <pattern>^(use|employ|utiliz|cook|prepar).*(cook|kitchen|).*(utensils|tools|equipment|devices|cookware|gear)</pattern>
+    </condition>
+</root>

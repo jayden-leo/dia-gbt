@@ -1,0 +1,13 @@
+<root>
+    <action name="rotate">
+        <explanation>rotate around its own axis, changing its orientation or direction</explanation>
+        <synonyms>spin</synonyms>
+        <synonyms>turn</synonyms>
+        <synonyms>revolve</synonyms>
+        <synonyms>pivot</synonyms>
+        <synonyms>twist</synonyms>
+        <synonyms>whirl</synonyms>
+        <synonyms>gyrate</synonyms>
+        <pattern>(spin.*?|turn.*?|revolv.*?|twist.*?|whirl.*?|gyrat.*?)</pattern>
+    </action>
+</root>

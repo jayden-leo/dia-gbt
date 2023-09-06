@@ -1,0 +1,17 @@
+<root>
+    <controller name="parallel">
+        <explanation>allows multiple sub tasks to execute simultaneously without affecting each other to improve efficiency and flexibility</explanation>
+        <synonyms>parallel execution</synonyms>
+        <synonyms>multitasking</synonyms>
+        <synonyms>synchronized execution</synonyms>
+        <synonyms>concurrent execution</synonyms>
+        <synonyms>synchronized operation</synonyms>
+        <synonyms>parallel operation</synonyms>
+        <synonyms>simultaneous operation</synonyms>
+        <synonyms>oncurrent operation</synonyms>
+        <synonyms>at the same time if necessary</synonyms>
+        <synonyms>repeat for all CDs</synonyms><synonyms>at the same time</synonyms>
+        <pattern>^(parallel|concurrent|synchronized|simultaneous|oncurrent).*(execution|operation)$</pattern>
+        <pattern>^(do.*?|work.*?|carry.*?|juggl.*?|handl.*?|taackl.*?|run.*?).*(together|simultaneously|at the same time|parallel)$</pattern>
+    </controller>
+</root>

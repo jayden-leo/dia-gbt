@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <task name="give_me_something">
+    <bt>
+      <sequence name="sequence">
+        <grab name="grab"/>
+        <parallel name="parallel">
+          <sequence name="sequence">
+            <obstacle_detection name="obstacle_detection"/>
+            <bypass name="bypass"/>
+          </sequence>
+          <scanning name="scanning"/>
+        </parallel>
+      </sequence>
+    </bt>
+  </task>
+</root>

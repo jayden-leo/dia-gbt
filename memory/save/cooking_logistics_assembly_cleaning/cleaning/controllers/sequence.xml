@@ -1,0 +1,37 @@
+<root>
+    <controller name="sequence">
+        <explanation>execute sub tasks sequentially in a predetermined order to achieve step-by-step completion of complex tasks</explanation>
+        <synonyms>sequentially execute</synonyms>
+        <synonyms>order</synonyms>
+        <synonyms>perform step by step</synonyms>
+        <synonyms>operate in order</synonyms>
+        <synonyms>execute in sequence</synonyms>
+        <synonyms>perform consecutively</synonyms>
+        <synonyms>progressively carry out</synonyms>
+        <synonyms>implement gradually</synonyms>
+        <synonyms>in sequence</synonyms>
+        <synonyms>according to the recipe</synonyms>
+        <synonyms>one by one</synonyms>
+        <synonyms>in order</synonyms>
+        <synonyms>use them to cook the ingredients in sequence</synonyms>
+        <synonyms>complete the first step of the recipe</synonyms>
+        <synonyms>stir - fry the ingredients in order</synonyms>
+        <synonyms>dispense the correct amount of ingredients in the recipe</synonyms>
+        <synonyms>complete the next step</synonyms>
+        <synonyms>stir it evenly</synonyms>
+        <synonyms>fry until fragrant</synonyms>
+        <synonyms>continue with the next step</synonyms>
+        <synonyms>put the ingredients in the correct order</synonyms>
+        <synonyms>Sort Items</synonyms>
+        <synonyms>execute the steps</synonyms>
+        <synonyms>proceed to the next operation</synonyms>
+        <synonyms>according to the correct order</synonyms>
+        <synonyms>in the correct sequence</synonyms>
+        <synonyms>start the assembly process</synonyms>
+        <synonyms>perform a sequence of steps for safety ): correct_positioning</synonyms>
+        <synonyms>execute sequencing operation</synonyms>
+        <synonyms>grab the necessary parts</synonyms><synonyms>cook the ingredients</synonyms><synonyms>navigate to them in sequence</synonyms><synonyms>execute the necessary operations</synonyms><synonyms>place the clothes in the washing machine</synonyms><synonyms>start the wash cycle</synonyms><synonyms>correctly position the workpiece</synonyms><synonyms>prepare_food</synonyms><synonyms>start cooking</synonyms><synonyms>when the cooking is complete</synonyms><synonyms>execute one by one</synonyms>
+        <pattern>^(sequen.*?|progressively).*(execute|step by step|in order|in sequence|carry out|gradually|one by one)$</pattern>
+        <pattern>^(execut.*?|perform.*?|order|operat.*?|implement.*?).*(step by step|in order|in sequence|gradually|one by one)$</pattern>
+    </controller>
+</root>

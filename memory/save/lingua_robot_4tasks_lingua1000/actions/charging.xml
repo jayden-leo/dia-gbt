@@ -1,0 +1,14 @@
+<root>
+    <action name="charging">
+        <explanation>be able to find charging piles when charging is required, and choose an appropriate location for charging</explanation>
+        <synonyms>recharge</synonyms>
+        <synonyms>replenish energy</synonyms>
+        <synonyms>charge up</synonyms>
+        <synonyms>obtain power</synonyms>
+        <synonyms>battery charging</synonyms>
+        <synonyms>load electricity</synonyms>
+        <synonyms>store energy</synonyms>
+        <synonyms>plug the Xbox into an outlet</synonyms><synonyms>open the case</synonyms><synonyms>refuel</synonyms>
+        <pattern>(recharg.*?|charg.*?|replenish.*?|obtain.*?|battery.*?|load.*?|stor.*?).*(energy|up|power|charging|electricity)</pattern>
+    </action>
+</root>

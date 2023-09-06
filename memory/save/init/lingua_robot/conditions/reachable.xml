@@ -1,0 +1,14 @@
+<root>
+    <condition name="reachable">
+        <explanation>decide if you can safely touch an object to avoid an unexpected or dangerous situation</explanation>
+        <synonyms>can be reached</synonyms>
+        <synonyms>touchable</synonyms>
+        <synonyms>attainable</synonyms>
+        <synonyms>accessible</synonyms>
+        <synonyms>achievable</synonyms>
+        <synonyms>within reach</synonyms>
+        <synonyms>graspable</synonyms>
+        <synonyms>approachable</synonyms>
+        <pattern>can.*(touch.*?|attain.*?|access.*?|achiev.*?|reach.*?|grasp.*?|approach.*?)</pattern>
+    </condition>
+</root>

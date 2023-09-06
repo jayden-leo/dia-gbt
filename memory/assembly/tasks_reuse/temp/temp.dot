@@ -1,0 +1,11 @@
+digraph pastafarianism {
+ordering=out;
+graph [fontname="times-roman"];
+node [fontname="times-roman"];
+edge [fontname="times-roman"];
+sequence [fillcolor=orange, fontcolor=black, fontsize=9, label=sequence, shape=box, style=filled];
+part_status [fillcolor=gray, fontcolor=black, fontsize=9, label=part_status, shape=ellipse, style=filled];
+sequence -> part_status;
+envs_safety [fillcolor=gray, fontcolor=black, fontsize=9, label=envs_safety, shape=ellipse, style=filled];
+sequence -> envs_safety;
+}

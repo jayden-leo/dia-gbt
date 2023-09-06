@@ -1,0 +1,22 @@
+<root>
+    <condition name="navigate_to_area">
+        <explanation>calculate and determine the best route from one location to another</explanation>
+        <synonyms>path planning</synonyms>
+        <synonyms>navigation planning</synonyms>
+        <synonyms>route scheduling</synonyms>
+        <synonyms>route design</synonyms>
+        <synonyms>navigation path planning</synonyms>
+        <synonyms>route selection</synonyms>
+        <synonyms>journey planning</synonyms>
+        <synonyms>guided route planning</synonyms>
+        <synonyms>navigation path calculation</synonyms>
+        <synonyms>navigation strategy development</synonyms>
+        <synonyms>choose the correct route</synonyms>
+        <synonyms>complete the target location</synonyms>
+        <synonyms>to the target location</synonyms>
+        <synonyms>choose a route</synonyms>
+        <synonyms>route to the correct destination</synonyms>
+        <pattern>^(plan|choos|complete|navigat|guid|calculat|select|design|schedul).*(journey|route|path|location|spot|position|warehouse|pallet|box|area|target|place)</pattern>
+        <pattern>^(journey|route|path|location|spot|position|warehouse|pallet|box|area|target|place).*(plan|choos|complete|navigat|guid|calculat|select|design|schedul)</pattern>
+    </condition>
+</root>

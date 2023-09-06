@@ -1,0 +1,22 @@
+<root>
+    <action name="request_help">
+        <explanation>make a request to a human for help or support</explanation>
+        <synonyms>seek assistance</synonyms>
+        <synonyms>ask for help</synonyms>
+        <synonyms>request aid</synonyms>
+        <synonyms>call for support</synonyms>
+        <synonyms>seek support</synonyms>
+        <synonyms>ask for assistance</synonyms>
+        <synonyms>request for help</synonyms>
+        <synonyms>if both conditions are met</synonyms>
+        <synonyms>execute the action of request help</synonyms>
+        <synonyms>request intervention from human operator</synonyms>
+        <synonyms>request intervention and guidance</synonyms>
+        <synonyms>request user intervention</synonyms>
+        <synonyms>ask for intervention</synonyms>
+        <synonyms>request human intervention</synonyms>
+        <synonyms>check if there is any need for intervention</synonyms>
+        <synonyms>check whether there is a need for recharging</synonyms><synonyms>start charging</synonyms><synonyms>pick up the remote control</synonyms><synonyms>solicit help</synonyms>
+        <pattern>^(seek|ask|request|call|solicit).*(assist|help|aid|support)</pattern>
+  </action>
+</root>

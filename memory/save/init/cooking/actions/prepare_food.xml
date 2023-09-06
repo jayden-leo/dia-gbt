@@ -1,0 +1,18 @@
+<root>
+    <condition name="prepare_food">
+        <explanation>the ability to prepare food following specific steps and recipes, including handling, cooking and presentation</explanation>
+        <synonyms>prepare ingredients</synonyms>
+        <synonyms>handle raw materials</synonyms>
+        <synonyms>prepping food</synonyms>
+        <synonyms>process ingredients</synonyms>
+        <synonyms>organize ingredients</synonyms>
+        <synonyms>arrange foodstuffs</synonyms>
+        <synonyms>ready food materials</synonyms>
+        <synonyms>pre-process food items</synonyms>
+        <synonyms>culinary preparation</synonyms>
+        <synonyms>food preparation</synonyms>
+        <synonyms>add ingredients</synonyms>
+        <pattern>^(prepar|handl|process|organiz).*(ingredient|material|food|preparation)</pattern>
+        <pattern>^(ingredient|material|food|preparation).*(prepar|handl|process|organiz)</pattern>
+    </condition>
+</root>

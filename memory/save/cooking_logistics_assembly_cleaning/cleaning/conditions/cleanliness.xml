@@ -1,0 +1,16 @@
+<root>
+    <condition name="cleanliness">
+        <explanation>check the cleanliness of an area or object after completing a cleaning task to verify that it was cleaned as expected</explanation>
+        <synonyms>check cleanliness of the area</synonyms>
+        <synonyms>verify tidiness of the region</synonyms>
+        <synonyms>confirm cleanliness of the zone</synonyms>
+        <synonyms>inspect cleanliness level of the place</synonyms>
+        <synonyms>ensure cleanliness of the area</synonyms>
+        <synonyms>examine hygiene of the location</synonyms>
+        <synonyms>ascertain cleanliness level of the premises</synonyms>
+        <synonyms>cross-check tidiness of the vicinity</synonyms>
+        <synonyms>if it is dirty</synonyms><synonyms>a cleaning task is completed</synonyms><synonyms>check the cleaning status of each region</synonyms><synonyms>review cleanliness of the environment</synonyms>
+        <pattern>^(check|verify|confirm.|inspect.).*(cleanliness|tidiness|hygiene).*(area|region|zone|place|location|env)</pattern>
+        <pattern>^(ensur|examin|ascertain|review).*(cleanliness|tidiness|hygiene).*(area|region|zone|place|location|env)</pattern>
+    </condition>
+</root>

@@ -1,0 +1,20 @@
+<root>
+    <action name="place_package">
+        <explanation>place a package at the current specified location</explanation>
+        <synonyms>place package</synonyms>
+        <synonyms>set down parcel</synonyms>
+        <synonyms>position package</synonyms>
+        <synonyms>place parcel</synonyms>
+        <synonyms>lay down package</synonyms>
+        <synonyms>put down delivery</synonyms>
+        <synonyms>arrange package</synonyms>
+        <synonyms>place mail</synonyms>
+        <synonyms>arrange parcel</synonyms>
+        <synonyms>lay down mail</synonyms>
+        <synonyms>place it in the target</synonyms>
+        <synonyms>unload the package from the conveyor</synonyms><synonyms>stack in the designated area</synonyms><synonyms>seal it securely</synonyms><synonyms>placing it</synonyms><synonyms>the designated location</synonyms><synonyms>open it</synonyms><synonyms>the designated position</synonyms><synonyms>place them</synonyms><synonyms>deliver it to the correct location</synonyms><synonyms>place it carefully</synonyms><synonyms>mail it to the target location</synonyms>
+        <pattern>^(plac|set down|position|lay|put).*(package|workspace|piece|object|it|parcel|deliver|mail).*(location|spot|position|warehouse|pallet|box|area|target|place)</pattern>
+        <pattern>^(arrang|mail|unload|stack|pack).*(package|workspace|piece|object|it|parcel|deliver|mail).*(location|spot|position|warehouse|pallet|box|area|target|place)</pattern>
+        <pattern>^(seal|assemble|put down|mov).*(package|workspace|piece|object|it|parcel|deliver|mail).*(location|spot|position|warehouse|pallet|box|area|target|place)</pattern>
+    </action>
+</root>

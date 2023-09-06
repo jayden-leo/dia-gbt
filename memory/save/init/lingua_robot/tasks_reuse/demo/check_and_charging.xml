@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+    <task name="check_and_charging">
+        <synonyms>battery level check and charging</synonyms>
+        <synonyms>battery capacity inspection and charging</synonyms>
+        <synonyms>power status evaluation and charging</synonyms>
+        <synonyms>battery health assessment and charging</synonyms>
+        <synonyms>energy level examination and recharging</synonyms>
+        <synonyms>charge state review and battery replenishment</synonyms>
+        <synonyms>energy reservoir analysis and charge control</synonyms>
+        <synonyms>battery charge appraisal and recharge strategy</synonyms>
+        <pattern>(battery.*|power.*|energy.*|charg.*|resolv.*).*(charg.*|recharg.*|replenishment.*)</pattern>
+        <selector name="selector">
+            <battery_check name="battery_check"/>
+            <charging name="charging"/>
+        </selector>
+    </task>
+</root>

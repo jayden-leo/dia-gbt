@@ -1,0 +1,17 @@
+<root>
+    <action name="moving_package">
+        <explanation>performs a move operation to reach the package location associated with it</explanation>
+        <synonyms>move package to specified location</synonyms>
+        <synonyms>transport package to designated spot</synonyms>
+        <synonyms>place package at designated position</synonyms>
+        <synonyms>transfer package to specified place</synonyms>
+        <synonyms>convey package to designated location</synonyms>
+        <synonyms>carry package to specified spot</synonyms>
+        <synonyms>relocate package to predetermined position</synonyms>
+        <synonyms>shift package to target location</synonyms>
+        <synonyms>move package at specific position</synonyms>
+        <synonyms>grab and move the package</synonyms><synonyms>moving them to the next location</synonyms><synonyms>collect all packages from the left shelf</synonyms><synonyms>go to the warehouse</synonyms><synonyms>transport the package</synonyms><synonyms>move them to their corresponding locations</synonyms><synonyms>move them</synonyms><synonyms>migrate package to designated spot</synonyms>
+        <pattern>^(move|transport|place|transfer|convey).*(package|workspace|piece|object|it|parcel|deliver|mail).*(location|spot|position|warehouse|pallet|box|area|target|place)</pattern>
+        <pattern>^(carry|relocat|shift|mov|migrat).*(package|workspace|piece|object|it|parcel|deliver|mail).*(location|spot|position|warehouse|pallet|box|area|target|place)</pattern>
+    </action>
+</root>

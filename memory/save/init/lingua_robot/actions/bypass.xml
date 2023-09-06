@@ -1,0 +1,12 @@
+<root>
+    <action name="bypass">
+        <explanation>allows entities to choose to change their path to avoid obstacles when they encounter obstacles or adverse conditions</explanation>
+        <synonyms>circumvent</synonyms>
+        <synonyms>detour</synonyms>
+        <synonyms>navigate around</synonyms>
+        <synonyms>take a roundabout</synonyms>
+        <synonyms>go around</synonyms>
+        <pattern>(bypass.*?|detour.*?|navigat.*?around|tak.*?|go.*?around.*?)</pattern>
+        <pattern>(tak.*?roundabout)</pattern>
+    </action>
+</root>

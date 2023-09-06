@@ -1,0 +1,17 @@
+<root>
+    <controller name="sequence">
+        <explanation>execute sub tasks sequentially in a predetermined order to achieve step-by-step completion of complex tasks</explanation>
+        <synonyms>sequentially execute</synonyms>
+        <synonyms>order</synonyms>
+        <synonyms>perform step by step</synonyms>
+        <synonyms>operate in order</synonyms>
+        <synonyms>execute in sequence</synonyms>
+        <synonyms>perform consecutively</synonyms>
+        <synonyms>progressively carry out</synonyms>
+        <synonyms>implement gradually</synonyms>
+        <synonyms>check that all parts needed for assembly are available</synonyms>
+        <synonyms>execute a sequence of correct_positioning</synonyms><synonyms>assemble package parts</synonyms><synonyms>sort all the packages</synonyms><synonyms>assemble all necessary parts</synonyms><synonyms>then sort</synonyms><synonyms>assemble them in the correct order</synonyms><synonyms>go to the next step</synonyms><synonyms>assembling the package</synonyms><synonyms>assembly action</synonyms><synonyms>check the available space</synonyms><synonyms>proceed with the next operation</synonyms><synonyms>determine availability</synonyms><synonyms>retrieve the correct tools</synonyms><synonyms>assemble them</synonyms><synonyms>complete the package assembly</synonyms><synonyms>assemble the items</synonyms><synonyms>in the correct order</synonyms><synonyms>assemble the parts securely</synonyms><synonyms>determine the next step</synonyms><synonyms>put them into different boxes</synonyms><synonyms>execute one by one</synonyms>
+        <pattern>^(sequen.*?|progressively).*(execute|step by step|in order|in sequence|carry out|gradually|one by one)$</pattern>
+        <pattern>^(execut.*?|perform.*?|order|operat.*?|implement.*?).*(step by step|in order|in sequence|gradually|one by one)$</pattern>
+    </controller>
+</root>

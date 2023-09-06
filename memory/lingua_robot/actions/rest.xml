@@ -1,0 +1,15 @@
+<root>
+    <action name="rest">
+        <explanation>choose an appropriate location and go on standby to complete a rest or wait task</explanation>
+        <synonyms>take break</synonyms>
+        <synonyms>wait</synonyms>
+        <synonyms>idle</synonyms>
+        <synonyms>pause</synonyms>
+        <synonyms>standby</synonyms>
+        <synonyms>dormant</synonyms>
+        <synonyms>inactive</synonyms>
+        <synonyms>if water is not boiling, rest and check again</synonyms><synonyms>remain still</synonyms>
+        <pattern>(tak.*?|remain.*?).*(break|still)</pattern>
+        <pattern>(wait.*?|idl.*?|paus.*?)</pattern>
+    </action>
+</root>

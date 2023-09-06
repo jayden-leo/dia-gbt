@@ -1,0 +1,15 @@
+<root>
+    <condition name="food_preparation">
+        <explanation>check that required ingredients meet specific culinary needs and requirements</explanation>
+        <synonyms>verify ingredient readiness</synonyms>
+        <synonyms>confirm ingredient preparation</synonyms>
+        <synonyms>check for ingredient readiness</synonyms>
+        <synonyms>validate ingredient preparedness</synonyms>
+        <synonyms>ensure ingredient is ready</synonyms>
+        <synonyms>examine ingredient preparation</synonyms>
+        <synonyms>ascertain ingredient readiness</synonyms>
+        <synonyms>inspect ingredient preparedness</synonyms>
+        <synonyms>start cooking</synonyms><synonyms>mix the cooking ingredients</synonyms><synonyms>put the mixed ingredients</synonyms><synonyms>take out the ingredients</synonyms><synonyms>retrieve necessary ingredients</synonyms><synonyms>check the quality of the prepared ingredients</synonyms><synonyms>cut the vegetables</synonyms><synonyms>get the ingredients from the pantry</synonyms><synonyms>prepare them for cooking</synonyms><synonyms>add diced onions</synonyms><synonyms>check the food preparation status</synonyms><synonyms>obtain required materials</synonyms><synonyms>get the ingredient and utensil status</synonyms><synonyms>check the ingredients</synonyms><synonyms>check the ingredient status</synonyms><synonyms>check if the ingredient is fresh</synonyms><synonyms>proceed with food preparation</synonyms><synonyms>add onions and garlic</synonyms><synonyms>washing and chopping them</synonyms><synonyms>Retrieve Tea Leaves</synonyms><synonyms>encountering unfamiliar ingredients</synonyms><synonyms>confirm that the food material</synonyms><synonyms>take out the vegetables</synonyms><synonyms>Retrieve Rice</synonyms><synonyms>adding lettuce , tomatoes , and cheese</synonyms><synonyms>Wash Fruits</synonyms><synonyms>grab the required food ingredients</synonyms><synonyms>check that the food is clean</synonyms><synonyms>chop vegetables</synonyms><synonyms>verify ingredient is prepared</synonyms>
+        <pattern>^(verif|confirm|check).*(food|ingredient|material|component).*(ready|readiness|prepare|ready|prepare)</pattern>
+    </condition>
+</root>

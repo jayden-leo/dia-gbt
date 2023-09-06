@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+    <task name="get_me_something">
+        <synonyms>assist me in fetching</synonyms>
+        <synonyms>help me carry</synonyms>
+        <synonyms>aid in transporting</synonyms>
+        <synonyms>assist in carrying</synonyms>
+        <synonyms>help retrieve</synonyms>
+        <synonyms>aid in obtaining</synonyms>
+        <synonyms>help me get</synonyms>
+        <synonyms>assist me in obtaining</synonyms>
+        <pattern>(assist.*|aid.*|help.*|sense.*).*(fetching|carry|transporting|retrieve|obtaining|get)</pattern><pattern>(detect.*|examine.|*survey.*).*(information|environment|perceive)</pattern>
+
+        <sequence name="sequence">
+            <selector name="selector">
+                <battery_check name="battery_check"/>
+                <charging name="charging"/>
+            </selector>
+            <obstacle_detection name="obstacle_detection"/>
+            <grab name="grab"/>
+            <parallel name="parallel">
+                <selector name="selector">
+                    <move_forward name="move_forward"/>
+                    <sequence name="sequence">
+                        <obstacle_detection name="obstacle_detection"/>
+                        <bypass name="bypass"/>
+                    </sequence>
+                </selector>
+                <scanning name="scanning"/>
+            </parallel>
+        </sequence>
+    </task>
+</root>

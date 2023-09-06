@@ -1,0 +1,1337 @@
+<root>
+    <rule>
+        <instruction>execute task: cleaning the kitchen</instruction>
+        <steps>
+            <step>Move to the Kitchen</step>
+            <step>Avoid Obstacles</step>
+            <step>Face the Cleaning Area</step>
+            <step>Scan the Environment</step>
+            <step>Pick Up Cleaning Tools</step>
+            <step>Move to Cleaning Area</step>
+            <step>Clean the Area</step>
+            <step>Put Down Cleaning Tools</step>
+            <step>Request Help</step>
+            <step>Move to the Next Cleaning Area</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: help me wash the fruits and bring them over</instruction>
+        <steps>
+            <step>grab fruits</step>
+            <step>move to sink</step>
+            <step>wash fruits</step>
+            <step>move to the fruit bowl</step>
+            <step>deliver to the user</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: help me turn off the TV in the living room and bring me the phone from the table</instruction>
+        <steps>
+            <step>move to the living room</step>
+            <step>turn off the TV</step>
+            <step>move to the table</step>
+            <step>pick up the phone</step>
+            <step>deliver the phone to the user</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: cook a delicious meal</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: finish cooking as soon as possible</instruction>
+        <steps>
+            <step>cooking_utensils</step>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>step_complete_detection</step>
+            <step>execution_steps</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: make a cup of coffee</instruction>
+        <steps>
+            <step>cooking_utensils</step>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>step_complete_detection</step>
+            <step>execution_steps</step>
+            <step>finish_cooking</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: prepare a salad</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>step_complete_detection</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: complete the entire cooking process safely and efficiently</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>step_complete_detection</step>
+            <step>parallel</step>
+            <step>request_intervention</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: prepare a delicious meal</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: prepare a three-course meal</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: cook dinner for four people</instruction>
+        <steps>
+            <step>parallel</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: clean up the kitchen thoroughly</instruction>
+        <steps>
+            <step>Move to the Kitchen</step>
+            <step>Avoid Obstacles</step>
+            <step>Face the Cleaning Area</step>
+            <step>Scan the Environment</step>
+            <step>Pick Up Cleaning Tools</step>
+            <step>Move to Cleaning Area</step>
+            <step>Clean the Area</step>
+            <step>Put Down Cleaning Tools</step>
+            <step>Request Help</step>
+            <step>Move to the Next Cleaning Area</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: cook a dish with the specified ingredients</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: cook delicious food for me to eat</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: prepare a delicious pasta dish for dinner</instruction>
+        <steps>
+            <step>cooking_utensils</step>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: ensure that all dishes are clean and stored properly</instruction>
+        <steps>
+            <step>Move to the Kitchen</step>
+            <step>Avoid Obstacles</step>
+            <step>Face the Sink</step>
+            <step>Scan the Environment</step>
+            <step>Pick Up Cleaning Tools</step>
+            <step>Move to Dishwashing Area</step>
+            <step>Wash Dishes</step>
+            <step>Dry Dishes</step>
+            <step>Move to Storage Area</step>
+            <step>Put Dishes Away</step>
+            <step>Put Down Cleaning Tools</step>
+            <step>Request Help</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: cook a meal according to the recipe</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: safely and efficiently cook a delicious meal</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>sequence</step>
+            <step>finish_cooking</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: prepare a delicious breakfast</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: cut the vegetables</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform tasks: confirm that the environment is safe, request intervention if necessary, and prepare
+            food.
+        </instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>request_intervention</step>
+            <step>prepare_food</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: cook a delicious dinner</instruction>
+        <steps>
+            <step>cooking_utensils</step>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: safely cook a delicious meal</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>interrupt_operation</step>
+            <step>request_intervention</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: clean the dishes after dinner</instruction>
+        <steps>
+            <step>Move to the Kitchen</step>
+            <step>Avoid Obstacles</step>
+            <step>Face the Sink</step>
+            <step>Scan the Environment</step>
+            <step>Pick Up Cleaning Tools</step>
+            <step>Move to the Dining Table</step>
+            <step>Collect Dirty Dishes</step>
+            <step>Move to the Sink</step>
+            <step>Wash Dishes</step>
+            <step>Rinse Dishes</step>
+            <step>Dry Dishes</step>
+            <step>Put Dishes Away</step>
+            <step>Put Down Cleaning Tools</step>
+            <step>Request Help</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: cook dinner for two people</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: make me a batch of chocolate chip cookies</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: make an omelette for breakfast</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: cook a delicious meal with the available ingredients</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: prepare a three-course meal for six people with dietary restrictions</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>execution_steps</step>
+            <step>parallel</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: boil the water and make the tea</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>use_cooking_tools</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: boil rice</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform the task: prepare dinner for the family</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: bake a cake in 30 minutes</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>interrupt_operation</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: serve the meal within 30 minutes after cooking is complete</instruction>
+        <steps>
+            <step>finish cooking</step>
+            <step>check time</step>
+            <step>set timer for 30 minutes</step>
+            <step>wait for timer to complete</step>
+            <step>serve the meal</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: prepare a meal with fresh ingredients</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform tasks: ensure that the cooking environment is safe and the cooking tools are prepared</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execute task: cook a delicious dinner for two people</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: prepare a bowl of mixed fruit salad</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>use_cooking_tools</step>
+            <step>prepare_food</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: make me a cup of coffee</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: cut and wash the vegetables</instruction>
+        <steps>
+            <step>grab vegetables</step>
+            <step>move to the sink</step>
+            <step>wash vegetables</step>
+            <step>move to the cutting board</step>
+            <step>cut vegetables</step>
+            <step>check if all vegetables are cut</step>
+            <step>check if all vegetables are washed</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: clean the dishes and put them away in the cabinets</instruction>
+        <steps>
+            <step>Move to the Kitchen</step>
+            <step>Avoid Obstacles</step>
+            <step>Face the Sink</step>
+            <step>Scan the Environment</step>
+            <step>Pick Up Cleaning Tools</step>
+            <step>Move to the Sink</step>
+            <step>Wash Dishes</step>
+            <step>Rinse Dishes</step>
+            <step>Move to the Cabinets</step>
+            <step>Open Cabinets</step>
+            <step>Put Dishes Away</step>
+            <step>Close Cabinets</step>
+            <step>Put Down Cleaning Tools</step>
+            <step>Request Help</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform the task of cooking a delicious meal</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: prepare sushi for dinner party</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform the task: cook a nutritious breakfast meal</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform the task: prepare a fruit salad</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: make a cup of black tea</instruction>
+        <steps>
+            <step>Move to the Kitchen</step>
+            <step>Avoid Obstacles</step>
+            <step>Face the Cooking Area</step>
+            <step>Scan the Environment</step>
+            <step>Check Battery Status</step>
+            <step>Use Cooking Tools</step>
+            <step>Retrieve Tea Leaves</step>
+            <step>Retrieve a Cup</step>
+            <step>Boil Water</step>
+            <step>Pour Hot Water into the Cup</step>
+            <step>Add Tea Leaves to the Cup</step>
+            <step>Stir the Tea</step>
+            <step>Wait for the Tea to Steep</step>
+            <step>Remove Tea Leaves from the Cup</step>
+            <step>Add Sugar or Milk (Optional)</step>
+            <step>Stir the Tea Again</step>
+            <step>Serve the Tea</step>
+            <step>Clean the Kitchen</step>
+            <step>Put Away Cooking Tools</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: deliver the package to the correct target location</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>route_plan</step>
+            <step>moving_package</step>
+            <step>correct_positioning</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: safe and timely delivery of packages to the destination</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>route_plan</step>
+            <step>moving_package</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: transport the goods securely</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>route_plan</step>
+            <step>moving_package</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: organize the workspace and prepare for the next task</instruction>
+        <steps>
+            <step>Move to the Workspace</step>
+            <step>Scan the Environment</step>
+            <step>Check for Clutter</step>
+            <step>Pick Up Organizing Tools</step>
+            <step>Organize Workspace</step>
+            <step>Put Down Organizing Tools</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform tasks: deliver the package to the right recipient</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>moving_package</step>
+            <step>route_plan</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: deliver the package to the customer</instruction>
+        <steps>
+            <step>grab package</step>
+            <step>route plan</step>
+            <step>moving package</step>
+            <step>place package</step>
+            <step>notification exception</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: scan for missing packages and report any missing items in real-time</instruction>
+        <steps>
+            <step>Scan the Environment</step>
+            <step>Package Detection</step>
+            <step>Package Type</step>
+            <step>Notification Exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: assemble the parts securely</instruction>
+        <steps>
+            <step>parallel</step>
+            <step>grab_package</step>
+            <step>moving_package</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: assemble the boxes into a pallet</instruction>
+        <steps>
+            <step>parallel</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: arrive at the specified location</instruction>
+        <steps>
+            <step>route_plan</step>
+            <step>moving_package</step>
+            <step>envs_safety</step>
+            <step>correct_positioning</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: pack the products into the box neatly</instruction>
+        <steps>
+            <step>parallel</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: transport the package from point a to point b</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>moving_package</step>
+            <step>route_plan</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: complete the logistics packaging process</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>correct_positioning</step>
+            <step>moving_package</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: transport the package to the target location and notify the exceptions encountered</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>route_plan</step>
+            <step>moving_package</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: detect the type of package and position it correctly</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>correct_positioning</step>
+            <step>notification_exception</step>
+            <step>place_package</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: pick up the package by the door and deliver it to the kitchen</instruction>
+        <steps>
+            <step>move to the door</step>
+            <step>scan the environment</step>
+            <step>grab package</step>
+            <step>move to the kitchen</step>
+            <step>place package at the designated location</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: move the packages to the designated location one by one</instruction>
+        <steps>
+            <step>move to the first package</step>
+            <step>grab the package</step>
+            <step>move to the designated location</step>
+            <step>place the package</step>
+            <step>move to the next package</step>
+            <step>grab the package</step>
+            <step>move to the designated location</step>
+            <step>place the package</step>
+            <step>move to the next package</step>
+            <step>grab the package</step>
+            <step>move to the designated location</step>
+            <step>place the package</step>
+            <step>move to the next package</step>
+            <step>grab the package</step>
+            <step>move to the designated location</step>
+            <step>place the package</step>
+            <step>move to the next package</step>
+            <step>grab the package</step>
+            <step>move to the designated location</step>
+            <step>place the package</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: check the quality of the packages and ensure that they meet the requirements</instruction>
+        <steps>
+            <step>move to the package area</step>
+            <step>scan the environment</step>
+            <step>package detection</step>
+            <step>package type</step>
+            <step>grab package</step>
+            <step>correct positioning</step>
+            <step>place package</step>
+            <step>notification exception</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: organize the items in the warehouse</instruction>
+        <steps>
+            <step>Move to the Warehouse</step>
+            <step>Scan the Environment</step>
+            <step>Sort Items</step>
+            <step>Organize Items</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: sort and package the products</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>move to the workspace</step>
+            <step>organize workspace</step>
+            <step>scan and inspect packages</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>correct_positioning</step>
+            <step>place_package</step>
+            <step>route_plan</step>
+            <step>moving_package</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: sort and package all items correctly</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>correct_positioning</step>
+            <step>moving_package</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: package all items and deliver them to the customer</instruction>
+        <steps>
+            <step>parallel</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: safely package and ship the products</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>correct_positioning</step>
+            <step>moving_package</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+            <step>route_plan</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execute task: transport the materials to the assembly line</instruction>
+        <steps>
+            <step>Move to the Storage Area</step>
+            <step>Scan the Environment</step>
+            <step>Grab Materials</step>
+            <step>Move to the Assembly Line</step>
+            <step>Place Materials on the Assembly Line</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: sort items accurately and efficiently</instruction>
+        <steps>
+            <step>Move to the Workspace</step>
+            <step>Scan the Environment</step>
+            <step>Sort Items</step>
+            <step>Organize Items</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: safely move the fragile objects to the designated location</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>selector</step>
+            <step>correct_positioning</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: assemble the components and complete the packaging task</instruction>
+        <steps>
+            <step>parallel</step>
+            <step>correct_positioning</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform the task: move the package to the warehouse</instruction>
+        <steps>
+            <step>moving_package</step>
+            <step>route_plan</step>
+            <step>envs_safety</step>
+            <step>grab_package</step>
+            <step>correct_positioning</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: complete the delivery task as soon as possible</instruction>
+        <steps>
+            <step>route_plan</step>
+            <step>moving_package</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>correct_positioning</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: assemble the product precisely according to the design plan</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>correct_positioning</step>
+            <step>moving_package</step>
+            <step>place_package</step>
+            <step>interrupt_operation</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: check if the package is ready for shipment</instruction>
+        <steps>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>correct_positioning</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: move and rearrange the packages in the warehouse</instruction>
+        <steps>
+            <step>Move to the Warehouse</step>
+            <step>Scan the Environment</step>
+            <step>Sort Items</step>
+            <step>Organize Items</step>
+            <step>Move to the Storage Area</step>
+            <step>Retrieve Tea Leaves</step>
+            <step>Retrieve a Cup</step>
+            <step>Stir the Tea</step>
+            <step>Serve the Tea</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: assemble the packages and place them in the correct position</instruction>
+        <steps>
+            <step>parallel</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: assemble the required parts and package them securely for shipping</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>grab_parts</step>
+            <step>sequence</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+            <step>correct_positioning</step>
+            <step>positioning_parts</step>
+            <step>request_help</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: correctly assemble all components after checking their position</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>parallel</step>
+            <step>sequence</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: assemble the product safely and efficiently</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>parallel</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+            <step>request_help</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execute task: ensure that parts are not damaged and missing before assembly</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>sequence</step>
+            <step>check_assembly</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform tasks: assemble the required components</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>grab_parts</step>
+            <step>correct_positioning</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+            <step>request_help</step>
+            <step>interrupt_assembly</step>
+            <step>positioning_parts</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: check the quality of assembled products</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+            <step>correct_positioning</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: assemble the car transmission system</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>grab_parts</step>
+            <step>interrupt_assembly</step>
+            <step>positioning_parts</step>
+            <step>check_assembly</step>
+            <step>request_help</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: perform the assembly process correctly and efficiently</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>parallel</step>
+            <step>correct_positioning</step>
+            <step>check_assembly</step>
+            <step>interrupt_assembly</step>
+            <step>request_help</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform tasks: check that the parts are correctly positioned</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>correct_positioning</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: assemble the components as efficiently as possible while maintaining quality standards.
+        </instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>parallel</step>
+            <step>correct_positioning</step>
+            <step>request_help</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: assemble high-quality products in a safe environment</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>parallel</step>
+            <step>request_help</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: check that the placement of the components is correct</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>correct_positioning</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: verify that the parts are correctly positioned and the assembly is of good quality</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>correct_positioning</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform tasks: check that all parts are fully assembled</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: assemble the workpiece</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>sequence</step>
+            <step>grab_parts</step>
+            <step>correct_positioning</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+            <step>interrupt_assembly</step>
+            <step>positioning_parts</step>
+            <step>request_help</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: complete the assembly of all parts</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>sequence</step>
+            <step>grab_parts</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+            <step>correct_positioning</step>
+            <step>interrupt_assembly</step>
+            <step>positioning_parts</step>
+            <step>request_help</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: ensure the quality of assembly</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>sequence</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+            <step>correct_positioning</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: perform the necessary manufacturing and assembly tasks for the specified component</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>sequence</step>
+            <step>grab_parts</step>
+            <step>correct_positioning</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+            <step>positioning_parts</step>
+            <step>request_help</step>
+            <step>interrupt_assembly</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: ensure the correct alignment of the parts during assembly</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>sequence</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+            <step>correct_positioning</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform the task of safely assembling the parts</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>sequence</step>
+            <step>grab_parts</step>
+            <step>positioning_parts</step>
+            <step>correct_positioning</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: ensure that there are sufficient raw materials for production</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>request_help</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: assemble the workpiece with high quality and safety standards</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>sequence</step>
+            <step>grab_parts</step>
+            <step>sequence</step>
+            <step>positioning_parts</step>
+            <step>correct_positioning</step>
+            <step>check_assembly</step>
+            <step>interrupt_assembly</step>
+            <step>request_help</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: check that the correct parts have been grabbed</instruction>
+        <steps>
+            <step>grab_parts</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>check_assembly</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: check that all parts are present and in the correct location prior to assembly</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>correct_positioning</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: troubleshoot the assembly line immediately when it fails</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>selector</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: remove the stains on the carpet in the living room</instruction>
+        <steps>
+            <step>Move to the Living Room</step>
+            <step>Avoid Obstacles</step>
+            <step>Face the Cleaning Area</step>
+            <step>Scan the Environment</step>
+            <step>Pick Up Cleaning Tools</step>
+            <step>Move to Cleaning Area</step>
+            <step>Clean the Area</step>
+            <step>Put Down Cleaning Tools</step>
+            <step>Request Help</step>
+            <step>Move to the Next Cleaning Area</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: ensure that the entire house is free of dust and dirt</instruction>
+        <steps>
+            <step>Scan the Environment</step>
+            <step>Clean Area Detection</step>
+            <step>Parallel Execution</step>
+            <step>Check Cleanliness</step>
+            <step>Cleanliness</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: dust the bookshelf in the study</instruction>
+        <steps>
+            <step>Move to the Study</step>
+            <step>Face the Bookshelf</step>
+            <step>Scan the Environment</step>
+            <step>Clean Area Detection</step>
+            <step>Cleanliness</step>
+            <step>Clean Area</step>
+            <step>Check Cleanliness</step>
+            <step>Put Down Cleaning Tools</step>
+            <step>Request Help</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform the cleaning task in parallel while requesting help</instruction>
+        <steps>
+            <step>parallel</step>
+            <step>request_help</step>
+        </steps>
+    </rule>
+</root>

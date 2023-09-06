@@ -1,0 +1,12 @@
+<root>
+    <action name="bypass">
+        <explanation>allows entities to choose to change their path to avoid obstacles when they encounter obstacles or adverse conditions</explanation>
+        <synonyms>circumvent</synonyms>
+        <synonyms>detour</synonyms>
+        <synonyms>navigate around</synonyms>
+        <synonyms>take a roundabout</synonyms>
+        <synonyms>push the coffee table against the wall</synonyms><synonyms>place the couch against the wall</synonyms><synonyms>place the table and desk against the wall</synonyms><synonyms>release the large couch</synonyms><synonyms>place controller on coffee table</synonyms><synonyms>arrange the couches around the TV</synonyms><synonyms>place glass on the table against the wall</synonyms><synonyms>place canada dry on the table against the wall</synonyms><synonyms>straighten the cushions</synonyms><synonyms>arrange pillows around self</synonyms><synonyms>place chips by the couch</synonyms><synonyms>arrange the couch</synonyms><synonyms>go around</synonyms>
+        <pattern>(bypass.*?|detour.*?|navigat.*?around|tak.*?|go.*?around.*?)</pattern>
+        <pattern>(tak.*?roundabout)</pattern>
+    </action>
+</root>

@@ -1,0 +1,9 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting WeTextProcessing
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/10/84/ff2d2464f3c53aa9e04ca83034bcbb89d98b2e938d257446daa512315f20/WeTextProcessing-0.1.2-py3-none-any.whl (747 kB)
+     -------------------------------------- 747.1/747.1 kB 3.1 MB/s eta 0:00:00
+Collecting pynini (from WeTextProcessing)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/86/63/6a720dbdf4e7358baa2ab206a51693f9c6e83d174179a95539f501bd4a34/pynini-2.1.5.tar.gz (627 kB)
+     -------------------------------------- 627.6/627.6 kB 9.8 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'error'

@@ -1,0 +1,14 @@
+<root>
+    <action name="move_forward">
+        <explanation>perform forward movement, that is, move in the current direction</explanation>
+        <synonyms>advance</synonyms>
+        <synonyms>move forward</synonyms>
+        <synonyms>proceed</synonyms>
+        <synonyms>go ahead</synonyms>
+        <synonyms>step forward</synonyms>
+        <synonyms>march</synonyms>
+        <synonyms>push forward</synonyms>
+        <pattern>move.*?</pattern><pattern>(advanc.*?|proce.*?|march.*?)</pattern>
+        <pattern>(mov.*?|go.*?|step.*?|push.*?).*?(ahead|forward)</pattern>
+    </action>
+</root>

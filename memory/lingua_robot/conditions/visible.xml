@@ -1,0 +1,14 @@
+<root>
+    <condition name="visible">
+        <explanation>determines whether an object described by the user is visible or in view by checking the current view</explanation>
+        <synonyms>detection of target presence</synonyms>
+        <synonyms>assessment of target visibility</synonyms>
+        <synonyms>determination of target discovery</synonyms>
+        <synonyms>confirmation of target perception</synonyms>
+        <synonyms>judgment of target observability</synonyms>
+        <synonyms>validation of target existence</synonyms>
+        <synonyms>evaluation of target awareness</synonyms>
+        <synonyms>put the Canada Dry next to plate 2</synonyms><synonyms>identify the couches</synonyms><synonyms>identify the milk</synonyms><synonyms>locate the instant ramen cup</synonyms><synonyms>identify the energy drink</synonyms><synonyms>locate the boiled egg</synonyms><synonyms>locate the chips</synonyms><synonyms>identify the yellow bottle</synonyms><synonyms>identify the game CD</synonyms><synonyms>place food within sight of the television</synonyms><synonyms>show video on the screen</synonyms><synonyms>locate the energy drink</synonyms><synonyms>double-click on glass</synonyms><synonyms>verification of target detection</synonyms>
+        <pattern>(detect.*?|assess.*?|determinat.*?|confirm.*?|judg.*?|validat.*?|evaluat.*?|verificat.*?).*(presence|visibility|discovery|perception|observability|existence|awareness|detection)</pattern>
+    </condition>
+</root>

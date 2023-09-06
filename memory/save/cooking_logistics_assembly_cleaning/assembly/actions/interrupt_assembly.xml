@@ -1,0 +1,28 @@
+<root>
+    <action name="interrupt_assembly">
+        <explanation>to interrupt and stop during the assembly process for unexpected situations or situations that require manual intervention</explanation>
+        <synonyms>halt integration</synonyms>
+        <synonyms>disrupt assembly</synonyms>
+        <synonyms>break off construction</synonyms>
+        <synonyms>suspend joining</synonyms>
+        <synonyms>interrupt the assembly</synonyms>
+        <synonyms>abort integration</synonyms>
+        <synonyms>cease assembly</synonyms>
+        <synonyms>pause construction</synonyms>
+        <synonyms>interrupt operation</synonyms>
+        <synonyms>interrupted assembly</synonyms>
+        <synonyms>hold up integration</synonyms>
+        <synonyms>terminate joining</synonyms>
+        <synonyms>restart the assembly</synonyms>
+        <synonyms>interrupt</synonyms>
+        <synonyms>assembly</synonyms>
+        <synonyms>stop operation</synonyms>
+        <synonyms>interrupt the current task</synonyms>
+        <synonyms>interrupt the cooking process</synonyms>
+        <synonyms>stop cooking immediately</synonyms>
+        <synonyms>stop the cooking process</synonyms>
+        <synonyms>stop the assembly process</synonyms><synonyms>execute the action of interrupting the assembly</synonyms><synonyms>an unsafe situation occurs</synonyms><synonyms>assembled and then pause the assembly when an unsafe situation occurs</synonyms>
+        <pattern>^(halt|disrupt|break.*off|suspend|interrupt).*(integration|assembly|construction|joining|operation)$</pattern>
+        <pattern>^(abort|ceas|paus|hold.*up|terminat|restart).*(integration|assembly|construction|joining|operation)$</pattern>
+    </action>
+</root>

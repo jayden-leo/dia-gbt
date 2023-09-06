@@ -1,0 +1,18 @@
+<root>
+    <condition name="part_status">
+        <explanation>each component is inspected to determine its working condition, integrity and usability</explanation>
+        <synonyms>component condition</synonyms>
+        <synonyms>part state</synonyms>
+        <synonyms>element status</synonyms>
+        <synonyms>piece condition</synonyms>
+        <synonyms>part health</synonyms>
+        <synonyms>check the quality</synonyms>
+        <synonyms>component health</synonyms>
+        <synonyms>element well-being</synonyms>
+        <synonyms>status of components</synonyms>
+        <synonyms>state of elements</synonyms>
+        <synonyms>checking parts status</synonyms><synonyms>piece well-being</synonyms>
+        <pattern>^(component|part|element|piec).*(condition|state|health|quality|well-being)$</pattern>
+        <pattern>^(condition|state|health|quality|well-being).*(component|part|element|piec)</pattern>
+    </condition>
+</root>

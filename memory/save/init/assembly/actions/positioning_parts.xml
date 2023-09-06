@@ -1,0 +1,19 @@
+<root>
+    <action name="positioning_parts">
+        <explanation>accurately determine the position of components by means of perception and calculation</explanation>
+        <synonyms>placing elements</synonyms>
+        <synonyms>arranging components</synonyms>
+        <synonyms>setting up parts</synonyms>
+        <synonyms>aligning elements</synonyms>
+        <synonyms>positioning components</synonyms>
+        <synonyms>adjusting pieces</synonyms>
+        <synonyms>placing objects</synonyms>
+        <synonyms>organizing elements</synonyms>
+        <synonyms>installing components</synonyms>
+        <synonyms>configuring parts</synonyms>
+        <synonyms>position them correctly</synonyms>
+        <synonyms>position the parts</synonyms>
+        <pattern>^(plac|set|alig|position|adjust).*(element|component|part|piece|object|correctly)</pattern>
+        <pattern>^(organiz|install|configur).*(element|component|part|piece|object|correctly)</pattern>
+    </action>
+</root>

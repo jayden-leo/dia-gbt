@@ -1,0 +1,16 @@
+<root>
+    <condition name="cooking_utensils">
+        <explanation>check that the required cooking tools meet specific cooking needs and requirements</explanation>
+        <synonyms>verify presence of necessary tools</synonyms>
+        <synonyms>confirm possession of required tools</synonyms>
+        <synonyms>check for essential equipment</synonyms>
+        <synonyms>validate availability of needed tools</synonyms>
+        <synonyms>ensure possession of required tools</synonyms>
+        <synonyms>examine presence of necessary tools</synonyms>
+        <synonyms>ascertain presence of essential tools</synonyms>
+        <synonyms>inspect preparedness with needed tools</synonyms>
+        <synonyms>verify existence of necessary implements</synonyms>
+        <pattern>^(verify|confirm|check|validat).*(tools|equipment|cookware|kitchenware)</pattern>
+        <pattern>^(ensur|examin|ascert|inspect).*(tools|equipment|cookware|kitchenware)</pattern>
+    </condition>
+</root>

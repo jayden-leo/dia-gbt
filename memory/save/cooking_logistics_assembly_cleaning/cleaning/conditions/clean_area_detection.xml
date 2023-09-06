@@ -1,0 +1,16 @@
+<root>
+    <condition name="clean_area_detection">
+        <explanation>use scanning or detection technology to identify and determine areas or locations that require cleanup</explanation>
+        <synonyms>detect areas needing cleaning</synonyms>
+        <synonyms>inspect places requiring cleanup</synonyms>
+        <synonyms>identify regions in need of cleaning</synonyms>
+        <synonyms>recognize zones that need to be cleaned</synonyms>
+        <synonyms>examine areas needing cleaning</synonyms>
+        <synonyms>ascertain areas requiring sweeping</synonyms>
+        <synonyms>check for areas with cleaning needs</synonyms>
+        <synonyms>survey locations needing cleaning</synonyms>
+        <synonyms>clean</synonyms><synonyms>check and clean the dust around the tv</synonyms><synonyms>beginning any cleaning tasks</synonyms><synonyms>locate the dirty area</synonyms><synonyms>locate the spilled drink</synonyms><synonyms>check if the windows are dirty</synonyms><synonyms>grasp the dirty clothes</synonyms><synonyms>toilets</synonyms><synonyms>check the dirt level</synonyms><synonyms>check for debris on the floor</synonyms><synonyms>retrieve the clothes from the laundry hamper</synonyms><synonyms>clean dishes</synonyms><synonyms>encountering dangerous items</synonyms><synonyms>discover spots that require tidying</synonyms>
+        <pattern>^(detect|inspect|identif|recogniz).*(need|requir).*(clean|sweep|tidy)</pattern>
+        <pattern>^(examin|ascert|check|survey|discover).*(need|requir).*(clean|sweep|tidy)</pattern>
+    </condition>
+</root>

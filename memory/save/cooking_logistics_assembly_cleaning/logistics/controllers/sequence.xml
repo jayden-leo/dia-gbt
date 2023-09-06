@@ -1,0 +1,155 @@
+<root>
+    <controller name="sequence">
+        <explanation>execute sub tasks sequentially in a predetermined order to achieve step-by-step completion of complex tasks</explanation>
+        <synonyms>sequentially execute</synonyms>
+        <synonyms>order</synonyms>
+        <synonyms>perform step by step</synonyms>
+        <synonyms>operate in order</synonyms>
+        <synonyms>execute in sequence</synonyms>
+        <synonyms>perform consecutively</synonyms>
+        <synonyms>progressively carry out</synonyms>
+        <synonyms>implement gradually</synonyms>
+        <synonyms>check that all parts needed for assembly are available</synonyms>
+        <synonyms>in sequence</synonyms>
+        <synonyms>according to the recipe</synonyms>
+        <synonyms>assemble food</synonyms>
+        <synonyms>execute the task</synonyms>
+        <synonyms>cooking process</synonyms>
+        <synonyms>brew coffee</synonyms>
+        <synonyms>retrieve the necessary parts</synonyms>
+        <synonyms>execute the cooking process</synonyms>
+        <synonyms>one by one</synonyms>
+        <synonyms>Move to the Next Cleaning Area</synonyms>
+        <synonyms>execute the necessary operations</synonyms>
+        <synonyms>check if the food preparation is complete</synonyms>
+        <synonyms>grab the required parts</synonyms>
+        <synonyms>assemble them</synonyms>
+        <synonyms>serving</synonyms>
+        <synonyms>check the recipe</synonyms>
+        <synonyms>wait for the water to boil</synonyms>
+        <synonyms>fry until golden brown</synonyms>
+        <synonyms>stir fry until cooked</synonyms>
+        <synonyms>pour hot water into the cup</synonyms>
+        <synonyms>wait for the coffee to drip</synonyms>
+        <synonyms>in order</synonyms>
+        <synonyms>Move to the Kitchen</synonyms>
+        <synonyms>Wash Dishes</synonyms>
+        <synonyms>Dry Dishes</synonyms>
+        <synonyms>perform the cutting</synonyms>
+        <synonyms>bake the cake</synonyms>
+        <synonyms>check the state of the food</synonyms>
+        <synonyms>use them to cook the ingredients in sequence</synonyms>
+        <synonyms>complete the first step of the recipe</synonyms>
+        <synonyms>mix the cake batter</synonyms>
+        <synonyms>bake it in the oven</synonyms>
+        <synonyms>chop the vegetables</synonyms>
+        <synonyms>starting to cook</synonyms>
+        <synonyms>starting cooking</synonyms>
+        <synonyms>perform the next step</synonyms>
+        <synonyms>check the current status of the food preparation</synonyms>
+        <synonyms>Collect Dirty Dishes</synonyms>
+        <synonyms>Rinse Dishes</synonyms>
+        <synonyms>put the ingredients into the cauldron</synonyms>
+        <synonyms>stir constantly</synonyms>
+        <synonyms>assemble the components</synonyms>
+        <synonyms>stir - fry the ingredients in order</synonyms>
+        <synonyms>once the food is in the oven</synonyms>
+        <synonyms>dispense the correct amount of ingredients in the recipe</synonyms>
+        <synonyms>begin stirring</synonyms>
+        <synonyms>put them into the cauldron to simmer</synonyms>
+        <synonyms>check the cooking progress</synonyms>
+        <synonyms>complete the next step</synonyms>
+        <synonyms>put salt and sugar</synonyms>
+        <synonyms>stir it evenly</synonyms>
+        <synonyms>boil water</synonyms>
+        <synonyms>then pour in the noodles</synonyms>
+        <synonyms>cook for 3 minutes</synonyms>
+        <synonyms>execute assembly task</synonyms>
+        <synonyms>grab the parts</synonyms>
+        <synonyms>start the cooking process</synonyms>
+        <synonyms>the noodles to cook</synonyms>
+        <synonyms>fry until fragrant</synonyms>
+        <synonyms>simmer for 20 minutes</synonyms>
+        <synonyms>washing and chopping them</synonyms>
+        <synonyms>start baking</synonyms>
+        <synonyms>mix the flour with the water and yeast</synonyms>
+        <synonyms>chop them into small pieces</synonyms>
+        <synonyms>continue with the next step</synonyms>
+        <synonyms>pour in water</synonyms>
+        <synonyms>steam the rice</synonyms>
+        <synonyms>stir - fry the vegetables</synonyms>
+        <synonyms>mix them together</synonyms>
+        <synonyms>cut the meat into small pieces</synonyms>
+        <synonyms>mix it with vegetables and rice</synonyms>
+        <synonyms>put the vegetables in the pot</synonyms>
+        <synonyms>sequence the task</synonyms>
+        <synonyms>fry vegetables</synonyms>
+        <synonyms>cook noodles</synonyms>
+        <synonyms>mix the dough ingredients</synonyms>
+        <synonyms>shape and place them on the baking sheet</synonyms>
+        <synonyms>bake until browned</synonyms>
+        <synonyms>remove from the oven</synonyms>
+        <synonyms>place them in the baking dish</synonyms>
+        <synonyms>cut the vegetables into bite - sized pieces</synonyms>
+        <synonyms>assemble the burger</synonyms>
+        <synonyms>cook them in a pot</synonyms>
+        <synonyms>put them in the pot to simmer</synonyms>
+        <synonyms>serve when ready</synonyms>
+        <synonyms>pour in the sauce</synonyms>
+        <synonyms>boil water and vegetables</synonyms>
+        <synonyms>perform the next step of the task</synonyms>
+        <synonyms>put them in the cooking pot</synonyms>
+        <synonyms>put dishes in the dishwasher</synonyms>
+        <synonyms>put the ingredients in place</synonyms>
+        <synonyms>start the mixing process</synonyms>
+        <synonyms>serve the meal</synonyms>
+        <synonyms>put the ingredients in the baking pan</synonyms>
+        <synonyms>put it in the oven for 30 minutes</synonyms>
+        <synonyms>stir - fry for 5 minutes</synonyms>
+        <synonyms>check the state of the food preparation</synonyms>
+        <synonyms>put the ingredients in the correct order</synonyms>
+        <synonyms>add water and sugar</synonyms>
+        <synonyms>cook on low heat</synonyms>
+        <synonyms>chop the ingredients</synonyms>
+        <synonyms>check the status of the cooking parts</synonyms>
+        <synonyms>pour in the cooking ingredients according to the recipe</synonyms>
+        <synonyms>put them in the oven to bake</synonyms>
+        <synonyms>move to the cutting board</synonyms>
+        <synonyms>check if all vegetables are cut</synonyms>
+        <synonyms>check if all vegetables are washed</synonyms>
+        <synonyms>prepare the pizza crust</synonyms>
+        <synonyms>season with salt and pepper</synonyms>
+        <synonyms>Open Cabinets</synonyms>
+        <synonyms>execute cooking operation accordingly</synonyms>
+        <synonyms>cook them over a low heat</synonyms>
+        <synonyms>pour the batter into the pan</synonyms>
+        <synonyms>cook until bubbly</synonyms>
+        <synonyms>flip and cook the other side</synonyms>
+        <synonyms>assembling the parts</synonyms>
+        <synonyms>cut the vegetables and meat</synonyms>
+        <synonyms>cook the food evenly</synonyms>
+        <synonyms>combine the selected ingredients</synonyms>
+        <synonyms>cook until they are cooked through</synonyms>
+        <synonyms>putting in the dough to bake</synonyms>
+        <synonyms>stir the butter and sugar evenly</synonyms>
+        <synonyms>mix well</synonyms>
+        <synonyms>combine the ingredients together</synonyms>
+        <synonyms>bake for 30 minutes</synonyms>
+        <synonyms>chop vegetables into small pieces</synonyms>
+        <synonyms>start the timer for cooking the meal</synonyms>
+        <synonyms>set the alarm to remind you after the timer ends</synonyms>
+        <synonyms>wait for the washing cycle to complete</synonyms>
+        <synonyms>keep stirring</synonyms>
+        <synonyms>if boiled</synonyms>
+        <synonyms>add noodles to the pot</synonyms>
+        <synonyms>heat in the oven for 15 minutes</synonyms>
+        <synonyms>Retrieve Tea Leaves</synonyms>
+        <synonyms>Retrieve a Cup</synonyms>
+        <synonyms>Stir the Tea</synonyms>
+        <synonyms>Serve the Tea</synonyms>
+        <synonyms>stir the soup</synonyms>
+        <synonyms>execute a sequence of correct_positioning</synonyms><synonyms>assemble package parts</synonyms><synonyms>sort all the packages</synonyms><synonyms>assemble all necessary parts</synonyms><synonyms>Move to the Workspace</synonyms><synonyms>Organize Workspace</synonyms><synonyms>process it</synonyms><synonyms>Sort Items</synonyms><synonyms>Organize Items</synonyms><synonyms>start the assembly process</synonyms><synonyms>Place Materials on the Assembly Line</synonyms><synonyms>complete the package assembly</synonyms><synonyms>execute the steps</synonyms><synonyms>assemble the items</synonyms><synonyms>proceed to the next operation</synonyms><synonyms>Clean the Area</synonyms><synonyms>put them into different boxes</synonyms><synonyms>execute one by one</synonyms>
+        <pattern>^(sequen.*?|progressively).*(execute|step by step|in order|in sequence|carry out|gradually|one by one)$</pattern>
+        <pattern>^(execut.*?|perform.*?|order|operat.*?|implement.*?).*(step by step|in order|in sequence|gradually|one by one)$</pattern>
+    </controller>
+</root>

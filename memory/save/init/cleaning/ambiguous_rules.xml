@@ -1,0 +1,40 @@
+<root>
+    <rule>
+        <instruction>execute task: cleaning the kitchen</instruction>
+        <steps>
+            <step>Move to the Kitchen</step>
+            <step>Avoid Obstacles</step>
+            <step>Face the Cleaning Area</step>
+            <step>Scan the Environment</step>
+            <step>Pick Up Cleaning Tools</step>
+            <step>Move to Cleaning Area</step>
+            <step>Clean the Area</step>
+            <step>Put Down Cleaning Tools</step>
+            <step>Request Help</step>
+            <step>Move to the Next Cleaning Area</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: help me wash the fruits and bring them over</instruction>
+        <steps>
+            <step>grab fruits</step>
+            <step>move to sink</step>
+            <step>wash fruits</step>
+            <step>move to the fruit bowl</step>
+            <step>deliver to the user</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: help me turn off the TV in the living room and bring me the phone from the table</instruction>
+        <steps>
+            <step>move to the living room</step>
+            <step>turn off the TV</step>
+            <step>move to the table</step>
+            <step>pick up the phone</step>
+            <step>deliver the phone to the user</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+</root>

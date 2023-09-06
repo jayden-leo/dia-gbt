@@ -1,0 +1,15 @@
+<root>
+    <action name="move_back">
+        <explanation>perform a backward movement. away from the current position</explanation>
+        <synonyms>retreat</synonyms>
+        <synonyms>move backward</synonyms>
+        <synonyms>step back</synonyms>
+        <synonyms>reverse</synonyms>
+        <synonyms>back up</synonyms>
+        <synonyms>withdraw</synonyms>
+        <synonyms>backtrack</synonyms>
+        <synonyms>go in reverse</synonyms>
+        <pattern>(retreat.*?|revers.*?)</pattern>
+        <pattern>(mov.*?|step.*?|back.*?|go.*?).*(backward|back|up|reverse)</pattern>
+    </action>
+</root>

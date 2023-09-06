@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <task name="temp">
+    <bt>
+      <sequence name="sequence">
+        <part_status name="part_status"/>
+        <envs_safety name="envs_safety"/>
+      </sequence>
+    </bt>
+  </task>
+</root>

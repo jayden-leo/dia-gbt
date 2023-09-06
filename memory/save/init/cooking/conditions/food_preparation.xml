@@ -1,0 +1,15 @@
+<root>
+    <condition name="food_preparation">
+        <explanation>check that required ingredients meet specific culinary needs and requirements</explanation>
+        <synonyms>verify ingredient readiness</synonyms>
+        <synonyms>confirm ingredient preparation</synonyms>
+        <synonyms>check for ingredient readiness</synonyms>
+        <synonyms>validate ingredient preparedness</synonyms>
+        <synonyms>ensure ingredient is ready</synonyms>
+        <synonyms>examine ingredient preparation</synonyms>
+        <synonyms>ascertain ingredient readiness</synonyms>
+        <synonyms>inspect ingredient preparedness</synonyms>
+        <synonyms>verify ingredient is prepared</synonyms>
+        <pattern>^(verif|confirm|check).*(food|ingredient|material|component).*(ready|readiness|prepare|ready|prepare)</pattern>
+    </condition>
+</root>

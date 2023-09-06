@@ -1,0 +1,18 @@
+<root>
+    <condition name="prepare_food">
+        <explanation>the ability to prepare food following specific steps and recipes, including handling, cooking and presentation</explanation>
+        <synonyms>prepare ingredients</synonyms>
+        <synonyms>handle raw materials</synonyms>
+        <synonyms>prepping food</synonyms>
+        <synonyms>process ingredients</synonyms>
+        <synonyms>organize ingredients</synonyms>
+        <synonyms>arrange foodstuffs</synonyms>
+        <synonyms>ready food materials</synonyms>
+        <synonyms>pre-process food items</synonyms>
+        <synonyms>culinary preparation</synonyms>
+        <synonyms>food preparation</synonyms>
+        <synonyms>cook</synonyms><synonyms>cook food</synonyms><synonyms>put in the food</synonyms><synonyms>prepare coffee grounds</synonyms><synonyms>brew coffee</synonyms><synonyms>position the food</synonyms><synonyms>add the pasta</synonyms><synonyms>perform cooking operations</synonyms><synonyms>grind the beans</synonyms><synonyms>marinate them for 30 minutes</synonyms><synonyms>grill them for 12 minutes</synonyms><synonyms>cooking</synonyms><synonyms>grind coffee beans</synonyms><synonyms>cook them</synonyms><synonyms>place the ingredients correctly on the table</synonyms><synonyms>cut them into small pieces</synonyms><synonyms>arrange the ingredients neatly on the board</synonyms><synonyms>place the food materials</synonyms><synonyms>cut the meat into small pieces</synonyms><synonyms>prepare the chicken</synonyms><synonyms>cook the dish</synonyms><synonyms>shape them into balls</synonyms><synonyms>cooking operation</synonyms><synonyms>add the spices</synonyms><synonyms>add eggs and flour</synonyms><synonyms>add ingredients</synonyms>
+        <pattern>^(prepar|handl|process|organiz).*(ingredient|material|food|preparation)</pattern>
+        <pattern>^(ingredient|material|food|preparation).*(prepar|handl|process|organiz)</pattern>
+    </condition>
+</root>

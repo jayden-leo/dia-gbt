@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+    <task name="explore">
+        <synonyms>explore surroundings and gather information</synonyms>
+        <synonyms>collect data about the surrounding environment</synonyms>
+        <synonyms>investigate the environment for information</synonyms>
+        <synonyms>sense and survey the environment</synonyms>
+        <synonyms>detect and scout the nearby area</synonyms>
+        <synonyms>explore situational information of the environment</synonyms>
+        <synonyms>survey and understand the surrounding environment</synonyms>
+        <synonyms>examine environmental conditions and perceive</synonyms>
+        <pattern>(explore.*|collect.*|investigate.*|sense.*).*(information|environment|perceive)</pattern>
+        <pattern>(detect.*|examine.|*survey.*).*(information|environment|perceive)</pattern>
+
+        <parallel name="parallel">
+            <selector name="selector">
+                <move_forward name="move_forward"/>
+                <sequence name="sequence">
+                    <obstacle_detection name="obstacle_detection"/>
+                    <bypass name="bypass"/>
+                </sequence>
+            </selector>
+            <scanning name="scanning"/>
+        </parallel>
+    </task>
+</root>

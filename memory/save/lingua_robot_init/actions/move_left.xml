@@ -1,0 +1,15 @@
+<root>
+    <action name="move_left">
+        <explanation>to move to the left, that is, to move in the left direction</explanation>
+        <synonyms>move left</synonyms>
+        <synonyms>shift to the left</synonyms>
+        <synonyms>go left</synonyms>
+        <synonyms>leftward movement</synonyms>
+        <synonyms>proceed to the left</synonyms>
+        <synonyms>leftward advance</synonyms>
+        <synonyms>leftward shift</synonyms>
+        <synonyms>move to the left</synonyms>
+        <pattern>(mov.*?|go.*?|proce.*?).*(left)</pattern>
+        <pattern>leftward.*?</pattern>
+    </action>
+</root>

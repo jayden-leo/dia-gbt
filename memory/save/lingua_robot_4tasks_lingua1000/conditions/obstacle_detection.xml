@@ -1,0 +1,15 @@
+<root>
+    <condition name="obstacle_detection">
+        <explanation>detect surrounding obstacles using sensors or other technologies to avoid collisions or avoid obstacles</explanation>
+        <synonyms>obstacle detection</synonyms>
+        <synonyms>obstacle sensing</synonyms>
+        <synonyms>obstacle recognition</synonyms>
+        <synonyms>obstacle perception</synonyms>
+        <synonyms>obstacle scanning</synonyms>
+        <synonyms>obstacle identification</synonyms>
+        <synonyms>obstacle tracking</synonyms>
+        <synonyms>Avoid Obstacles</synonyms><synonyms>obstacle monitoring</synonyms>
+        <pattern>obstacle.*?(detection|sensing|recognition|perception|scanning|identification|tracking|monitoring)</pattern>
+        <pattern>(detect.*?|sens.*?|recogni.*?|percept.*?|scan.*?|identificat.*?|track.*?|monitor.*?).*obstacle</pattern>
+    </condition>
+</root>

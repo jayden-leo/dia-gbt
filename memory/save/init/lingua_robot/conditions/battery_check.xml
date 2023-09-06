@@ -1,0 +1,15 @@
+<root>
+    <condition name="battery_check">
+        <explanation>check the battery capacity of yourself or another device to determine the remaining charge level</explanation>
+        <synonyms>energy assessment</synonyms>
+        <synonyms>battery status check</synonyms>
+        <synonyms>power inspection</synonyms>
+        <synonyms>energy level review</synonyms>
+        <synonyms>charge assessment</synonyms>
+        <synonyms>battery capacity check</synonyms>
+        <synonyms>energy status detection</synonyms>
+        <synonyms>power level examination</synonyms>
+        <pattern>check.*?</pattern>
+        <pattern>(energy|battery|power|charg.*?|power).*(assessment|check|inspection|review|detection|examination)</pattern>
+    </condition>
+</root>

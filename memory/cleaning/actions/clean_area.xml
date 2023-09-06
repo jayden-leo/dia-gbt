@@ -1,0 +1,16 @@
+<root>
+    <condition name="clean_area">
+         <explanation>clean up in accordance with the specified requirements to remove debris, dirt, etc. in the specified area</explanation>
+         <synonyms>tidying space</synonyms>
+         <synonyms>sanitizing zone</synonyms>
+         <synonyms>scrubbing region</synonyms>
+         <synonyms>cleansing spot</synonyms>
+         <synonyms>purifying vicinity</synonyms>
+         <synonyms>washing territory</synonyms>
+         <synonyms>maintaining area</synonyms>
+         <synonyms>tidying up space</synonyms>
+         <synonyms>clean the dirty area</synonyms><synonyms>start cleaning the area</synonyms><synonyms>move to the dirty area</synonyms><synonyms>clean the kitchen</synonyms><synonyms>clean the toilet</synonyms><synonyms>continue cleaning</synonyms><synonyms>clean all windows</synonyms><synonyms>executing the cleaning task</synonyms><synonyms>clean the surface areas</synonyms><synonyms>clean it up</synonyms><synonyms>dry the affected area</synonyms><synonyms>dispose of garbage</synonyms><synonyms>the appropriate surfaces and floors</synonyms><synonyms>clean area: living room</synonyms><synonyms>stop cleaning task</synonyms><synonyms>vacuum the living room</synonyms><synonyms>use a vacuum cleaner</synonyms><synonyms>clean up the room</synonyms><synonyms>start cleaning the surface</synonyms><synonyms>place the clothes in the washing machine</synonyms><synonyms>sweeping</synonyms><synonyms>mopping the floor</synonyms><synonyms>grasp the dirty clothes</synonyms><synonyms>clean up the workspace</synonyms><synonyms>clean the targeted area</synonyms><synonyms>clean the environment</synonyms><synonyms>clean the table surface</synonyms><synonyms>clean the dishes and utensils</synonyms><synonyms>retrieve the clothes from the laundry hamper</synonyms><synonyms>dry them</synonyms><synonyms>Clean Area: Study</synonyms><synonyms>clean dishes</synonyms><synonyms>start cleaning the kitchen</synonyms><synonyms>clean up any surrounding mess</synonyms><synonyms>execute cleaning operations</synonyms><synonyms>cleaning it</synonyms><synonyms>disinfecting locale</synonyms>
+         <pattern>^(tidy|sanitiz|scrubb|cleans).*(space|zone|region|vicinity|territory|area|locale)</pattern>
+         <pattern>^(disinfect|tidy|maintain|wash).*(space|zone|region|vicinity|territory|area|locale)</pattern>
+    </condition>
+</root>

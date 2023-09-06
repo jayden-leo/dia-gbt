@@ -1,0 +1,16 @@
+<root>
+    <condition name="correct_positioning">
+        <explanation>through sensor data or visual feedback, check whether the predetermined correct position has been reached</explanation>
+        <synonyms>adjust alignment</synonyms>
+        <synonyms>rectify placement</synonyms>
+        <synonyms>fix positioning</synonyms>
+        <synonyms>align properly</synonyms>
+        <synonyms>rectify configuration</synonyms>
+        <synonyms>properly position</synonyms>
+        <synonyms>rectify arrangement</synonyms>
+        <synonyms>correctly align</synonyms>
+        <synonyms>revise position</synonyms>
+        <pattern>^(adjust|rectif|fix|align|rectif|proper|rectif|correct|revis).*(align|placement|position|configuration|arrangement)</pattern>
+        <pattern>^(align|placement|position|configuration|arrangement).*(adjust|rectif|fix|align|rectif|proper|rectif|correct|revis)</pattern>
+    </condition>
+</root>

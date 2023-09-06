@@ -1,0 +1,16 @@
+<root>
+    <condition name="execution_steps">
+        <explanation>the ability to plan and actually execute overall tasks based on predetermined steps, ensuring that tasks are completed in sequence and as planned</explanation>
+        <synonyms>follow cooking steps for actions</synonyms>
+        <synonyms>operate according to cooking sequence</synonyms>
+        <synonyms>perform actions based on culinary process</synonyms>
+        <synonyms>proceed with actions as per kitchen steps</synonyms>
+        <synonyms>execute actions following cooking procedure</synonyms>
+        <synonyms>adhere to cooking guide for actions</synonyms>
+        <synonyms>carry out actions according to culinary steps</synonyms>
+        <synonyms>operate in recipe order</synonyms>
+        <synonyms>follow culinary steps for actions</synonyms>
+        <pattern>^(follow|accord|base|proce|execut|adhere|order).*(step|sequence|culinary|procedure|action|guide)</pattern>
+        <pattern>^(step|sequence|culinary|procedure|action|guide).*(follow|accord|base|proce|execut|adhere|order)</pattern>
+    </condition>
+</root>

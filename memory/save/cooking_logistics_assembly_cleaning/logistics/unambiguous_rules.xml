@@ -1,0 +1,1469 @@
+<root>
+    <rule>
+        <demo>detect the package type and grab it, then place it at the target location</demo>
+        <intent>(detect the package type) and (grab it), then (place it at the target location)</intent>
+        <pattern>^(detect.*) and (grab.*), then (place.*at.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the package and mail it to the target location at the same time.</demo>
+        <intent>(grab the package) and (mail it to the target location) (at the same time)</intent>
+        <pattern>^(grab.*) and (mail.*)(at the same time)$</pattern>
+    </rule>
+    <rule>
+        <demo>complete the whole cooking process</demo>
+        <intent>(complete the whole cooking process)</intent>
+        <pattern>^(complete.*process)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the safety of the environment, grab the package, and then move it to the target location.</demo>
+        <intent>(check the safety of the environment), (grab the package), and then (move it to the target location)</intent>
+        <pattern>^(check.*), (grab.*), and then (move.*location)$</pattern>
+    </rule>
+    <rule>
+        <demo>interrupt the assembly if the environment is unsafe, otherwise assemble the parts and check the quality.</demo>
+        <intent>(interrupt the assembly) (if the environment is unsafe), otherwise (assemble the parts) and (check the quality)</intent>
+        <pattern>^(interrupt.*) (if.*), otherwise (assemble.*) and (check.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>retrieve the parts that meet the positioning requirements and check the quality after assembly</demo>
+        <intent>(retrieve the parts) that (meet the positioning requirements) and (check the quality) after (assembly)</intent>
+        <pattern>^(retrieve.*) that (meet.*) and (check.*) after (assembly)$</pattern>
+    </rule>
+    <rule>
+        <demo>retrieve the necessary parts and position them correctly before assembly</demo>
+        <intent>(retrieve the necessary parts) and (position them correctly) before (assembly)</intent>
+        <pattern>^(retrieve.*) and (position.*) before (assembly.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>assemble the parts securely</demo>
+        <intent>(assemble the parts securely)</intent>
+        <pattern>^(assemble.*parts.*securely)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the necessary parts, position them correctly, and then assemble the parts</demo>
+        <intent>(grab the necessary parts), (position them correctly), and then (assemble the parts)</intent>
+        <pattern>^(grab.*), (position.*), and then (assemble.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>request human assistance if necessary</demo>
+        <intent>(request human assistance) if necessary</intent>
+        <pattern>^(request.*) if necessary$</pattern>
+    </rule>
+    <rule>
+        <demo>check the component status, and then assemble the parts</demo>
+        <intent>(check the component status), and then (assemble the parts)</intent>
+        <pattern>^(check.*), and then (assemble.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the component status, and then check the assembly quality</demo>
+        <intent>(check the component status), and then (check the assembly quality)</intent>
+        <pattern>^(check.*), and then (check.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>request human assistance and grab the parts at the same time if necessary</demo>
+        <intent>(request human assistance) and (grab the parts) (at the same time if necessary)</intent>
+        <pattern>^(request.*) and (grab.*) (at the same.*?)$</pattern>
+    </rule>
+    <rule>
+        <demo>check that all parts needed for assembly are available, then start the assembly process</demo>
+        <intent>(check that all parts needed for assembly are available), then (start the assembly process)</intent>
+        <pattern>^(check.*), then (start.*assembly.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the component status, and then grab the necessary parts</demo>
+        <intent>(check the component status), and then (grab the necessary parts)</intent>
+        <pattern>^(check.*), and then (grab.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab parts and perform assembly step by step</demo>
+        <intent>(grab parts) and (perform assembly) (step by step)</intent>
+        <pattern>^(grab.*) and (perform.*) (step by step.*?)$</pattern>
+    </rule>
+    <rule>
+        <demo>request assistance and grab the necessary parts at the same time</demo>
+        <intent>(request assistance) and (grab the necessary parts) (at the same time)</intent>
+        <pattern>^(request.*) and (grab.*) (at the same time.*?)$</pattern>
+    </rule>
+    <rule>
+        <demo>position the parts correctly for assembly</demo>
+        <intent>(position the parts correctly) for assembly</intent>
+        <pattern>^(position.*) for assembly$</pattern>
+    </rule>
+    <rule>
+        <demo>package the assembled parts securely for shipping</demo>
+        <intent>(package the assembled parts securely) for shipping</intent>
+        <pattern>^(package.*) for shipping$</pattern>
+    </rule>
+    <rule>
+        <demo>interrupt operation when encountering obstacles or dangerous situations</demo>
+        <intent>(interrupt operation) when (encountering obstacles or dangerous situations)</intent>
+        <pattern>^(interrupt.*) when (encountering.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab and position the parts, then start the assembly process</demo>
+        <intent>(grab) and (position the parts), then (start the assembly process)</intent>
+        <pattern>^(grab.*) and (position.*), then (start.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>retrieve the parts that meet the positioning requirements and check the quality after assembly</demo>
+        <intent>(retrieve the parts) that (meet the positioning requirements) and (check the quality) after (assembly)</intent>
+        <pattern>^(retrieve.*) that (meet.*) and (check.*) after (assembly)$</pattern>
+    </rule>
+    <rule>
+        <demo>retrieve the necessary parts and position them correctly before assembly</demo>
+        <intent>(retrieve the necessary parts) and (position them correctly) before (assembly)</intent>
+        <pattern>^(retrieve.*) and (position.*) before (assembly.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>complete the whole cooking process</demo>
+        <intent>(complete the whole cooking process)</intent>
+        <pattern>^(complete.*process)$</pattern>
+    </rule>
+    <rule>
+        <demo>please go around this obstacle and get me your phone on the table</demo>
+        <intent>(go around this obstacle) and (get me your phone on the table)</intent>
+        <pattern>^(go.*) and (get.*phone.*table)$</pattern>
+    </rule>
+    <rule>
+        <demo>get the necessary workpiece, position it correctly, and then assemble it</demo>
+        <intent>(get the necessary workpiece), (position it correctly), and then (assemble it)</intent>
+        <pattern>^(get.*), (position.*), and then (assemble.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>position cooking utensils, add ingredients, and start cooking</demo>
+        <intent>(position cooking utensils), (add ingredients), and (start cooking)</intent>
+        <pattern>^(position.*utensils), (add.*ingredients), and (start.*cooking)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare ingredients and cook in parallel</demo>
+        <intent>(prepare ingredients) and (cook) (in parallel)</intent>
+        <pattern>^(prepare.*) and (cook.*) (in.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare all ingredients, and then start cooking in sequence according to the recipe</demo>
+        <intent>(prepare all ingredients), and then (start cooking) (in sequence) (according to the recipe)</intent>
+        <pattern>^(prepare.*ingredients), and then (start.*cooking)(.*according.*recipe)$</pattern>
+    </rule>
+    <rule>
+        <demo>clean the kitchen and put away all utensils when the cooking is complete</demo>
+        <intent>(clean the kitchen) and (put away all utensils) (when the cooking is complete)</intent>
+        <pattern>^(clean.*) and (put.*utensils) (when.*complete)$</pattern>
+    </rule>
+    <rule>
+        <demo>mix the cooking ingredients according to the recipe and put the mixed ingredients in the pan</demo>
+        <intent>(mix the cooking ingredients) according to the recipe and (put the mixed ingredients) in the pan</intent>
+        <pattern>^(mix.*ingredients.*) according to the recipe and (put.*mixed.*ingredients.*) in the pan$</pattern>
+    </rule>
+    <rule>
+        <demo>check the temperature of the oven and put in the food when the temperature is right</demo>
+        <intent>(check the temperature of the oven) and (put in the food) (when the temperature is right)</intent>
+        <pattern>^(check.*oven.*) and (put.*food.*) (when.*temperature.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>use cooking utensils and execute the task according to the cooking steps</demo>
+        <intent>(use cooking utensils) and (execute the task) (according to the cooking steps)</intent>
+        <pattern>^(use.*utensils) and (execute.*task) (according.*cooking.*steps)$</pattern>
+    </rule>
+    <rule>
+        <demo>pour oil into the pot, turn on the heat, and put the meat in the pot to fry</demo>
+        <intent>(pour oil into the pot), (turn on the heat), and (put the meat in the pot to fry)</intent>
+        <pattern>^(pour.*into.*pot), (turn.*heat), and (put.*meat.*pot.*fry)$</pattern>
+    </rule>
+    <rule>
+        <demo>check if the cooking progress is normal at any time during the cooking process</demo>
+        <intent>(check if the cooking progress is normal) (at any time) during the (cooking process)</intent>
+        <pattern>^(check.*progress.*normal) (at.*time) during the (cooking.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>pour appropriate seasoning into the pot and mix with the food ingredients</demo>
+        <intent>(pour appropriate seasoning) into the pot and (mix with the food ingredients)</intent>
+        <pattern>^(pour.*seasoning.*) into the pot and (mix.*food ingredients)$</pattern>
+    </rule>
+    <rule>
+        <demo>grind coffee beans, prepare coffee grounds, and then brew coffee</demo>
+        <intent>(grind coffee beans), (prepare coffee grounds), and then (brew coffee)</intent>
+        <pattern>^(grind.*beans), (prepare.*grounds), and then (brew.*coffee)$</pattern>
+    </rule>
+    <rule>
+        <demo>get the frying pan, add the oil, and then put the food in to fry</demo>
+        <intent>(get the frying pan), (add the oil), and then (put the food in to fry)</intent>
+        <pattern>^(get.*frying.*) (add.*) and then (put.*food.*fry)$</pattern>
+    </rule>
+    <rule>
+        <demo>take out the ingredients, chop them up, and then stir-fry in the pot</demo>
+        <intent>(take out the ingredients), (chop them up), and then (stir-fry in the pot)</intent>
+        <pattern>^(take.*ingredients), (chop.*), and then (stir-fry.*pot)$</pattern>
+    </rule>
+    <rule>
+        <demo>position cooking utensils properly before food preparation</demo>
+        <intent>(position cooking utensils properly) before (food preparation)</intent>
+        <pattern>^(position.*cooking.*utensils.*properly) before (food.*preparation)$</pattern>
+    </rule>
+    <rule>
+        <demo>cook food and then finish cooking process</demo>
+        <intent>(cook food) and then (finish cooking process)</intent>
+        <pattern>^(cook.*)and then (finish.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>drop cooking utensils and request intervention and guidance</demo>
+        <intent>(drop cooking utensils) and (request intervention and guidance)</intent>
+        <pattern>^(drop.*)and (request.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>retrieve necessary ingredients, prepare them, and start cooking</demo>
+        <intent>(retrieve necessary ingredients), (prepare them), and (start cooking)</intent>
+        <pattern>^(retrieve.*ingredients), (prepare.*), and (start.*cooking)$</pattern>
+    </rule>
+    <rule>
+        <demo>request intervention if there is a problem and execute the necessary operations</demo>
+        <intent>(request intervention) if there is a problem and (execute the necessary operations)</intent>
+        <pattern>^(request.*) if there is a problem and (execute.*operations)$</pattern>
+    </rule>
+    <rule>
+        <demo>check if the food preparation is complete, and then execute the cooking process</demo>
+        <intent>(check if the food preparation is complete), and then (execute the cooking process)</intent>
+        <pattern>^(check.*food.*complete), and then (execute.*cooking.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the required parts and assemble them according to the correct order</demo>
+        <intent>(grab the required parts) and (assemble them) (according to the correct order)</intent>
+        <pattern>^(grab.*parts.*) and (assemble.*) (according.*order)$</pattern>
+    </rule>
+    <rule>
+        <demo>position the food and cooking utensils correctly, and use them safely</demo>
+        <intent>(position the food) and (cooking utensils) correctly, and (use them safely)</intent>
+        <pattern>^(position.*food.*) and (cooking.*utensils.*) correctly, and (use.*safely)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare the raw ingredients and execute the cooking steps</demo>
+        <intent>(prepare the raw ingredients) and (execute the cooking steps)</intent>
+        <pattern>^(prepare.*raw.*ingredients) and (execute.*cooking.*steps)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the cooking utensils and perform the cooking steps accordingly</demo>
+        <intent>(check the cooking utensils) and (perform the cooking steps) accordingly</intent>
+        <pattern>^(check.*utensils.*) and (perform.*steps.*) accordingly$</pattern>
+    </rule>
+    <rule>
+        <demo>cook the food, then wait for it to cool down before serving</demo>
+        <intent>(cook the food), then (wait for it to cool down) before (serving)</intent>
+        <pattern>^(cook.*), then (wait.*cool.*down) before (serving)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the recipe, prepare the ingredients, and then start cooking</demo>
+        <intent>(check the recipe), (prepare the ingredients), and then (start cooking)</intent>
+        <pattern>^(check.*) (prepare.*) and then (start.*cooking)$</pattern>
+    </rule>
+    <rule>
+        <demo>wait for the water to boil, add the pasta, then start cooking</demo>
+        <intent>(wait for the water to boil), (add the pasta), then (start cooking)</intent>
+        <pattern>^(wait.*water.*boil), (add.*pasta), then (start.*cooking)$</pattern>
+    </rule>
+    <rule>
+        <demo>use_cooking_tools</demo>
+        <intent>(use cooking tools)</intent>
+        <pattern>^(use.*tools)$</pattern>
+    </rule>
+    <rule>
+        <demo>cut the vegetables and put them into the pot, add water, and then start cooking</demo>
+        <intent>(cut the vegetables) and (put them into the pot), (add water), and then (start cooking)</intent>
+        <pattern>^(cut.*) and (put.*into.*) (add.*) and then (start.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare the pan with oil, heat the pan, and then put in the fish</demo>
+        <intent>(prepare the pan with oil), (heat the pan), and then (put in the fish)</intent>
+        <pattern>^(prepare.*pan.*oil), (heat.*pan), and then (put.*fish)$</pattern>
+    </rule>
+    <rule>
+        <demo>get the ingredients from the pantry, weigh them, and then prepare them for cooking</demo>
+        <intent>(get the ingredients from the pantry), (weigh them), and then (prepare them for cooking)</intent>
+        <pattern>^(get.*ingredients.*pantry), (weigh.*), and then (prepare.*cooking)$</pattern>
+    </rule>
+    <rule>
+        <demo>check environment safety and then execute cooking process</demo>
+        <intent>(check environment safety) and then (execute cooking process)</intent>
+        <pattern>^(check.*environment.*safety) and then (execute.*cooking.*process)$</pattern>
+    </rule>
+    <rule>
+        <demo>stop operation if any danger is detected, otherwise continue to execute</demo>
+        <intent>(stop operation) (if any danger is detected), otherwise (continue to execute)</intent>
+        <pattern>^(stop.*operation) (if.*danger.*detected), otherwise (continue.*execute)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare the pan and put the oil in</demo>
+        <intent>(prepare the pan) and (put the oil in)</intent>
+        <pattern>^(prepare.*) and (put.*oil.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>heat up the pan and add diced onions</demo>
+        <intent>(heat up the pan) and (add diced onions)</intent>
+        <pattern>^(heat.*)and (add.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>grind the beans, put them in the filter cup, and pour hot water into the cup</demo>
+        <intent>(grind the beans), (put them in the filter cup), and (pour hot water into the cup)</intent>
+        <pattern>^(grind.*) (put.*filter.*) and (pour.*hot.*cup)$</pattern>
+    </rule>
+    <rule>
+        <demo>cut the chicken into small pieces, put them in a bowl with the marinade, and marinate them for 30 minutes.
+        </demo>
+        <intent>(cut the chicken into small pieces), (put them in a bowl with the marinade), and (marinate them for 30 minutes)</intent>
+        <pattern>^(cut.*), (put.*), and (marinate.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>thread the chicken onto skewers and grill them for 12 minutes.
+        </demo>
+        <intent>(thread the chicken onto skewers) and (grill them for 12 minutes)</intent>
+        <pattern>^(thread.*)and (grill.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the food preparation status, start cooking, and interrupt operation when necessary</demo>
+        <intent>(check the food preparation status), (start cooking), and (interrupt operation) (when necessary)</intent>
+        <pattern>^(check.*), (start.*), and (interrupt.*)(when.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>request help when necessary and continue execution of the current task</demo>
+        <intent>(request help) when necessary and (continue execution of the current task)</intent>
+        <pattern>^(request.*help) when (necessary.*) and (continue.*execution.*current.*task)$</pattern>
+    </rule>
+    <rule>
+        <demo>perform the cutting first, and then the frying</demo>
+        <intent>(perform the cutting) first, and (then the frying)</intent>
+        <pattern>^(perform.*cutting.*) first, and (then.*frying.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the temperature, add seasoning, and then bake the cake</demo>
+        <intent>(check the temperature), (add seasoning), and then (bake the cake)</intent>
+        <pattern>^(check.*), (add.*), and then (bake.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare the ingredients as required and execute the steps in sequence</demo>
+        <intent>(prepare the ingredients as required) and (execute the steps in sequence)</intent>
+        <pattern>^(prepare.*ingredients.*required) and (execute.*steps.*sequence)$</pattern>
+    </rule>
+    <rule>
+        <demo>execute the steps in sequence and check the status of the cooking utensils</demo>
+        <intent>(execute the steps in sequence) and (check the status of the cooking utensils)</intent>
+        <pattern>^(execute.*sequence) and (check.*status.*cooking.*utensils)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the required parts and execute the steps in sequence</demo>
+        <intent>(grab the required parts) and (execute the steps) (in sequence)</intent>
+        <pattern>^(grab.*)and (execute.*)(in sequence)$</pattern>
+    </rule>
+    <rule>
+        <demo>make sure the cooking environment is safe, and then start cooking</demo>
+        <intent>(make sure the cooking environment is safe), and then (start cooking)</intent>
+        <pattern>^(make sure.*environment.*safe), and then (start.*cooking)$</pattern>
+    </rule>
+    <rule>
+        <demo>interrupt the cooking process if there is a dangerous situation</demo>
+        <intent>(interrupt the cooking process) (if there is a dangerous situation)</intent>
+        <pattern>^(interrupt.*)(is.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>use cooking utensils to cook food at the correct temperature and time</demo>
+        <intent>(use cooking utensils) to (cook food) (at the correct temperature and time)</intent>
+        <pattern>^(use.*)to (cook.*)(at the correct temperature and time)$</pattern>
+    </rule>
+    <rule>
+        <demo>check if all the necessary ingredients have been prepared, and then start cooking</demo>
+        <intent>(check if all the necessary ingredients have been prepared), and then (start cooking)</intent>
+        <pattern>^(check.*ingredients.*prepared), and then (start.*cooking)$</pattern>
+    </rule>
+    <rule>
+        <demo>position the tool correctly, confirm the safety of the environment, and then start cooking</demo>
+        <intent>(position the tool correctly), (confirm the safety of the environment), and then (start cooking)</intent>
+        <pattern>^(position.*tool.*), (confirm.*environment.*), and then (start.*cooking)$</pattern>
+    </rule>
+    <rule>
+        <demo>use available cooking utensils to prepare food ingredients</demo>
+        <intent>(use available cooking utensils) to (prepare food ingredients)</intent>
+        <pattern>^(use.*cooking.*utensils) to (prepare.*food.*ingredients)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the state of the food and use the available cooking utensils to complete the cooking process</demo>
+        <intent>(check the state of the food) and (use the available cooking utensils) to (complete the cooking process)</intent>
+        <pattern>^(check.*food.*) and (use.*cooking.*utensils.*) to (complete.*cooking.*process)$</pattern>
+    </rule>
+    <rule>
+        <demo>position the cooking utensils correctly and use them to cook the ingredients in sequence</demo>
+        <intent>(position the cooking utensils correctly) and (use them to cook the ingredients in sequence)</intent>
+        <pattern>^(position.*utensils.*correctly) and (use.*cook.*ingredients.*sequence)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare the ingredients and grab the necessary cooking utensils before cooking</demo>
+        <intent>(prepare the ingredients) and (grab the necessary cooking utensils) before (cooking)</intent>
+        <pattern>^(prepare.*) and (grab.*cooking.*utensils) before (cooking)$</pattern>
+    </rule>
+    <rule>
+        <demo>turn on the stove, heat up the cooking oil, and put the ingredients in the pot</demo>
+        <intent>(turn on the stove), (heat up the cooking oil), and (put the ingredients in the pot)</intent>
+        <pattern>^(turn.*stove), (heat.*cooking.*oil), and (put.*ingredients.*pot)$</pattern>
+    </rule>
+    <rule>
+        <demo>if the environment or tools are not safe, then request intervention to handle the situation safely</demo>
+        <intent>(if the environment or tools are not safe), then (request intervention) to handle the situation safely</intent>
+        <pattern>^(if.*), then (request.*) to (handle.*safely)$</pattern>
+    </rule>
+    <rule>
+        <demo>first check the status of envs_safety, then grab dishes and utensils</demo>
+        <intent>(first check the status of envs_safety), then (grab dishes and utensils)</intent>
+        <pattern>^(first check.*envs_safety), then (grab.*dishes.*utensils)$</pattern>
+    </rule>
+    <rule>
+        <demo>ensure that the food is well cooked, and then add condiments</demo>
+        <intent>(ensure that the food is well cooked), and then (add condiments)</intent>
+        <pattern>^(ensure.*food.*well.*cooked), and then (add.*condiments)$</pattern>
+    </rule>
+    <rule>
+        <demo>grind the seasoning, then add it to the pot and start cooking</demo>
+        <intent>(grind the seasoning), then (add it to the pot) and (start cooking)</intent>
+        <pattern>^(grind.*), then (add.*)and (start cooking.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>mix the cake batter, pour it into the pan, and bake it in the oven</demo>
+        <intent>(mix the cake batter), (pour it into the pan), and (bake it in the oven)</intent>
+        <pattern>^(mix.*cake.*batter), (pour.*into.*pan), and (bake.*in.*oven)$</pattern>
+    </rule>
+    <rule>
+        <demo>chop the vegetables, saut&#233; them in oil, and add the sauce</demo>
+        <intent>(chop the vegetables), (saut&#233; them in oil), and (add the sauce)</intent>
+        <pattern>^(chop.*), (saut&#233;.*), and (add.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab all necessary ingredients, prepare them, and execute the necessary steps in the recipe</demo>
+        <intent>(grab all necessary ingredients), (prepare them), and (execute the necessary steps in the recipe)</intent>
+        <pattern>^(grab.*ingredients), (prepare.*), and (execute.*steps.*recipe)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the ingredients and use the cooking utensils to cook them</demo>
+        <intent>(grab the ingredients) and (use the cooking utensils) to (cook them)</intent>
+        <pattern>^(grab.*) and (use.*) to (cook.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check if the food is cooked, if not, execute execution_steps</demo>
+        <intent>(check if the food is cooked), if not, (execute execution_steps)</intent>
+        <pattern>^(check.*food.*cooked), if not, (execute.*execution_steps)$</pattern>
+    </rule>
+    <rule>
+        <demo>get the ingredient and utensil status before starting to cook</demo>
+        <intent>(get the ingredient and utensil status) before (starting to cook)</intent>
+        <pattern>^(get.*status) before (starting.*cook)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the necessary parts, use them to execute the steps, and interrupt the operation when necessary.
+        </demo>
+        <intent>(grab the necessary parts), (use them to execute the steps), and (interrupt the operation) (when necessary)</intent>
+        <pattern>^(grab.*) (use.*execute.*) and (interrupt.*) (when.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check that the environment is safe, grab the necessary parts, and execute the steps simultaneously</demo>
+        <intent>(check that the environment is safe), (grab the necessary parts), and (execute the steps) (simultaneously)</intent>
+        <pattern>^(check.*environment.*safe), (grab.*parts), and (execute.*steps) (simultaneously)$</pattern>
+    </rule>
+    <rule>
+        <demo>use cooking utensils safely and simultaneously complete all steps</demo>
+        <intent>(use cooking utensils safely) and (simultaneously complete all steps)</intent>
+        <pattern>^(use.*utensils.*safely) and (simultaneously.*all.*steps)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the cooking utensils and confirm the environment safety before starting cooking</demo>
+        <intent>(check the cooking utensils) and (confirm the environment safety) before (starting cooking)</intent>
+        <pattern>^(check.*utensils.*) and (confirm.*environment.*) before (starting.*cooking)$</pattern>
+    </rule>
+    <rule>
+        <demo>use the cooking tools and perform the next step after the step is completed</demo>
+        <intent>(use the cooking tools) and (perform the next step) (after the step is completed)</intent>
+        <pattern>^(use.*tools.*) and (perform.*step.*) (after.*completed)$</pattern>
+    </rule>
+    <rule>
+        <demo>put the ingredients into the cauldron and stir constantly until cooked</demo>
+        <intent>(put the ingredients into the cauldron) and (stir constantly) until (cooked)</intent>
+        <pattern>^(put.*ingredients.*cauldron) and (stir.*constantly) until (cooked)$</pattern>
+    </rule>
+    <rule>
+        <demo>take the necessary ingredients and use the cooking tools to cook</demo>
+        <intent>(take the necessary ingredients) and (use the cooking tools) to (cook)</intent>
+        <pattern>^(take.*ingredients) and (use.*cooking.*tools) to (cook)$</pattern>
+    </rule>
+    <rule>
+        <demo>check if the ingredient is fresh and remove any spoiled ones</demo>
+        <intent>(check if the ingredient is fresh) and (remove any spoiled ones)</intent>
+        <pattern>^(check.*ingredient.*fresh) and (remove.*spoiled.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>inspect food safety and confirm cooking utensils are ready before starting cooking</demo>
+        <intent>(inspect food safety) and (confirm cooking utensils are ready) before (starting cooking)</intent>
+        <pattern>^(inspect.*food.*safety) and (confirm.*cooking.*utensils.*ready) before (starting.*cooking)$</pattern>
+    </rule>
+    <rule>
+        <demo>retrieve the necessary ingredients and then cut them according to the recipe</demo>
+        <intent>(retrieve the necessary ingredients) and then (cut them) (according to the recipe)</intent>
+        <pattern>^(retrieve.*) and then (cut.*)(according.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>assemble the components safely in order</demo>
+        <intent>(assemble the components) (safely) (in order)</intent>
+        <pattern>^(assemble.*components) (safely) (in.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check if the food is cooked, and serve the food if it's complete</demo>
+        <intent>(check if the food is cooked), and (serve the food) if it's complete</intent>
+        <pattern>^(check.*food.*cooked), and (serve.*food) if.*complete$</pattern>
+    </rule>
+    <rule>
+        <demo>process the food, stir-fry the ingredients in order, and then finish cooking</demo>
+        <intent>(process the food), (stir-fry the ingredients in order), and then (finish cooking)</intent>
+        <pattern>^(process.*) (stir-fry.*ingredients.*) and then (finish.*cooking)$</pattern>
+    </rule>
+    <rule>
+        <demo>start the timer once the food is in the oven, and then alert when the timer goes off</demo>
+        <intent>(start the timer) (once the food is in the oven), and then (alert) (when the timer goes off)</intent>
+        <pattern>^(start.*) (once.*oven), and then (alert.*) (when.*timer.*off)$</pattern>
+    </rule>
+    <rule>
+        <demo>dispense the correct amount of ingredients in the recipe, then begin stirring</demo>
+        <intent>(dispense the correct amount of ingredients in the recipe), then (begin stirring)</intent>
+        <pattern>^(dispense.*ingredients.*) then (begin.*stirring)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the recipe carefully and follow the execution_steps in order</demo>
+        <intent>(check the recipe carefully) and (follow the execution_steps) (in order)</intent>
+        <pattern>^(check.*carefully) and (follow.*execution_steps) (in order)$</pattern>
+    </rule>
+    <rule>
+        <demo>check if the cooking tools are ready, request help if necessary, and then start cooking</demo>
+        <intent>(check if the cooking tools are ready), (request help) if necessary, and then (start cooking)</intent>
+        <pattern>^(check.*tools.*ready), (request.*help.*)?, and then (start.*cooking)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the cooking progress and complete the next step accordingly</demo>
+        <intent>(check the cooking progress) and (complete the next step) accordingly</intent>
+        <pattern>^(check.*progress) and (complete.*step) accordingly$</pattern>
+    </rule>
+    <rule>
+        <demo>take out the pan and put it on the stove, and then turn on the stove</demo>
+        <intent>(take out the pan) and (put it on the stove), and then (turn on the stove)</intent>
+        <pattern>^(take.*pan.*) and (put.*stove.*), and then (turn.*stove)$</pattern>
+    </rule>
+    <rule>
+        <demo>put salt and sugar in the bowl, and then stir it evenly</demo>
+        <intent>(put salt and sugar) in the bowl, and then (stir it evenly)</intent>
+        <pattern>^(put salt.*sugar.*) in the bowl, and then (stir.*evenly)$</pattern>
+    </rule>
+    <rule>
+        <demo>boil water and then pour in the noodles, cook for 3 minutes and turn off the stove</demo>
+        <intent>(boil water) and (then pour in the noodles), (cook for 3 minutes) and (turn off the stove)</intent>
+        <pattern>^(boil.*water) and (then pour.*noodles), (cook.*3 minutes) and (turn.*stove)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare ingredients, then execute assembly task while checking envs_safety</demo>
+        <intent>(prepare ingredients), then (execute assembly task) (while checking envs_safety)</intent>
+        <pattern>^(prepare.*) then (execute.*)(while checking.*envs_safety)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the parts, check the envs_safety, then start the cooking process</demo>
+        <intent>(grab the parts), (check the envs_safety), then (start the cooking process)</intent>
+        <pattern>^(grab.*) (check.*envs_safety), then (start.*cooking.*process)$</pattern>
+    </rule>
+    <rule>
+        <demo>check that the correct ingredients are in the kitchen and available for use</demo>
+        <intent>(check that the correct ingredients are in the kitchen) and (available for use)</intent>
+        <pattern>^(check.*ingredients.*kitchen) and (available.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare the ingredients before using the cooking utensils</demo>
+        <intent>(prepare the ingredients) before (using the cooking utensils)</intent>
+        <pattern>^(prepare.*) before (using.*cooking.*utensils)$</pattern>
+    </rule>
+    <rule>
+        <demo>use the cooking tools available to cook the food</demo>
+        <intent>(use the cooking tools available) to (cook the food)</intent>
+        <pattern>^(use.*tools.*) to (cook.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check whether all tools are in place and proceed with food preparation</demo>
+        <intent>(check whether all tools are in place) and (proceed with food preparation)</intent>
+        <pattern>^(check.*tools.*in.*) and (proceed.*food.*preparation)$</pattern>
+    </rule>
+    <rule>
+        <demo>wait 5 seconds for the noodles to cook before adding the sauce and serving</demo>
+        <intent>(wait 5 seconds) for (the noodles to cook) before (adding the sauce) and (serving)</intent>
+        <pattern>^(wait.*seconds) for (the noodles.*cook) before (adding.*sauce) and (serving)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the doneness of the food, plate it, and then garnish it with herbs</demo>
+        <intent>(check the doneness of the food), (plate it), and then (garnish it with herbs)</intent>
+        <pattern>^(check.*doneness.*food), (plate.*), and then (garnish.*herbs)$</pattern>
+    </rule>
+    <rule>
+        <demo>boil water, add noodles, and then strain them</demo>
+        <intent>(boil water), (add noodles), and then (strain them)</intent>
+        <pattern>^(boil.*), (add.*), and then (strain.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>heat up oil, add onions and garlic, fry until fragrant, then add tomatoes and simmer for 20 minutes</demo>
+        <intent>(heat up oil), (add onions and garlic), (fry until fragrant), then (add tomatoes) and (simmer for 20 minutes)</intent>
+        <pattern>^(heat.*oil), (add.*), (fry.*fragrant), then (add.*tomatoes) and (simmer.*20 minutes)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare the ingredients by washing and chopping them, and then mix them in a bowl</demo>
+        <intent>(prepare the ingredients) by (washing and chopping them), and then (mix them in a bowl)</intent>
+        <pattern>^(prepare.*) by (washing.*chopping.*), and then (mix.*in.*bowl)$</pattern>
+    </rule>
+    <rule>
+        <demo>check if the oven is preheated and place the baking dish inside it to start baking</demo>
+        <intent>(check if the oven is preheated) and (place the baking dish inside it) to (start baking)</intent>
+        <pattern>^(check.*oven.*preheated) and (place.*baking.*inside.*) to (start.*baking)$</pattern>
+    </rule>
+    <rule>
+        <demo>mix the flour with the water and yeast, and then let it rise for 30 minutes</demo>
+        <intent>(mix the flour with the water and yeast), and then (let it rise for 30 minutes)</intent>
+        <pattern>^(mix.*flour.*water.*yeast), and then (let.*rise.*30 minutes)$</pattern>
+    </rule>
+    <rule>
+        <demo>arrange the ingredients neatly on the board and chop them into small pieces</demo>
+        <intent>(arrange the ingredients neatly on the board) and (chop them into small pieces)</intent>
+        <pattern>^(arrange.*on.*board) and (chop.*into.*pieces)$</pattern>
+    </rule>
+    <rule>
+        <demo>cook the ingredients according to the cooking steps</demo>
+        <intent>(cook the ingredients) according to (the cooking steps)</intent>
+        <pattern>^(cook.*ingredients) according to (the cooking.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check that the kitchen environment is safe, and then use cooking tools to cook the ingredients</demo>
+        <intent>(check that the kitchen environment is safe), and then (use cooking tools) to (cook the ingredients)</intent>
+        <pattern>^(check.*kitchen.*safe), and then (use.*cooking.*tools) to (cook.*ingredients)$</pattern>
+    </rule>
+    <rule>
+        <demo>use a wok to stir-fry the ingredients and add soy sauce and salt</demo>
+        <intent>(use a wok) to (stir-fry the ingredients) and (add soy sauce and salt)</intent>
+        <pattern>^(use.*wok) to (stir-fry.*) and (add.*soy sauce.*salt)$</pattern>
+    </rule>
+    <rule>
+        <demo>place the food materials according to the recipe and start cooking</demo>
+        <intent>(place the food materials) according to the recipe and (start cooking)</intent>
+        <pattern>^(place.*food.*materials) according to the recipe and (start.*cooking)$</pattern>
+    </rule>
+    <rule>
+        <demo>wait for 10 seconds, then continue with the next step</demo>
+        <intent>(wait for 10 seconds), then (continue with the next step)</intent>
+        <pattern>^(wait.*10 seconds), then (continue.*next step)$</pattern>
+    </rule>
+    <rule>
+        <demo>complete each step in sequence, and notify the user for any task exceptions</demo>
+        <intent>(complete each step) (in sequence), and (notify the user) for (any task exceptions)</intent>
+        <pattern>^(complete.*step.*) (in sequence), and (notify.*user) for (any.*task.*exceptions)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the quality of the ingredients, prepare the food, and then execute the execution_steps</demo>
+        <intent>(check the quality of the ingredients), (prepare the food), and then (execute the execution_steps)</intent>
+        <pattern>^(check.*ingredients), (prepare.*food), and then (execute.*execution_steps)$</pattern>
+    </rule>
+    <rule>
+        <demo>use the cooking utensils and execute the execution_steps simultaneously</demo>
+        <intent>(use the cooking utensils) and (execute the execution_steps) (simultaneously)</intent>
+        <pattern>^(use.*utensils) and (execute.*)(simultaneously)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare the food, and then execute the execution_steps</demo>
+        <intent>(prepare the food), and then (execute the execution_steps)</intent>
+        <pattern>^(prepare.*) and then (execute.*execution_steps)$</pattern>
+    </rule>
+    <rule>
+        <demo>place the pot in the correct position, pour in water, turn on the stove, and cook for 10 minutes</demo>
+        <intent>(place the pot in the correct position), (pour in water), (turn on the stove), and (cook for 10 minutes)</intent>
+        <pattern>^(place.*pot.*correct.*), (pour.*water.*), (turn.*stove.*), and (cook.*10.*minutes)$</pattern>
+    </rule>
+    <rule>
+        <demo>take out the ingredients, clean them, and slice them into small pieces</demo>
+        <intent>(take out the ingredients), (clean them), and (slice them into small pieces)</intent>
+        <pattern>^(take.*ingredients), (clean.*), and (slice.*into.*pieces)$</pattern>
+    </rule>
+    <rule>
+        <demo>steam the rice and stir-fry the vegetables separately, then mix them together</demo>
+        <intent>(steam the rice) and (stir-fry the vegetables) separately, then (mix them together)</intent>
+        <pattern>^(steam.*rice) and (stir-fry.*vegetables) separately, then (mix.*together)$</pattern>
+    </rule>
+    <rule>
+        <demo>cut the meat into small pieces, marinate it, fry it, and finally mix it with vegetables and rice</demo>
+        <intent>(cut the meat into small pieces), (marinate it), (fry it), and finally (mix it with vegetables and rice)</intent>
+        <pattern>^(cut.*into.*pieces), (marinate.*), (fry.*), and finally (mix.*with.*vegetables.*rice)$</pattern>
+    </rule>
+    <rule>
+        <demo>chop the vegetables, boil the water, and put the vegetables in the pot in order</demo>
+        <intent>(chop the vegetables), (boil the water), and (put the vegetables in the pot) (in order)</intent>
+        <pattern>^(chop.*), (boil.*), and (put.*)(in order)$</pattern>
+    </rule>
+    <rule>
+        <demo>confirm that the food material and the cooking utensils are ready before cooking</demo>
+        <intent>(confirm that the food material) and (the cooking utensils) are ready (before cooking)</intent>
+        <pattern>^(confirm.*food.*material.*) and (the.*cooking.*utensils.*) are ready (before.*cooking)$</pattern>
+    </rule>
+    <rule>
+        <demo>sequence the task: add ingredients, fry vegetables, then add seasoning</demo>
+        <intent>(sequence the task) (add ingredients), (fry vegetables), then (add seasoning)</intent>
+        <pattern>^(sequence.*)(add.*), (fry vegetables), then (add seasoning.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare the ingredients, and then stir-fry them with oil</demo>
+        <intent>(prepare the ingredients), and then (stir-fry them with oil)</intent>
+        <pattern>^(prepare.*) and then (stir-fry.*oil)$</pattern>
+    </rule>
+    <rule>
+        <demo>boil water, cook noodles, then add seasoning</demo>
+        <intent>(boil water), (cook noodles), then (add seasoning)</intent>
+        <pattern>^(boil.*), (cook.*), then (add.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>take out the vegetables and fry the meat slices with the same pan</demo>
+        <intent>(take out the vegetables) and (fry the meat slices) with the same pan</intent>
+        <pattern>^(take.*vegetables.*) and (fry.*meat.*slices.*) with the same pan$</pattern>
+    </rule>
+    <rule>
+        <demo>mix the ingredients together and place them in the baking dish</demo>
+        <intent>(mix the ingredients together) and (place them in the baking dish)</intent>
+        <pattern>^(mix.*together) and (place.*in.*baking.*dish)$</pattern>
+    </rule>
+    <rule>
+        <demo>crack the eggs into the mixing bowl and whisk thoroughly</demo>
+        <intent>(crack the eggs into the mixing bowl) and (whisk thoroughly)</intent>
+        <pattern>^(crack.*into.*mixing.*bowl) and (whisk.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>cut the vegetables into bite-sized pieces and add them to the pan</demo>
+        <intent>(cut the vegetables into bite-sized pieces) and (add them to the pan)</intent>
+        <pattern>^(cut.*vegetables.*bite-sized.*) and (add.*pan)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare all the necessary ingredients, tools, and utensils</demo>
+        <intent>(prepare all the necessary ingredients, tools, and utensils)</intent>
+        <pattern>^(prepare.*ingredients.*tools.*utensils)$</pattern>
+    </rule>
+    <rule>
+        <demo>assemble the burger by adding lettuce, tomatoes, and cheese in order</demo>
+        <intent>(assemble the burger) by (adding lettuce, tomatoes, and cheese) (in order)</intent>
+        <pattern>^(assemble.*burger) by (adding.*lettuce, tomatoes, and cheese) (in order)$</pattern>
+    </rule>
+    <rule>
+        <demo>heat up the frying pan, add oil, and fry the steak on it</demo>
+        <intent>(heat up the frying pan), (add oil), and (fry the steak on it)</intent>
+        <pattern>^(heat.*frying.*) (add.*) and (fry.*steak.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>position cooking utensils, start the stove, and heat up the pot</demo>
+        <intent>(position cooking utensils), (start the stove), and (heat up the pot)</intent>
+        <pattern>^(position.*utensils), (start.*stove), and (heat.*pot)$</pattern>
+    </rule>
+    <rule>
+        <demo>clean the vegetables, slice them into small pieces, put them in the pot to simmer, and serve when ready.
+        </demo>
+        <intent>(clean the vegetables), (slice them into small pieces), (put them in the pot to simmer), and (serve when ready)</intent>
+        <pattern>^(clean.*), (slice.*), (put.*), and (serve.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare the chicken, fry it in the pan, pour in the sauce, and serve when ready</demo>
+        <intent>(prepare the chicken), (fry it in the pan), (pour in the sauce), and (serve when ready)</intent>
+        <pattern>^(prepare.*) (fry.*pan), (pour.*) and (serve.*ready)$</pattern>
+    </rule>
+    <rule>
+        <demo>use cooking tools to boil water and vegetables, then finish cooking</demo>
+        <intent>(use cooking tools) to (boil water and vegetables), then (finish cooking)</intent>
+        <pattern>^(use.*)to (boil.*), then (finish cooking)$</pattern>
+    </rule>
+    <rule>
+        <demo>detect whether the previous step is completed, and then perform the next step of the task</demo>
+        <intent>(detect whether the previous step is completed), and then (perform the next step of the task)</intent>
+        <pattern>^(detect.*previous.*) and then (perform.*next.*task)$</pattern>
+    </rule>
+    <rule>
+        <demo>check that the environment and cooking utensils are safe, and then start cooking</demo>
+        <intent>(check that the environment and cooking utensils are safe), and then (start cooking)</intent>
+        <pattern>^(check.*environment.*cooking utensils.*safe), and then (start.*cooking)$</pattern>
+    </rule>
+    <rule>
+        <demo>handle the ingredients and cooking utensils, and start cooking in parallel</demo>
+        <intent>(handle the ingredients) and (cooking utensils), and (start cooking) (in parallel)</intent>
+        <pattern>^(handle.*ingredients) and (cooking.*utensils), and (start.*cooking) (in.*parallel)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare the raw materials and put them in the cooking pot</demo>
+        <intent>(prepare the raw materials) and (put them in the cooking pot)</intent>
+        <pattern>^(prepare.*raw.*) and (put.*cooking.*pot)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the cooking progress, and if the food is cooked, stop the cooking process</demo>
+        <intent>(check the cooking progress), and (if the food is cooked), (stop the cooking process)</intent>
+        <pattern>^(check.*progress), and (if.*cooked), (stop.*cooking.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>activate oven, put food in, start cooking</demo>
+        <intent>(activate oven), (put food in), (start cooking)</intent>
+        <pattern>^(activate.*) (put.*), (start.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>get rid of any leftover food, put dishes in the dishwasher, clean the kitchen</demo>
+        <intent>(get rid of any leftover food), (put dishes in the dishwasher), (clean the kitchen)</intent>
+        <pattern>^(get rid.*food), (put.*dishes.*dishwasher), (clean.*kitchen)$</pattern>
+    </rule>
+    <rule>
+        <demo>retrieve the necessary ingredients, chop them up, and put them in the pot</demo>
+        <intent>(retrieve the necessary ingredients), (chop them up), and (put them in the pot)</intent>
+        <pattern>^(retrieve.*) (chop.*) and (put.*pot)$</pattern>
+    </rule>
+    <rule>
+        <demo>put the ingredients in place and start the mixing process</demo>
+        <intent>(put the ingredients in place) and (start the mixing process)</intent>
+        <pattern>^(put.*ingredients.*place) and (start.*mixing.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the ingredients, clean the ingredients, and then start cooking</demo>
+        <intent>(grab the ingredients), (clean the ingredients), and then (start cooking)</intent>
+        <pattern>^(grab.*), (clean.*), and then (start cooking.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check if the cooking tools are available</demo>
+        <intent>(check if the cooking tools are available)</intent>
+        <pattern>^(check.*cooking.*tools.*available)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare the food, cut it into appropriately sized pieces, and then start cooking</demo>
+        <intent>(prepare the food), (cut it into appropriately sized pieces), and then (start cooking)</intent>
+        <pattern>^(prepare.*) (cut.*appropriately.*pieces), and then (start.*cooking)$</pattern>
+    </rule>
+    <rule>
+        <demo>request human intervention when encountering obstacles or safety hazards</demo>
+        <intent>(request human intervention) when (encountering obstacles or safety hazards)</intent>
+        <pattern>^(request.*)when (encountering.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare the necessary ingredients and execute the cooking steps in sequence to complete the dish</demo>
+        <intent>(prepare the necessary ingredients) and (execute the cooking steps) (in sequence) to (complete the dish)</intent>
+        <pattern>^(prepare.*) and (execute.*) (in sequence) to (complete.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the state of the food preparation and the correct positioning of the food, and then start cooking.
+        </demo>
+        <intent>(check the state of the food preparation) and (the correct positioning of the food), and then (start cooking)</intent>
+        <pattern>^(check.*)and (the correct positioning of the food), and then (start cooking.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare the food according to the recipe and interrupt the operation when encountering obstacles</demo>
+        <intent>(prepare the food) according to the recipe and (interrupt the operation) (when encountering obstacles)</intent>
+        <pattern>^(prepare.*) according to the recipe and (interrupt.*) (when.*obstacles)$</pattern>
+    </rule>
+    <rule>
+        <demo>position the cooking pot and turn on the stove</demo>
+        <intent>(position the cooking pot) and (turn on the stove)</intent>
+        <pattern>^(position.*cooking.*pot) and (turn.*stove)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare the ingredients, cook the dish, and then clean up the kitchen</demo>
+        <intent>(prepare the ingredients), (cook the dish), and then (clean up the kitchen)</intent>
+        <pattern>^(prepare.*), (cook.*), and then (clean.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the temperature of the pan, add oil, and stir-fry the ingredients</demo>
+        <intent>(check the temperature of the pan), (add oil), and (stir-fry the ingredients)</intent>
+        <pattern>^(check.*pan), (add.*), and (stir-fry.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>put the ingredients in the correct order, then add water and sugar, and finally cook on low heat</demo>
+        <intent>(put the ingredients in the correct order), then (add water and sugar), and finally (cook on low heat)</intent>
+        <pattern>^(put.*ingredients.*correct.*order), then (add.*water.*sugar), and finally (cook.*low.*heat)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the availability of cooking utensils, prepare the food ingredients, and then chop the ingredients.
+        </demo>
+        <intent>(check the availability of cooking utensils), (prepare the food ingredients), and then (chop the ingredients)</intent>
+        <pattern>^(check.*), (prepare.*), and then (chop.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare the ingredients, place them in the correct position, and then start the cooking process</demo>
+        <intent>(prepare the ingredients), (place them in the correct position), and then (start the cooking process)</intent>
+        <pattern>^(prepare.*), (place.*), and then (start.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>mix the ingredients together and shape them into balls, then put them in the oven to bake</demo>
+        <intent>(mix the ingredients together) and (shape them into balls), then (put them in the oven to bake)</intent>
+        <pattern>^(mix.*together) and (shape.*balls), then (put.*oven.*bake)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare the pizza crust and add toppings as desired</demo>
+        <intent>(prepare the pizza crust) and (add toppings as desired)</intent>
+        <pattern>^(prepare.*crust.*) and (add.*toppings.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>chop the vegetables, saut&#233; them with oil, and season with salt and pepper</demo>
+        <intent>(chop the vegetables), (saut&#233; them with oil), and (season with salt and pepper)</intent>
+        <pattern>^(chop.*), (saut&#233;.*), and (season with salt and pepper)$</pattern>
+    </rule>
+    <rule>
+        <demo>complete food seasoning and cooking operation in sequence</demo>
+        <intent>(complete food seasoning) and (cooking operation) (in sequence)</intent>
+        <pattern>^(complete.*seasoning) and (cooking.*)(in sequence)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the required food ingredients and then start the cooking operation</demo>
+        <intent>(grab the required food ingredients) and then (start the cooking operation)</intent>
+        <pattern>^(grab.*food.*ingredients) and then (start.*cooking.*operation)$</pattern>
+    </rule>
+    <rule>
+        <demo>check if there is any need for intervention and execute cooking operation accordingly</demo>
+        <intent>(check if there is any need for intervention) and (execute cooking operation accordingly)</intent>
+        <pattern>^(check.*if.*intervention.*) and (execute.*cooking.*operation.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>cut the vegetables and cook them over a low heat</demo>
+        <intent>(cut the vegetables) and (cook them over a low heat)</intent>
+        <pattern>^(cut.*) and (cook.*over.*low.*heat)$</pattern>
+    </rule>
+    <rule>
+        <demo>pour the batter into the pan, cook until bubbly, then flip and cook the other side</demo>
+        <intent>(pour the batter into the pan), (cook until bubbly), then (flip and cook the other side)</intent>
+        <pattern>^(pour.*into.*pan), (cook.*bubbly), then (flip.*cook.*other.*side)$</pattern>
+    </rule>
+    <rule>
+        <demo>check whether the workpiece is in the correct position and ask for assistance if necessary</demo>
+        <intent>(check whether the workpiece is in the correct position) and (ask for assistance) (if necessary)</intent>
+        <pattern>^(check.*workpiece.*correct.*position) and (ask.*assistance)(.*if.*necessary)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the necessary parts and safely use the cooking utensils</demo>
+        <intent>(grab the necessary parts) and (safely use the cooking utensils)</intent>
+        <pattern>^(grab.*parts.*) and (safely use.*cooking utensils)$</pattern>
+    </rule>
+    <rule>
+        <demo>position food correctly, prepare the ingredients, and execute the cooking steps</demo>
+        <intent>(position food correctly), (prepare the ingredients), and (execute the cooking steps)</intent>
+        <pattern>^(position.*food.*), (prepare.*ingredients.*), and (execute.*cooking.*steps)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare the food ingredients before cooking</demo>
+        <intent>(prepare the food ingredients) before (cooking)</intent>
+        <pattern>^(prepare.*ingredients) before (cooking)$</pattern>
+    </rule>
+    <rule>
+        <demo>check that the environment is safe and whether the parts are complete before assembling the parts</demo>
+        <intent>(check that the environment is safe) and (whether the parts are complete) before (assembling the parts)</intent>
+        <pattern>^(check.*environment.*safe) and (whether.*parts.*complete) before (assembling.*parts)$</pattern>
+    </rule>
+    <rule>
+        <demo>cut the vegetables and meat, fry them, and then add the spices</demo>
+        <intent>(cut the vegetables and meat), (fry them), and then (add the spices)</intent>
+        <pattern>^(cut.*vegetables.*meat), (fry.*), and then (add.*spices)$</pattern>
+    </rule>
+    <rule>
+        <demo>boil the water, cook the noodles, and then mix with the sauce</demo>
+        <intent>(boil the water), (cook the noodles), and then (mix with the sauce)</intent>
+        <pattern>^(boil.*), (cook.*), and then (mix.*sauce)$</pattern>
+    </rule>
+    <rule>
+        <demo>check that the food is clean, select the appropriate cooking utensils, and cook the food evenly</demo>
+        <intent>(check that the food is clean), (select the appropriate cooking utensils), and (cook the food evenly)</intent>
+        <pattern>^(check.*food.*clean), (select.*cooking.*utensils), and (cook.*food.*evenly)$</pattern>
+    </rule>
+    <rule>
+        <demo>cut vegetables, prepare seasonings, and then fry them in a pan</demo>
+        <intent>(cut vegetables), (prepare seasonings), and then (fry them in a pan)</intent>
+        <pattern>^(cut.*), (prepare.*), and then (fry.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the temperature and humidity of the oven before putting in the dough to bake</demo>
+        <intent>(check the temperature and humidity of the oven) before (putting in the dough to bake)</intent>
+        <pattern>^(check.*oven) before (putting.*dough.*bake)$</pattern>
+    </rule>
+    <rule>
+        <demo>stir the butter and sugar evenly, then add eggs and flour and mix well</demo>
+        <intent>(stir the butter and sugar evenly), then (add eggs and flour) and (mix well)</intent>
+        <pattern>^(stir.*butter.*sugar.*), then (add.*eggs.*flour.*) and (mix.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare the food, and then cook it</demo>
+        <intent>(prepare the food), and then (cook it)</intent>
+        <pattern>^(prepare.*) and then (cook.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the safety of the environment, and then start cooking</demo>
+        <intent>(check the safety of the environment), and then (start cooking)</intent>
+        <pattern>^(check.*) and then (start.*cooking)$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare the food, and then check if the ingredients are complete</demo>
+        <intent>(prepare the food), and then (check if the ingredients are complete)</intent>
+        <pattern>^(prepare.*) and then (check.*ingredients.*complete)$</pattern>
+    </rule>
+    <rule>
+        <demo>combine the ingredients together according to the recipe and bake for 30 minutes at 350 degrees</demo>
+        <intent>(combine the ingredients together) (according to the recipe) and (bake for 30 minutes) (at 350 degrees)</intent>
+        <pattern>^(combine.*ingredients.*together) (according.*) and (bake.*30 minutes) (at.*350 degrees)$</pattern>
+    </rule>
+    <rule>
+        <demo>position the ingredients and execute the steps</demo>
+        <intent>(position the ingredients) and (execute the steps)</intent>
+        <pattern>^(position.*ingredients) and (execute.*steps)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the parts safely and continue with execution_steps</demo>
+        <intent>(grab the parts) safely and (continue with execution_steps)</intent>
+        <pattern>^(grab.*safely) and (continue.*execution_steps)$</pattern>
+    </rule>
+    <rule>
+        <demo>complete food preparation, then request intervention for guidance</demo>
+        <intent>(complete food preparation), then (request intervention) for guidance</intent>
+        <pattern>^(complete.*preparation), then (request.*intervention) for guidance$</pattern>
+    </rule>
+    <rule>
+        <demo>prepare food and request help simultaneously</demo>
+        <intent>(prepare food) and (request help) (simultaneously)</intent>
+        <pattern>^(prepare.*food) and (request.*help)(.*simultaneously)$</pattern>
+    </rule>
+    <rule>
+        <demo>check if the environment is safe, and if so, execute the cooking steps</demo>
+        <intent>(check if the environment is safe), and if so, (execute the cooking steps)</intent>
+        <pattern>^(check.*environment.*safe), and if so, (execute.*cooking.*steps)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the necessary ingredients and use cooking tools to cook the meal</demo>
+        <intent>(grab the necessary ingredients) and (use cooking tools) to (cook the meal)</intent>
+        <pattern>^(grab.*ingredients) and (use.*tools) to (cook.*meal)$</pattern>
+    </rule>
+    <rule>
+        <demo>check if the dishwasher is full, start the dishwasher, and wait for the washing cycle to complete</demo>
+        <intent>(check if the dishwasher is full), (start the dishwasher), and (wait for the washing cycle to complete)</intent>
+        <pattern>^(check.*dishwasher.*full), (start.*dishwasher), and (wait.*washing.*complete)$</pattern>
+    </rule>
+    <rule>
+        <demo>put all the ingredients into the pot according to the recipe, and turn on the fire</demo>
+        <intent>(put all the ingredients into the pot) according to the recipe, and (turn on the fire)</intent>
+        <pattern>^(put.*ingredients.*pot.*) according to the recipe, and (turn.*fire)$</pattern>
+    </rule>
+    <rule>
+        <demo>check if the water has boiled</demo>
+        <intent>(check if the water has boiled)</intent>
+        <pattern>^(check.*water.*boiled)$</pattern>
+    </rule>
+    <rule>
+        <demo>place the fish head on the tray and add appropriate seasoning</demo>
+        <intent>(place the fish head) on the tray and (add appropriate seasoning)</intent>
+        <pattern>^(place.*fish.*head) on the tray and (add.*appropriate.*seasoning)$</pattern>
+    </rule>
+    <rule>
+        <demo>stir the soup and adjust the seasoning according to taste</demo>
+        <intent>(stir the soup) and (adjust the seasoning) (according to taste)</intent>
+        <pattern>^(stir.*) and (adjust.*) (according.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>move the package to the target position, and then place it correctly</demo>
+        <intent>(move the package) to (the target position), and then (place it correctly)</intent>
+        <pattern>^(move.*to.*) (the target position), and then (place.*correctly)$</pattern>
+    </rule>
+    <rule>
+        <demo>check if the environment is safe, then execute a sequence of correct_positioning and place_package</demo>
+        <intent>(check if the environment is safe), then (execute a sequence of correct_positioning) and (place_package)</intent>
+        <pattern>^(check.*environment.*safe), then (execute.*correct_positioning) and (place_package)$</pattern>
+    </rule>
+    <rule>
+        <demo>sort all the packages before moving them to the next location</demo>
+        <intent>(sort all the packages) before (moving them to the next location)</intent>
+        <pattern>^(sort.*packages.*) before (moving.*next.*location)$</pattern>
+    </rule>
+    <rule>
+        <demo>detect and classify the packages before moving them to the next location</demo>
+        <intent>(detect and classify the packages) before (moving them to the next location)</intent>
+        <pattern>^(detect.*classify.*) before (moving.*next location)$</pattern>
+    </rule>
+    <rule>
+        <demo>pick up the package and place it in the correct position, then assemble all necessary parts</demo>
+        <intent>(pick up the package) and (place it in the correct position), then (assemble all necessary parts)</intent>
+        <pattern>^(pick.*up.*) and (place.*in.*correct.*position), then (assemble.*all.*necessary.*parts)$</pattern>
+    </rule>
+    <rule>
+        <demo>move the package to the specified location and then notify the exception</demo>
+        <intent>(move the package to the specified location) and then (notify the exception)</intent>
+        <pattern>^(move.*package.*specified.*location) and then (notify.*exception)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the package and move it to the specified location in parallel</demo>
+        <intent>(grab the package) and (move it to the specified location) (in parallel)</intent>
+        <pattern>^(grab.*) and (move.*to.*location) (in parallel)$</pattern>
+    </rule>
+    <rule>
+        <demo>complete the target location, and then notify the exception</demo>
+        <intent>(complete the target location), and then (notify the exception)</intent>
+        <pattern>^(complete.*target.*location), and then (notify.*exception)$</pattern>
+    </rule>
+    <rule>
+        <demo>request help for moving the package, and then execute the route plan</demo>
+        <intent>(request help for moving the package), and then (execute the route plan)</intent>
+        <pattern>^(request.*help.*) and then (execute.*route.*plan)$</pattern>
+    </rule>
+    <rule>
+        <demo>collect all packages from the left shelf and stack in the designated area</demo>
+        <intent>(collect all packages from the left shelf) and (stack in the designated area)</intent>
+        <pattern>^(collect.*packages.*from.*left.*shelf) and (stack.*designated.*area)$</pattern>
+    </rule>
+    <rule>
+        <demo>inspect the incoming packages to determine the type of each</demo>
+        <intent>(inspect the incoming packages) to determine (the type of each)</intent>
+        <pattern>^(inspect.*) to determine (the type.*each)$</pattern>
+    </rule>
+    <rule>
+        <demo>then sort into separate containers</demo>
+        <intent>(then sort) into (separate containers)</intent>
+        <pattern>^(then sort.*) into (separate.*containers)$</pattern>
+    </rule>
+    <rule>
+        <demo>recognize the type of package and then process it</demo>
+        <intent>(recognize the type of package) and then (process it)</intent>
+        <pattern>^(recognize.*)and then (process.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>identify the package type, and then place it in the correct position</demo>
+        <intent>(identify the package type), and then (place it in the correct position)</intent>
+        <pattern>^(identify.*) and then (place.*correct.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the environment safety, and then grab the package if it is safe</demo>
+        <intent>(check the environment safety), and then (grab the package) (if it is safe)</intent>
+        <pattern>^(check.*environment.*safety), and then (grab.*package) (if.*safe)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the package type and confirm the location for package placement before placing it</demo>
+        <intent>(check the package type) and (confirm the location for package placement) before (placing it)</intent>
+        <pattern>^(check.*package.*) and (confirm.*location.*package.*placement) before (placing.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>move the object to the designated position and notify the completion</demo>
+        <intent>(move the object to the designated position) and (notify the completion)</intent>
+        <pattern>^(move.*object.*designated.*) and (notify.*completion)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the object and move it to the designated position simultaneously</demo>
+        <intent>(grab the object) and (move it to the designated position) (simultaneously)</intent>
+        <pattern>^(grab.*object) and (move.*designated.*position) (simultaneously)$</pattern>
+    </rule>
+    <rule>
+        <demo>check whether the environment is safe and, if so, move the objects to the designated location</demo>
+        <intent>(check whether the environment is safe) and, (if so), (move the objects to the designated location)</intent>
+        <pattern>^(check.*environment.*safe.*) and, (if.*), (move.*objects.*designated.*location)$</pattern>
+    </rule>
+    <rule>
+        <demo>interrupt the current operation when an exception occurs and notify the supervisor</demo>
+        <intent>(interrupt the current operation) (when an exception occurs) and (notify the supervisor)</intent>
+        <pattern>^(interrupt.*)(occurs.*)and (notify.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the necessary parts and place them at the target location</demo>
+        <intent>(grab the necessary parts) and (place them at the target location)</intent>
+        <pattern>^(grab.*parts.*) and (place.*at.*target.*location)$</pattern>
+    </rule>
+    <rule>
+        <demo>select the correct package type and move it to the target location safely</demo>
+        <intent>(select the correct package type) and (move it to the target location safely)</intent>
+        <pattern>^(select.*package.*) and (move.*target.*safely)$</pattern>
+    </rule>
+    <rule>
+        <demo>inspect the packages for handling and notify exceptions as necessary</demo>
+        <intent>(inspect the packages for handling) and (notify exceptions) (as necessary)</intent>
+        <pattern>^(inspect.*packages.*handling.*) and (notify.*exceptions.*) (as.*necessary)$</pattern>
+    </rule>
+    <rule>
+        <demo>move the package to the designated location</demo>
+        <intent>(move the package) to (the designated location)</intent>
+        <pattern>^(move.*to.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check if the package is damaged, if not, continue to move the package</demo>
+        <intent>(check if the package is damaged), (if not), (continue to move the package)</intent>
+        <pattern>^(check.*package.*damaged), (if.*), (continue.*move.*package)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the package and check if there are any hazardous and obstacles in the environment before proceeding
+        </demo>
+        <intent>(grab the package) and (check if there are any hazardous and obstacles in the environment) before proceeding</intent>
+        <pattern>^(grab.*) and (check.*hazardous.*obstacles.*) before proceeding$</pattern>
+    </rule>
+    <rule>
+        <demo>detect the item type, and then place it in the corresponding position</demo>
+        <intent>(detect the item type), and then (place it in the corresponding position)</intent>
+        <pattern>^(detect.*) and then (place.*corresponding position)$</pattern>
+    </rule>
+    <rule>
+        <demo>detect any obstacles, if encountered, interrupt the operation and report the exception</demo>
+        <intent>(detect any obstacles), (if encountered), (interrupt the operation) and (report the exception)</intent>
+        <pattern>^(detect.*obstacles), (if.*), (interrupt.*) and (report.*exception)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the weight of the package and adjust the position if necessary</demo>
+        <intent>(check the weight of the package) and (adjust the position) (if necessary)</intent>
+        <pattern>^(check.*weight.*) and (adjust.*position.*) (if.*necessary)$</pattern>
+    </rule>
+    <rule>
+        <demo>move the package to the safe area and notify of any safety hazards</demo>
+        <intent>(move the package) to (the safe area) and (notify) of (any safety hazards)</intent>
+        <pattern>^(move.*to.*the safe area) and (notify.*of.*any safety hazards)$</pattern>
+    </rule>
+    <rule>
+        <demo>detect any package defects and notify of any exceptions encountered during the assembly process</demo>
+        <intent>(detect any package defects) and (notify of any exceptions encountered during the assembly process)</intent>
+        <pattern>^(detect.*package.*defects) and (notify.*exceptions.*encountered.*assembly.*process)$</pattern>
+    </rule>
+    <rule>
+        <demo>transport the package to the target position while checking for environmental safety</demo>
+        <intent>(transport the package) to the (target position) (while checking for environmental safety)</intent>
+        <pattern>^(transport.*to.*target.*) (while.*environmental.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the package's safety and type, and then execute route_plan</demo>
+        <intent>(check the package's safety) and (type), and then (execute route_plan)</intent>
+        <pattern>^(check.*package's.*safety.*) and (type.*), and then (execute.*route_plan)$</pattern>
+    </rule>
+    <rule>
+        <demo>send a notification to report an exception and interrupt the operation</demo>
+        <intent>(send a notification) to (report an exception) and (interrupt the operation)</intent>
+        <pattern>^(send.*notification) to (report.*exception) and (interrupt.*operation)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the safety of the environment, then grab the package and assemble the parts</demo>
+        <intent>(check the safety of the environment), then (grab the package) and (assemble the parts)</intent>
+        <pattern>^(check.*), then (grab.*)and (assemble.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the package, and then assemble the package after confirming the package type</demo>
+        <intent>(grab the package), and then (assemble the package) (after confirming the package type)</intent>
+        <pattern>^(grab.*) and then (assemble.*) (after confirming.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>move the package, check if the environment is safe, and then place the package</demo>
+        <intent>(move the package), (check if the environment is safe), and then (place the package)</intent>
+        <pattern>^(move.*) (check.*environment.*safe), and then (place.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>first check for envs_safety and package_type, then perform package grab and route plan</demo>
+        <intent>(first check for envs_safety) and (package_type), then (perform package grab) and (route plan)</intent>
+        <pattern>^(first check.*envs_safety) and (package_type.*), then (perform.*package grab.*) and (route.*plan.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the component safely, and then use route planning to move it to the designated location</demo>
+        <intent>(grab the component safely), and then (use route planning) to (move it to the designated location)</intent>
+        <pattern>^(grab.*safely), and then (use.*route planning) to (move.*designated location)$</pattern>
+    </rule>
+    <rule>
+        <demo>transport the package to the designated location safely and smoothly</demo>
+        <intent>(transport the package) to the (designated location) (safely and smoothly)</intent>
+        <pattern>^(transport.*to.*designated.*safely.*smoothly)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the package type and detect any obstacles before moving the package to its destination</demo>
+        <intent>(check the package type) and (detect any obstacles) before (moving the package to its destination)</intent>
+        <pattern>^(check.*package.*) and (detect.*obstacles.*) before (moving.*package.*destination)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the available space and ensure safety before moving the package</demo>
+        <intent>(check the available space) and (ensure safety) before (moving the package)</intent>
+        <pattern>^(check.*space) and (ensure.*) before (moving.*package)$</pattern>
+    </rule>
+    <rule>
+        <demo>after grabbing the package, if there is an obstacle, wait or ask for help</demo>
+        <intent>(after grabbing the package), (if there is an obstacle), (wait or ask for help)</intent>
+        <pattern>^(after grabbing.*), (if.*), (wait.*|ask.*help)$</pattern>
+    </rule>
+    <rule>
+        <demo>if not, notify an exception</demo>
+        <intent>(if not), (notify an exception)</intent>
+        <pattern>^(if not), (notify.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>identify the target location and move the package there simultaneously</demo>
+        <intent>(identify the target location) and (move the package there) (simultaneously)</intent>
+        <pattern>^(identify.*target.*) and (move.*package.*there) (simultaneously)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the environment safety, then execute the route plan to the target location</demo>
+        <intent>(check the environment safety), then (execute the route plan) to the target location</intent>
+        <pattern>^(check.*), then (execute.*route.*plan) to the target location$</pattern>
+    </rule>
+    <rule>
+        <demo>position the package correctly and then execute route planning to reach the destination</demo>
+        <intent>(position the package correctly) and then (execute route planning) to reach the destination</intent>
+        <pattern>^(position.*package.*correctly) and then (execute.*route.*planning) to reach the destination$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the package and interrupt the operation if necessary</demo>
+        <intent>(grab the package) and (interrupt the operation) (if necessary)</intent>
+        <pattern>^(grab.*) and (interrupt.*)(if.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the environment safety and then send a notification of the exception</demo>
+        <intent>(check the environment safety) and then (send a notification of the exception)</intent>
+        <pattern>^(check.*environment.*safety) and then (send.*notification.*exception)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the location of the package, and then place it in the correct position</demo>
+        <intent>(check the location of the package), and then (place it in the correct position)</intent>
+        <pattern>^(check.*), and then (place.*correct.*position)$</pattern>
+    </rule>
+    <rule>
+        <demo>check that the package is positioned correctly, and then assemble the parts</demo>
+        <intent>(check that the package is positioned correctly), and then (assemble the parts)</intent>
+        <pattern>^(check.*package.*positioned.*), and then (assemble.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>collect the box, open it, extract the goods, and inspect the product quality</demo>
+        <intent>(collect the box), (open it), (extract the goods), and (inspect the product quality)</intent>
+        <pattern>^(collect.*) (open.*) (extract.*) and (inspect.*product.*quality)$</pattern>
+    </rule>
+    <rule>
+        <demo>check object location, determine availability, and notify exceptions</demo>
+        <intent>(check object location), (determine availability), and (notify exceptions)</intent>
+        <pattern>^(check.*), (determine.*), and (notify.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>carry out the necessary route planning and sound an alarm when an emergency occurs</demo>
+        <intent>(carry out the necessary route planning) and (sound an alarm) (when an emergency occurs)</intent>
+        <pattern>^(carry.*route.*planning) and (sound.*alarm) (when.*emergency.*occurs)$</pattern>
+    </rule>
+    <rule>
+        <demo>correctly position the package to ensure safety and stability</demo>
+        <intent>(correctly position the package) to ensure (safety and stability)</intent>
+        <pattern>^(correctly position.*) to ensure (safety.*stability)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the necessary parts and assemble them in order to complete the package assembly</demo>
+        <intent>(grab the necessary parts) and (assemble them) in order to (complete the package assembly)</intent>
+        <pattern>^(grab.*) and (assemble.*)(in order to.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>move the package to the designated position while ensuring the environment safety</demo>
+        <intent>(move the package) to (the designated position) (while ensuring the environment safety)</intent>
+        <pattern>^(move.*to.*) (while ensuring.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the package status, plan the optimal route, and execute</demo>
+        <intent>(check the package status), (plan the optimal route), and (execute)</intent>
+        <pattern>^(check.*), (plan.*), and (execute.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>scan the package and identify its type, and then move the package to the target location</demo>
+        <intent>(scan the package) and (identify its type), and then (move the package) to the (target location)</intent>
+        <pattern>^(scan.*) and (identify.*) and then (move.*) to the (target.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>move package to target location and request assistance if necessary</demo>
+        <intent>(move package to target location) and (request assistance) (if necessary)</intent>
+        <pattern>^(move.*package.*to.*target.*location) and (request.*assistance)(.*if.*necessary)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the package and execute the route planning</demo>
+        <intent>(grab the package) and (execute the route planning)</intent>
+        <pattern>^(grab.*) and (execute.*route.*planning)$</pattern>
+    </rule>
+    <rule>
+        <demo>find the package, get the package, move to the target location, and place the package</demo>
+        <intent>(find the package), (get the package), (move to the target location), and (place the package)</intent>
+        <pattern>^(find.*) (get.*) (move.*target.*) and (place.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>get the package and interrupt the operation if the environment is unsafe</demo>
+        <intent>(get the package) and (interrupt the operation) (if the environment is unsafe)</intent>
+        <pattern>^(get.*) and (interrupt.*) (if.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>assemble the items in the correct order and place them in the target location</demo>
+        <intent>(assemble the items) (in the correct order) and (place them) (in the target location)</intent>
+        <pattern>^(assemble.*items.*) (in.*order) and (place.*) (in.*target.*location)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the package, and then place it in the correct location while ensuring environmental safety</demo>
+        <intent>(grab the package), and then (place it in the correct location) (while ensuring environmental safety)</intent>
+        <pattern>^(grab.*), and then (place.*)(ensuring.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the package status, confirm the environment safety, and then assemble the parts</demo>
+        <intent>(check the package status), (confirm the environment safety), and then (assemble the parts)</intent>
+        <pattern>^(check.*package.*status), (confirm.*environment.*safety), and then (assemble.*parts)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the surrounding environment and package type, then proceed to the next operation</demo>
+        <intent>(check the surrounding environment) and (package type), then (proceed to the next operation)</intent>
+        <pattern>^(check.*surrounding.*) and (package.*), then (proceed.*next.*operation)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the package type and then grab it</demo>
+        <intent>(check the package type) and then (grab it)</intent>
+        <pattern>^(check.*package.*) and then (grab.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>move the package to the target location as quickly as possible when there is no obstacle or danger</demo>
+        <intent>(move the package) to (the target location) (as quickly as possible) (when there is no obstacle or danger)</intent>
+        <pattern>^(move.*to.*) (as quickly.*possible) (when.*no obstacle.*danger)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the package and place it at the target location without any damage</demo>
+        <intent>(grab the package) and (place it at the target location) without any damage</intent>
+        <pattern>^(grab.*) and (place.*at.*) without any damage$</pattern>
+    </rule>
+    <rule>
+        <demo>check if the environment is safe, and then grab the package</demo>
+        <intent>(check if the environment is safe), and then (grab the package)</intent>
+        <pattern>^(check.*environment.*safe), and then (grab.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the package type, and then assemble the package</demo>
+        <intent>(check the package type), and then (assemble the package)</intent>
+        <pattern>^(check.*package.*), and then (assemble.*package)$</pattern>
+    </rule>
+    <rule>
+        <demo>plan the best route to the target location and check the environment safety simultaneously</demo>
+        <intent>(plan the best route to the target location) and (check the environment safety) (simultaneously)</intent>
+        <pattern>^(plan.*route.*) and (check.*environment.*safety)(.*simultaneously)$</pattern>
+    </rule>
+    <rule>
+        <demo>pick up the appropriate package from the shelf, and place it carefully on the conveyor belt</demo>
+        <intent>(pick up the appropriate package) from the shelf, and (place it carefully) on the conveyor belt</intent>
+        <pattern>^(pick.*package.*) from the shelf, and (place.*carefully.*) on the conveyor belt$</pattern>
+    </rule>
+    <rule>
+        <demo>check the package type, and then route to the correct destination</demo>
+        <intent>(check the package type), and then (route to the correct destination)</intent>
+        <pattern>^(check.*package.*), and then (route.*correct.*destination)$</pattern>
+    </rule>
+    <rule>
+        <demo>interrupt the operation immediately if there is an obstacle, and then notify the exception</demo>
+        <intent>(interrupt the operation immediately) if (there is an obstacle), and then (notify the exception)</intent>
+        <pattern>^(interrupt.*immediately) if (there.*obstacle), and then (notify.*exception)$</pattern>
+    </rule>
+    <rule>
+        <demo>move the package from the original location to the target location within a given time limit</demo>
+        <intent>(move the package) (from the original location) (to the target location) (within a given time limit)</intent>
+        <pattern>^(move.*)(from.*)(to.*)(within.*time.*limit)$</pattern>
+    </rule>
+    <rule>
+        <demo>retrieve parts from the designated storage location with the help of the arm or fixture</demo>
+        <intent>(retrieve parts) from the designated storage location (with the help of the arm or fixture)</intent>
+        <pattern>^(retrieve.*) from the designated storage location (with the help.*|fixture)$</pattern>
+    </rule>
+    <rule>
+        <demo>move the package to the target location and check whether there are obstacles along the way</demo>
+        <intent>(move the package to the target location) and (check whether there are obstacles along the way)</intent>
+        <pattern>^(move.*package.*target.*location) and (check.*obstacles.*way)$</pattern>
+    </rule>
+    <rule>
+        <demo>sort the packages by type, and then put them into different boxes</demo>
+        <intent>(sort the packages by type), and then (put them into different boxes)</intent>
+        <pattern>^(sort.*packages.*type), and then (put.*into.*different.*boxes)$</pattern>
+    </rule>
+    <rule>
+        <demo>perform a safe route plan to reach the target location and move the package there</demo>
+        <intent>(perform a safe route plan) to (reach the target location) and (move the package there)</intent>
+        <pattern>^(perform.*route.*plan) to (reach.*target.*location) and (move.*package.*there)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the position of the package, and then grab it if it is in the correct position</demo>
+        <intent>(check the position of the package), and then (grab it) (if it is in the correct position)</intent>
+        <pattern>^(check.*position.*) and then (grab.*) (if.*correct.*position)$</pattern>
+    </rule>
+</root>

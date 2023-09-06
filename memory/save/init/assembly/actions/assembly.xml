@@ -1,0 +1,28 @@
+<root>
+    <action name="assembly">
+        <explanation>assembling specific parts into predetermined positions</explanation>
+        <synonyms>integration</synonyms>
+        <synonyms>assembling</synonyms>
+        <synonyms>construction</synonyms>
+        <synonyms>fabrication</synonyms>
+        <synonyms>building</synonyms>
+        <synonyms>composition</synonyms>
+        <synonyms>joining</synonyms>
+        <synonyms>fitting</synonyms>
+        <synonyms>mounting</synonyms>
+        <synonyms>part integration</synonyms>
+        <synonyms>component assembly</synonyms>
+        <synonyms>piece joining</synonyms>
+        <synonyms>unit construction</synonyms>
+        <synonyms>element integration</synonyms>
+        <synonyms>module assembly</synonyms>
+        <synonyms>item joining</synonyms>
+        <synonyms>segment assembly</synonyms>
+        <synonyms>section integration</synonyms>
+        <synonyms>assemble the parts</synonyms>
+        <synonyms>assemble it</synonyms>
+        <synonyms>element assembly</synonyms>
+        <pattern>^(part|component|piece|unit|element).*(integration|assembly|joining|construction)$</pattern>
+        <pattern>^(assembl|join|integrat|construct|integrat).*(part|component|piece|unit|element|section|item|segment|it|module)</pattern>
+    </action>
+</root>

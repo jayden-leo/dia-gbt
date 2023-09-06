@@ -1,0 +1,15 @@
+<root>
+    <action name="grab">
+        <explanation>use the appropriate method to grab the selected object to complete the grabbing task</explanation>
+        <synonyms>grasp</synonyms>
+        <synonyms>grip</synonyms>
+        <synonyms>clutch</synonyms>
+        <synonyms>capture</synonyms>
+        <synonyms>hold onto</synonyms>
+        <synonyms>snatch</synonyms>
+        <synonyms>take hold</synonyms>
+        <synonyms>seize</synonyms>
+        <pattern>(grasp.*?|seiz.*?|grip.*?|clutch.*?|captur.*?|grab.*?|snatch.*?)</pattern>
+        <pattern>(hold.*?|take.*?).*(onto|hold)</pattern>
+    </action>
+</root>

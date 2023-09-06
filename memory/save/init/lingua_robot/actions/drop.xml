@@ -1,0 +1,15 @@
+<root>
+    <action name="drop">
+        <explanation>placing objects on the ground in a safe manner so that the objects do not become damaged or pose a hazard</explanation>
+        <synonyms>place down</synonyms>
+        <synonyms>set down</synonyms>
+        <synonyms>position</synonyms>
+        <synonyms>lay down</synonyms>
+        <synonyms>place items</synonyms>
+        <synonyms>unload</synonyms>
+        <synonyms>set aside</synonyms>
+        <synonyms>release</synonyms>
+        <pattern>drop.*?</pattern>
+        <pattern>(plac.*?|set.*?|lay.*?).*(down|items|aside)</pattern>
+    </action>
+</root>

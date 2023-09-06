@@ -1,0 +1,15 @@
+<root>
+    <condition name="step_complete_detection">
+        <explanation>step-by-step checks that each task step has been completed to ensure that the task is running smoothly as planned</explanation>
+        <synonyms>confirm previous action is done</synonyms>
+        <synonyms>check if previous phase is finished</synonyms>
+        <synonyms>validate completion of preceding task</synonyms>
+        <synonyms>ensure completion of previous stage</synonyms>
+        <synonyms>examine status of prior step</synonyms>
+        <synonyms>ascertain completion of earlier phase</synonyms>
+        <synonyms>inspect readiness of prior step</synonyms>
+        <synonyms>verify accomplishment of previous action</synonyms>
+        <pattern>^(verify|confirm|check|ascert).*(previous|preced|earlier|prior).*(action|task|phase|step)</pattern>
+        <pattern>^(validat|ensur|examin|inspect).*(previous|preced|earlier|prior).*(action|task|phase|step)</pattern>
+    </condition>
+</root>

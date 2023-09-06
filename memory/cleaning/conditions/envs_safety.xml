@@ -1,0 +1,18 @@
+<root>
+    <condition name="envs_safety">
+        <explanation>assess your surroundings for potential hazards or obstacles</explanation>
+        <synonyms>environmental security check</synonyms>
+        <synonyms>safety assessment of surroundings</synonyms>
+        <synonyms>security verification in environment</synonyms>
+        <synonyms>safety detection of environment</synonyms>
+        <synonyms>surroundings safety evaluation</synonyms>
+        <synonyms>security inspection of environment</synonyms>
+        <synonyms>environmental hazard assessment</synonyms>
+        <synonyms>safety analysis of surroundings</synonyms>
+        <synonyms>environment security scrutiny</synonyms>
+        <synonyms>if the environment is unsafe</synonyms>
+        <synonyms>Scan the Environment</synonyms><synonyms>check if there are any obstacles or dangerous items in the area</synonyms><synonyms>check the surroundings</synonyms><synonyms>if there are unsafe conditions or dangerous materials</synonyms><synonyms>if a hazard or obstacle is detected</synonyms><synonyms>check for safety hazards</synonyms><synonyms>safety</synonyms><synonyms>ensure the safety of the environment</synonyms><synonyms>check for the presence of hazardous materials</synonyms><synonyms>check for obstacles</synonyms><synonyms>confirm the environment is safe</synonyms><synonyms>if there is a dangerous object</synonyms><synonyms>scan the obstacles in the environment</synonyms><synonyms>inspect the environment safety</synonyms><synonyms>check if there is any danger around</synonyms><synonyms>check that there is no obstacle in the working area</synonyms><synonyms>possible hazards and obstacles</synonyms><synonyms>confirm environmental safety</synonyms><synonyms>check environment dangers</synonyms><synonyms>check for safety</synonyms><synonyms>if there is a safety hazard in the environment</synonyms><synonyms>encountering dangerous items</synonyms><synonyms>check that the area is safe and accessible</synonyms><synonyms>assessment of environmental well-being</synonyms>
+        <pattern>^(check|assess|detect|evaluat).*(environment|surrounding)$</pattern>
+        <pattern>^(inspect|safe.*analysis).*(environment|surrounding)$</pattern>
+    </condition>
+</root>

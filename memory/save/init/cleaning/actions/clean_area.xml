@@ -1,0 +1,16 @@
+<root>
+    <condition name="clean_area">
+         <explanation>clean up in accordance with the specified requirements to remove debris, dirt, etc. in the specified area</explanation>
+         <synonyms>tidying space</synonyms>
+         <synonyms>sanitizing zone</synonyms>
+         <synonyms>scrubbing region</synonyms>
+         <synonyms>cleansing spot</synonyms>
+         <synonyms>purifying vicinity</synonyms>
+         <synonyms>washing territory</synonyms>
+         <synonyms>maintaining area</synonyms>
+         <synonyms>tidying up space</synonyms>
+         <synonyms>disinfecting locale</synonyms>
+         <pattern>^(tidy|sanitiz|scrubb|cleans).*(space|zone|region|vicinity|territory|area|locale)</pattern>
+         <pattern>^(disinfect|tidy|maintain|wash).*(space|zone|region|vicinity|territory|area|locale)</pattern>
+    </condition>
+</root>

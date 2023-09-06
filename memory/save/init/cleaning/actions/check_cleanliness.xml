@@ -1,0 +1,16 @@
+<root>
+    <condition name="check_cleanliness">
+        <explanation>inspect the cleanliness of cleaned areas or objects to verify that predetermined standards of cleanliness are met</explanation>
+        <synonyms>inspect tidiness</synonyms>
+        <synonyms>verify cleanliness</synonyms>
+        <synonyms>examine hygiene</synonyms>
+        <synonyms>assess neatness</synonyms>
+        <synonyms>evaluate cleanliness</synonyms>
+        <synonyms>review sanitation</synonyms>
+        <synonyms>scrutinize cleanness</synonyms>
+        <synonyms>gauge tidiness</synonyms>
+        <synonyms>check hygiene</synonyms>
+        <pattern>^(inspect|verify|examin|assess|check).*(tidiness|cleanliness|hygiene|neatness|sanitation)</pattern>
+        <pattern>^(evaluat|review|scrutiniz|gaug).*(tidiness|cleanliness|hygiene|neatness|sanitation)</pattern>
+    </condition>
+</root>

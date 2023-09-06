@@ -1,0 +1,26 @@
+<root>
+    <condition name="part_status">
+        <explanation>determining the class or type the package belongs to, e.g. identifying fragile items, documents, etc</explanation>
+        <synonyms>view package type</synonyms>
+        <synonyms>examine package category</synonyms>
+        <synonyms>inspect parcel classification</synonyms>
+        <synonyms>check package class</synonyms>
+        <synonyms>observe parcel variety</synonyms>
+        <synonyms>browse package kind</synonyms>
+        <synonyms>visit package genre</synonyms>
+        <synonyms>review package grouping</synonyms>
+        <synonyms>package type</synonyms>
+        <synonyms>recognize the type of package</synonyms>
+        <synonyms>detect the package type</synonyms>
+        <synonyms>if the package type is correct</synonyms>
+        <synonyms>select the correct package type</synonyms>
+        <synonyms>identify the package type</synonyms>
+        <synonyms>sort different types of packages</synonyms>
+        <synonyms>choose the correct package type</synonyms>
+        <synonyms>the type of the package</synonyms>
+        <synonyms>confirm the package is not damaged</synonyms>
+        <synonyms>the status of the parts</synonyms><synonyms>confirm the package type</synonyms>
+        <pattern>^(view|examin|inspect|check|observ|brows|choos).*(type|catefory|classification|class|variety|kind|genre|group)</pattern>
+        <pattern>^(visit|review|recogniz|detect|identify|sort|confirm).*(type|catefory|classification|class|variety|kind|genre|group)</pattern>
+    </condition>
+</root>

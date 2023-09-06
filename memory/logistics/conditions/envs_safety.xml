@@ -1,0 +1,18 @@
+<root>
+    <condition name="envs_safety">
+        <explanation>assess your surroundings for potential hazards or obstacles</explanation>
+        <synonyms>environmental security check</synonyms>
+        <synonyms>safety assessment of surroundings</synonyms>
+        <synonyms>security verification in environment</synonyms>
+        <synonyms>safety detection of environment</synonyms>
+        <synonyms>surroundings safety evaluation</synonyms>
+        <synonyms>security inspection of environment</synonyms>
+        <synonyms>environmental hazard assessment</synonyms>
+        <synonyms>safety analysis of surroundings</synonyms>
+        <synonyms>environment security scrutiny</synonyms>
+        <synonyms>if the environment is unsafe</synonyms>
+        <synonyms>encountering obstacles or dangerous situations</synonyms><synonyms>check if the environment is safe</synonyms><synonyms>there is no environmental safety issue</synonyms><synonyms>keep the package safe</synonyms><synonyms>if it is safe</synonyms><synonyms>detect any obstacles</synonyms><synonyms>any safety hazards</synonyms><synonyms>while checking for environmental safety</synonyms><synonyms>safely</synonyms><synonyms>check if there are obstacles</synonyms><synonyms>the environment safety status</synonyms><synonyms>confirm the safety of the environment</synonyms><synonyms>performing safety checks</synonyms><synonyms>check for the presence of dangerous goods</synonyms><synonyms>ensure safety</synonyms><synonyms>check whether the target location is safe</synonyms><synonyms>while ensuring the environment safety</synonyms><synonyms>detect whether there are any dangerous substances or obstacles</synonyms><synonyms>confirming safety</synonyms><synonyms>when there is no obstacle or danger</synonyms><synonyms>avoiding obstacles</synonyms><synonyms>assessment of environmental well-being</synonyms>
+        <pattern>^(check|assess|detect|evaluat).*(environment|surrounding)$</pattern>
+        <pattern>^(inspect|safe.*analysis).*(environment|surrounding)$</pattern>
+    </condition>
+</root>

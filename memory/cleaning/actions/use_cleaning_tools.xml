@@ -1,0 +1,15 @@
+<root>
+    <condition name="use_cleaning_tools">
+        <explanation>select the appropriate cleaning tools during the cleaning process and use them correctly to complete the cleaning task</explanation>
+        <synonyms>utilizing cleaning implement</synonyms>
+        <synonyms>employing cleaning utensil</synonyms>
+        <synonyms>using sanitation tool</synonyms>
+        <synonyms>applying cleaning equipment</synonyms>
+        <synonyms>making use of cleaning instrument</synonyms>
+        <synonyms>leveraging cleaning device</synonyms>
+        <synonyms>using cleanliness tool</synonyms>
+        <synonyms>employing hygiene utensil</synonyms>
+        <synonyms>Pick Up Cleaning Tools</synonyms><synonyms>the appropriate cleaning tools</synonyms><synonyms>grab the necessary cleaning tools</synonyms><synonyms>assemble the appropriate cleaning tools</synonyms><synonyms>using them for cleaning</synonyms><synonyms>add detergent</synonyms><synonyms>whether the cleaning tool is appropriate</synonyms><synonyms>utilizing cleansing appliance</synonyms>
+        <pattern>^(utiliz|employ|using?|apply|mak|leverag).*(implement|utensil|tool|equipment|instrument|device|appliance)</pattern>
+    </condition>
+</root>

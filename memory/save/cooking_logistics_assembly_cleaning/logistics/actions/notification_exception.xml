@@ -1,0 +1,14 @@
+<root>
+    <action name="notification_exception">
+        <explanation>send notifications or alerts when anomalies or specific conditions occur</explanation>
+        <synonyms>notification exception</synonyms>
+        <synonyms>alert anomaly</synonyms>
+        <synonyms>irregular notification</synonyms>
+        <synonyms>exceptional alert</synonyms>
+        <synonyms>abnormal notice</synonyms>
+        <synonyms>notification irregularity</synonyms>
+        <synonyms>out-of-the-ordinary notification</synonyms>
+        <synonyms>notification</synonyms><synonyms>report any exception</synonyms><synonyms>when an exception occurs</synonyms><synonyms>notify the supervisor</synonyms><synonyms>notify</synonyms><synonyms>sound an alarm</synonyms><synonyms>when an emergency occurs</synonyms><synonyms>unusual alert</synonyms>
+        <pattern>^(alert|notif|send|notic).*(notification|exception|alert|completion|hazard)</pattern>
+    </action>
+</root>

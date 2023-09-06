@@ -1,0 +1,20 @@
+<root>
+    <condition name="finish_cooking">
+        <explanation>after the cooking process is complete, the ability to perform finishing tasks such as cleanup and tidying ensures that the kitchen or work area is restored to a tidy state</explanation>
+        <synonyms>complete the entire cooking process</synonyms>
+        <synonyms>finish the entire culinary procedure</synonyms>
+        <synonyms>conclude the entire cooking sequence</synonyms>
+        <synonyms>accomplish the whole cooking procedure</synonyms>
+        <synonyms>wrap up the complete cooking process</synonyms>
+        <synonyms>finalize the entire culinary process</synonyms>
+        <synonyms>successfully complete the entire cooking operation</synonyms>
+        <synonyms>complete the full ingredient preparation</synonyms>
+        <synonyms>fulfill the entire cooking journey</synonyms>
+        <synonyms>when the cooking is complete</synonyms>
+        <synonyms>stop cooking</synonyms>
+        <synonyms>complete cooking process</synonyms>
+        <synonyms>clean the kitchen</synonyms><synonyms>put away all utensils</synonyms><synonyms>Clean the Area</synonyms><synonyms>Put Dishes Away</synonyms><synonyms>complete the dish</synonyms><synonyms>Put Away Cooking Tools</synonyms><synonyms>complete the cooking process</synonyms>
+        <pattern>^(complet|finish|conclud|accomplish|wrap up|finaliz|fulfill).*(process|procedure|sequence|operat|preparation|journey)</pattern>&gt;
+        <pattern>^(process|procedure|sequence|operat|preparation|journey).*(complet|finish|conclud|accomplish|wrap up|finaliz|fulfill)</pattern>&gt;
+    </condition>
+</root>

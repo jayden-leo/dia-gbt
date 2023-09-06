@@ -1,0 +1,15 @@
+<root>
+    <action name="move_right">
+        <explanation>to move to the right, that is, to move in the right direction</explanation>
+        <synonyms>move right</synonyms>
+        <synonyms>shift to the right</synonyms>
+        <synonyms>go right</synonyms>
+        <synonyms>rightward movement</synonyms>
+        <synonyms>proceed to the right</synonyms>
+        <synonyms>rightward advance</synonyms>
+        <synonyms>rightward shift</synonyms>
+        <synonyms>move to the right</synonyms>
+        <pattern>(mov.*?|go.*?|proce.*?).*(right|shift)</pattern>
+        <pattern>rightward.*?</pattern>
+    </action>
+</root>

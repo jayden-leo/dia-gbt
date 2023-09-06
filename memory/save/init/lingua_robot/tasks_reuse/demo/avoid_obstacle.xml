@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+    <task name="avoid_obstacle">
+        <synonyms>avoiding barriers</synonyms>
+        <synonyms>scaling obstacles</synonyms>
+        <synonyms>breaking through barriers</synonyms>
+        <synonyms>navigating around obstacles</synonyms>
+        <synonyms>resolving blockades</synonyms>
+        <synonyms>breaking down barriers</synonyms>
+        <pattern>(avoid.*|scal.*|avert|navigat.* around|resolv.*|break.*).*(barrier.*|obstacle.*|block.*)</pattern>
+        <bt>
+            <sequence name="sequence">
+                <obstacle_detection name="obstacle_detection"/>
+                <bypass name="bypass"/>
+            </sequence>
+        </bt>
+    </task>
+</root>

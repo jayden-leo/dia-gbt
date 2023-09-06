@@ -1,0 +1,16 @@
+<root>
+    <condition name="use_cooking_tools">
+        <explanation>use kitchen utensils (such as pots, knives, stoves, etc.) for cooking</explanation>
+        <synonyms>use cooking utensils for cooking operation</synonyms>
+        <synonyms>employ kitchen tools for cooking</synonyms>
+        <synonyms>utilize culinary equipment for cooking action</synonyms>
+        <synonyms>cook with cooking implements</synonyms>
+        <synonyms>utilize kitchen devices for cooking task</synonyms>
+        <synonyms>use cooking tools for culinary preparation</synonyms>
+        <synonyms>employ cooking instruments for cooking activity</synonyms>
+        <synonyms>use cookware for cooking</synonyms>
+        <synonyms>utilize culinary gear for cooking process</synonyms>
+        <synonyms>prepare the required cooking utensils and check the environment safety</synonyms>
+        <pattern>^(use|employ|utiliz|cook|prepar).*(cook|kitchen|).*(utensils|tools|equipment|devices|cookware|gear)</pattern>
+    </condition>
+</root>

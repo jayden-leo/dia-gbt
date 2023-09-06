@@ -1,0 +1,19 @@
+<root>
+    <action name="grab_package">
+        <explanation>through positioning, grasping and gripping, the operation of accurately grasping the specified parts is realized</explanation>
+        <synonyms>seize components</synonyms>
+        <synonyms>pick up parts</synonyms>
+        <synonyms>grabbing parts</synonyms>
+        <synonyms>grasp elements</synonyms>
+        <synonyms>collect components</synonyms>
+        <synonyms>retrieve pieces</synonyms>
+        <synonyms>acquire elements</synonyms>
+        <synonyms>gather components</synonyms>
+        <synonyms>obtain elements</synonyms>
+        <synonyms>acquire elements</synonyms>
+        <synonyms>snatch pieces</synonyms>
+        <synonyms>get the necessary workpiece</synonyms>
+        <pattern>^(seiz|pick.*up|grab|grasp|obtain|get).*(component|part|element|piece)</pattern>
+        <pattern>^(collect|retriev|acquir|gather|snatch).*(component|part|element|piece)</pattern>
+    </action>
+</root>

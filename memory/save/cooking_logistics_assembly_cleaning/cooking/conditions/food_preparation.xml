@@ -1,0 +1,15 @@
+<root>
+    <condition name="food_preparation">
+        <explanation>check that required ingredients meet specific culinary needs and requirements</explanation>
+        <synonyms>verify ingredient readiness</synonyms>
+        <synonyms>confirm ingredient preparation</synonyms>
+        <synonyms>check for ingredient readiness</synonyms>
+        <synonyms>validate ingredient preparedness</synonyms>
+        <synonyms>ensure ingredient is ready</synonyms>
+        <synonyms>examine ingredient preparation</synonyms>
+        <synonyms>ascertain ingredient readiness</synonyms>
+        <synonyms>inspect ingredient preparedness</synonyms>
+        <synonyms>start cooking</synonyms><synonyms>take out the ingredients</synonyms><synonyms>retrieve necessary ingredients</synonyms><synonyms>check the quality of the prepared ingredients</synonyms><synonyms>get the ingredients from the pantry</synonyms><synonyms>add diced onions</synonyms><synonyms>check the food preparation status</synonyms><synonyms>obtain required materials</synonyms><synonyms>grab all necessary ingredients</synonyms><synonyms>grab the ingredients</synonyms><synonyms>get the ingredient and utensil status</synonyms><synonyms>check the ingredients</synonyms><synonyms>check the ingredient status</synonyms><synonyms>take the necessary ingredients</synonyms><synonyms>check if the ingredient is fresh</synonyms><synonyms>remove any spoiled ones</synonyms><synonyms>place the ingredients correctly on the table</synonyms><synonyms>check that the correct ingredients are in the kitchen</synonyms><synonyms>get the ingredients</synonyms><synonyms>proceed with food preparation</synonyms><synonyms>add onions and garlic</synonyms><synonyms>clean the vegetables</synonyms><synonyms>encountering unfamiliar ingredients</synonyms><synonyms>confirm that the food material</synonyms><synonyms>take out the vegetables</synonyms><synonyms>fetch the required ingredients</synonyms><synonyms>clean the ingredients</synonyms><synonyms>check the ingredient preparation</synonyms><synonyms>grab vegetables</synonyms><synonyms>wash vegetables</synonyms><synonyms>grab the required food ingredients</synonyms><synonyms>check for the availability of the required food or ingredients</synonyms><synonyms>check if the ingredients are complete</synonyms><synonyms>verify ingredient is prepared</synonyms>
+        <pattern>^(verif|confirm|check).*(food|ingredient|material|component).*(ready|readiness|prepare|ready|prepare)</pattern>
+    </condition>
+</root>

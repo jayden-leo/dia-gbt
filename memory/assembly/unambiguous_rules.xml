@@ -1,0 +1,132 @@
+<root>
+    <rule>
+        <demo>detect the package type and grab it, then place it at the target location</demo>
+        <intent>(detect the package type) and (grab it), then (place it at the target location)</intent>
+        <pattern>^(detect.*) and (grab.*), then (place.*at.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the package and mail it to the target location at the same time.</demo>
+        <intent>(grab the package) and (mail it to the target location) (at the same time)</intent>
+        <pattern>^(grab.*) and (mail.*)(at the same time)$</pattern>
+    </rule>
+    <rule>
+        <demo>complete the whole cooking process</demo>
+        <intent>(complete the whole cooking process)</intent>
+        <pattern>^(complete.*process)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the safety of the environment, grab the package, and then move it to the target location.</demo>
+        <intent>(check the safety of the environment), (grab the package), and then (move it to the target location)</intent>
+        <pattern>^(check.*), (grab.*), and then (move.*location)$</pattern>
+    </rule>
+    <rule>
+        <demo>interrupt the assembly if the environment is unsafe, otherwise assemble the parts and check the quality.</demo>
+        <intent>(interrupt the assembly) (if the environment is unsafe), otherwise (assemble the parts) and (check the quality)</intent>
+        <pattern>^(interrupt.*) (if.*), otherwise (assemble.*) and (check.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>retrieve the parts that meet the positioning requirements and check the quality after assembly</demo>
+        <intent>(retrieve the parts) that (meet the positioning requirements) and (check the quality) after (assembly)</intent>
+        <pattern>^(retrieve.*) that (meet.*) and (check.*) after (assembly)$</pattern>
+    </rule>
+    <rule>
+        <demo>retrieve the necessary parts and position them correctly before assembly</demo>
+        <intent>(retrieve the necessary parts) and (position them correctly) before (assembly)</intent>
+        <pattern>^(retrieve.*) and (position.*) before (assembly.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>assemble the parts securely</demo>
+        <intent>(assemble the parts securely)</intent>
+        <pattern>^(assemble.*parts.*securely)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab the necessary parts, position them correctly, and then assemble the parts</demo>
+        <intent>(grab the necessary parts), (position them correctly), and then (assemble the parts)</intent>
+        <pattern>^(grab.*), (position.*), and then (assemble.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>request human assistance if necessary</demo>
+        <intent>(request human assistance) if necessary</intent>
+        <pattern>^(request.*) if necessary$</pattern>
+    </rule>
+    <rule>
+        <demo>check the component status, and then assemble the parts</demo>
+        <intent>(check the component status), and then (assemble the parts)</intent>
+        <pattern>^(check.*), and then (assemble.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the component status, and then check the assembly quality</demo>
+        <intent>(check the component status), and then (check the assembly quality)</intent>
+        <pattern>^(check.*), and then (check.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>request human assistance and grab the parts at the same time if necessary</demo>
+        <intent>(request human assistance) and (grab the parts) (at the same time if necessary)</intent>
+        <pattern>^(request.*) and (grab.*) (at the same.*?)$</pattern>
+    </rule>
+    <rule>
+        <demo>check that all parts needed for assembly are available, then start the assembly process</demo>
+        <intent>(check that all parts needed for assembly are available), then (start the assembly process)</intent>
+        <pattern>^(check.*), then (start.*assembly.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>check the component status, and then grab the necessary parts</demo>
+        <intent>(check the component status), and then (grab the necessary parts)</intent>
+        <pattern>^(check.*), and then (grab.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab parts and perform assembly step by step</demo>
+        <intent>(grab parts) and (perform assembly) (step by step)</intent>
+        <pattern>^(grab.*) and (perform.*) (step by step.*?)$</pattern>
+    </rule>
+    <rule>
+        <demo>request assistance and grab the necessary parts at the same time</demo>
+        <intent>(request assistance) and (grab the necessary parts) (at the same time)</intent>
+        <pattern>^(request.*) and (grab.*) (at the same time.*?)$</pattern>
+    </rule>
+    <rule>
+        <demo>position the parts correctly for assembly</demo>
+        <intent>(position the parts correctly) for assembly</intent>
+        <pattern>^(position.*) for assembly$</pattern>
+    </rule>
+    <rule>
+        <demo>package the assembled parts securely for shipping</demo>
+        <intent>(package the assembled parts securely) for shipping</intent>
+        <pattern>^(package.*) for shipping$</pattern>
+    </rule>
+    <rule>
+        <demo>interrupt operation when encountering obstacles or dangerous situations</demo>
+        <intent>(interrupt operation) when (encountering obstacles or dangerous situations)</intent>
+        <pattern>^(interrupt.*) when (encountering.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>grab and position the parts, then start the assembly process</demo>
+        <intent>(grab) and (position the parts), then (start the assembly process)</intent>
+        <pattern>^(grab.*) and (position.*), then (start.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>retrieve the parts that meet the positioning requirements and check the quality after assembly</demo>
+        <intent>(retrieve the parts) that (meet the positioning requirements) and (check the quality) after (assembly)</intent>
+        <pattern>^(retrieve.*) that (meet.*) and (check.*) after (assembly)$</pattern>
+    </rule>
+    <rule>
+        <demo>retrieve the necessary parts and position them correctly before assembly</demo>
+        <intent>(retrieve the necessary parts) and (position them correctly) before (assembly)</intent>
+        <pattern>^(retrieve.*) and (position.*) before (assembly.*)$</pattern>
+    </rule>
+    <rule>
+        <demo>complete the whole cooking process</demo>
+        <intent>(complete the whole cooking process)</intent>
+        <pattern>^(complete.*process)$</pattern>
+    </rule>
+    <rule>
+        <demo>please go around this obstacle and get me your phone on the table</demo>
+        <intent>(go around this obstacle) and (get me your phone on the table)</intent>
+        <pattern>^(go.*) and (get.*phone.*table)$</pattern>
+    </rule>
+    <rule>
+        <demo>get the necessary workpiece, position it correctly, and then assemble it</demo>
+        <intent>(get the necessary workpiece), (position it correctly), and then (assemble it)</intent>
+        <pattern>^(get.*workpiece), (position.*), and then (assemble.*)$</pattern>
+    </rule>
+<rule><demo>interrupt the assembly if the environment is unsafe</demo><intent>(interrupt the assembly) (if the environment is unsafe)</intent><pattern>^(interrupt.*) (if.*)$</pattern></rule><rule><demo>check for obstacles while checking parts status</demo><intent>(check for obstacles) while (checking parts status)</intent><pattern>^(check.*)while (checking.*)$</pattern></rule></root>

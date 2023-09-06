@@ -1,0 +1,1337 @@
+<root>
+    <rule>
+        <instruction>execute task: cleaning the kitchen</instruction>
+        <steps>
+            <step>Move to the Kitchen</step>
+            <step>Avoid Obstacles</step>
+            <step>Face the Cleaning Area</step>
+            <step>Scan the Environment</step>
+            <step>Pick Up Cleaning Tools</step>
+            <step>Move to Cleaning Area</step>
+            <step>Clean the Area</step>
+            <step>Put Down Cleaning Tools</step>
+            <step>Request Help</step>
+            <step>Move to the Next Cleaning Area</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: help me wash the fruits and bring them over</instruction>
+        <steps>
+            <step>grab fruits</step>
+            <step>move to sink</step>
+            <step>wash fruits</step>
+            <step>move to the fruit bowl</step>
+            <step>deliver to the user</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: help me turn off the TV in the living room and bring me the phone from the table</instruction>
+        <steps>
+            <step>move to the living room</step>
+            <step>turn off the TV</step>
+            <step>move to the table</step>
+            <step>pick up the phone</step>
+            <step>deliver the phone to the user</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: cook a delicious meal</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: finish cooking as soon as possible</instruction>
+        <steps>
+            <step>cooking_utensils</step>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>step_complete_detection</step>
+            <step>execution_steps</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: make a cup of coffee</instruction>
+        <steps>
+            <step>cooking_utensils</step>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>step_complete_detection</step>
+            <step>execution_steps</step>
+            <step>finish_cooking</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: prepare a salad</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>step_complete_detection</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: complete the entire cooking process safely and efficiently</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>step_complete_detection</step>
+            <step>parallel</step>
+            <step>request_intervention</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: prepare a delicious meal</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: prepare a three-course meal</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: cook dinner for four people</instruction>
+        <steps>
+            <step>parallel</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: clean up the kitchen thoroughly</instruction>
+        <steps>
+            <step>Move to the Kitchen</step>
+            <step>Avoid Obstacles</step>
+            <step>Face the Cleaning Area</step>
+            <step>Scan the Environment</step>
+            <step>Pick Up Cleaning Tools</step>
+            <step>Move to Cleaning Area</step>
+            <step>Clean the Area</step>
+            <step>Put Down Cleaning Tools</step>
+            <step>Request Help</step>
+            <step>Move to the Next Cleaning Area</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: cook a dish with the specified ingredients</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: cook delicious food for me to eat</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: prepare a delicious pasta dish for dinner</instruction>
+        <steps>
+            <step>cooking_utensils</step>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: ensure that all dishes are clean and stored properly</instruction>
+        <steps>
+            <step>Move to the Kitchen</step>
+            <step>Avoid Obstacles</step>
+            <step>Face the Sink</step>
+            <step>Scan the Environment</step>
+            <step>Pick Up Cleaning Tools</step>
+            <step>Move to Dishwashing Area</step>
+            <step>Wash Dishes</step>
+            <step>Dry Dishes</step>
+            <step>Move to Storage Area</step>
+            <step>Put Dishes Away</step>
+            <step>Put Down Cleaning Tools</step>
+            <step>Request Help</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: cook a meal according to the recipe</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: safely and efficiently cook a delicious meal</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>sequence</step>
+            <step>finish_cooking</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: prepare a delicious breakfast</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: cut the vegetables</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform tasks: confirm that the environment is safe, request intervention if necessary, and prepare
+            food.
+        </instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>request_intervention</step>
+            <step>prepare_food</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: cook a delicious dinner</instruction>
+        <steps>
+            <step>cooking_utensils</step>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: safely cook a delicious meal</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>interrupt_operation</step>
+            <step>request_intervention</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: clean the dishes after dinner</instruction>
+        <steps>
+            <step>Move to the Kitchen</step>
+            <step>Avoid Obstacles</step>
+            <step>Face the Sink</step>
+            <step>Scan the Environment</step>
+            <step>Pick Up Cleaning Tools</step>
+            <step>Move to the Dining Table</step>
+            <step>Collect Dirty Dishes</step>
+            <step>Move to the Sink</step>
+            <step>Wash Dishes</step>
+            <step>Rinse Dishes</step>
+            <step>Dry Dishes</step>
+            <step>Put Dishes Away</step>
+            <step>Put Down Cleaning Tools</step>
+            <step>Request Help</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: cook dinner for two people</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: make me a batch of chocolate chip cookies</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: make an omelette for breakfast</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: cook a delicious meal with the available ingredients</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: prepare a three-course meal for six people with dietary restrictions</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>execution_steps</step>
+            <step>parallel</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: boil the water and make the tea</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>use_cooking_tools</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: boil rice</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform the task: prepare dinner for the family</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: bake a cake in 30 minutes</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>interrupt_operation</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: serve the meal within 30 minutes after cooking is complete</instruction>
+        <steps>
+            <step>finish cooking</step>
+            <step>check time</step>
+            <step>set timer for 30 minutes</step>
+            <step>wait for timer to complete</step>
+            <step>serve the meal</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: prepare a meal with fresh ingredients</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>sequence</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform tasks: ensure that the cooking environment is safe and the cooking tools are prepared</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execute task: cook a delicious dinner for two people</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: prepare a bowl of mixed fruit salad</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>use_cooking_tools</step>
+            <step>prepare_food</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: make me a cup of coffee</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>cooking_utensils</step>
+            <step>food_preparation</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: cut and wash the vegetables</instruction>
+        <steps>
+            <step>grab vegetables</step>
+            <step>move to the sink</step>
+            <step>wash vegetables</step>
+            <step>move to the cutting board</step>
+            <step>cut vegetables</step>
+            <step>check if all vegetables are cut</step>
+            <step>check if all vegetables are washed</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: clean the dishes and put them away in the cabinets</instruction>
+        <steps>
+            <step>Move to the Kitchen</step>
+            <step>Avoid Obstacles</step>
+            <step>Face the Sink</step>
+            <step>Scan the Environment</step>
+            <step>Pick Up Cleaning Tools</step>
+            <step>Move to the Sink</step>
+            <step>Wash Dishes</step>
+            <step>Rinse Dishes</step>
+            <step>Move to the Cabinets</step>
+            <step>Open Cabinets</step>
+            <step>Put Dishes Away</step>
+            <step>Close Cabinets</step>
+            <step>Put Down Cleaning Tools</step>
+            <step>Request Help</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform the task of cooking a delicious meal</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: prepare sushi for dinner party</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform the task: cook a nutritious breakfast meal</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>step_complete_detection</step>
+            <step>finish_cooking</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform the task: prepare a fruit salad</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>food_preparation</step>
+            <step>cooking_utensils</step>
+            <step>execution_steps</step>
+            <step>prepare_food</step>
+            <step>finish_cooking</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: make a cup of black tea</instruction>
+        <steps>
+            <step>Move to the Kitchen</step>
+            <step>Avoid Obstacles</step>
+            <step>Face the Cooking Area</step>
+            <step>Scan the Environment</step>
+            <step>Check Battery Status</step>
+            <step>Use Cooking Tools</step>
+            <step>Retrieve Tea Leaves</step>
+            <step>Retrieve a Cup</step>
+            <step>Boil Water</step>
+            <step>Pour Hot Water into the Cup</step>
+            <step>Add Tea Leaves to the Cup</step>
+            <step>Stir the Tea</step>
+            <step>Wait for the Tea to Steep</step>
+            <step>Remove Tea Leaves from the Cup</step>
+            <step>Add Sugar or Milk (Optional)</step>
+            <step>Stir the Tea Again</step>
+            <step>Serve the Tea</step>
+            <step>Clean the Kitchen</step>
+            <step>Put Away Cooking Tools</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: deliver the package to the correct target location</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>route_plan</step>
+            <step>moving_package</step>
+            <step>correct_positioning</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: safe and timely delivery of packages to the destination</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>route_plan</step>
+            <step>moving_package</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: transport the goods securely</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>route_plan</step>
+            <step>moving_package</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: organize the workspace and prepare for the next task</instruction>
+        <steps>
+            <step>Move to the Workspace</step>
+            <step>Scan the Environment</step>
+            <step>Check for Clutter</step>
+            <step>Pick Up Organizing Tools</step>
+            <step>Organize Workspace</step>
+            <step>Put Down Organizing Tools</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform tasks: deliver the package to the right recipient</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>moving_package</step>
+            <step>route_plan</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: deliver the package to the customer</instruction>
+        <steps>
+            <step>grab package</step>
+            <step>route plan</step>
+            <step>moving package</step>
+            <step>place package</step>
+            <step>notification exception</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: scan for missing packages and report any missing items in real-time</instruction>
+        <steps>
+            <step>Scan the Environment</step>
+            <step>Package Detection</step>
+            <step>Package Type</step>
+            <step>Notification Exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: assemble the parts securely</instruction>
+        <steps>
+            <step>parallel</step>
+            <step>grab_package</step>
+            <step>moving_package</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: assemble the boxes into a pallet</instruction>
+        <steps>
+            <step>parallel</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: arrive at the specified location</instruction>
+        <steps>
+            <step>route_plan</step>
+            <step>moving_package</step>
+            <step>envs_safety</step>
+            <step>correct_positioning</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: pack the products into the box neatly</instruction>
+        <steps>
+            <step>parallel</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: transport the package from point a to point b</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>moving_package</step>
+            <step>route_plan</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: complete the logistics packaging process</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>correct_positioning</step>
+            <step>moving_package</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: transport the package to the target location and notify the exceptions encountered</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>route_plan</step>
+            <step>moving_package</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: detect the type of package and position it correctly</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>correct_positioning</step>
+            <step>notification_exception</step>
+            <step>place_package</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: pick up the package by the door and deliver it to the kitchen</instruction>
+        <steps>
+            <step>move to the door</step>
+            <step>scan the environment</step>
+            <step>grab package</step>
+            <step>move to the kitchen</step>
+            <step>place package at the designated location</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: move the packages to the designated location one by one</instruction>
+        <steps>
+            <step>move to the first package</step>
+            <step>grab the package</step>
+            <step>move to the designated location</step>
+            <step>place the package</step>
+            <step>move to the next package</step>
+            <step>grab the package</step>
+            <step>move to the designated location</step>
+            <step>place the package</step>
+            <step>move to the next package</step>
+            <step>grab the package</step>
+            <step>move to the designated location</step>
+            <step>place the package</step>
+            <step>move to the next package</step>
+            <step>grab the package</step>
+            <step>move to the designated location</step>
+            <step>place the package</step>
+            <step>move to the next package</step>
+            <step>grab the package</step>
+            <step>move to the designated location</step>
+            <step>place the package</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: check the quality of the packages and ensure that they meet the requirements</instruction>
+        <steps>
+            <step>move to the package area</step>
+            <step>scan the environment</step>
+            <step>package detection</step>
+            <step>package type</step>
+            <step>grab package</step>
+            <step>correct positioning</step>
+            <step>place package</step>
+            <step>notification exception</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: organize the items in the warehouse</instruction>
+        <steps>
+            <step>Move to the Warehouse</step>
+            <step>Scan the Environment</step>
+            <step>Sort Items</step>
+            <step>Organize Items</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: sort and package the products</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>move to the workspace</step>
+            <step>organize workspace</step>
+            <step>scan and inspect packages</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>correct_positioning</step>
+            <step>place_package</step>
+            <step>route_plan</step>
+            <step>moving_package</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: sort and package all items correctly</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>correct_positioning</step>
+            <step>moving_package</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: package all items and deliver them to the customer</instruction>
+        <steps>
+            <step>parallel</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: safely package and ship the products</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>correct_positioning</step>
+            <step>moving_package</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+            <step>route_plan</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execute task: transport the materials to the assembly line</instruction>
+        <steps>
+            <step>Move to the Storage Area</step>
+            <step>Scan the Environment</step>
+            <step>Grab Materials</step>
+            <step>Move to the Assembly Line</step>
+            <step>Place Materials on the Assembly Line</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: sort items accurately and efficiently</instruction>
+        <steps>
+            <step>Move to the Workspace</step>
+            <step>Scan the Environment</step>
+            <step>Sort Items</step>
+            <step>Organize Items</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: safely move the fragile objects to the designated location</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>selector</step>
+            <step>correct_positioning</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: assemble the components and complete the packaging task</instruction>
+        <steps>
+            <step>parallel</step>
+            <step>correct_positioning</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform the task: move the package to the warehouse</instruction>
+        <steps>
+            <step>moving_package</step>
+            <step>route_plan</step>
+            <step>envs_safety</step>
+            <step>grab_package</step>
+            <step>correct_positioning</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: complete the delivery task as soon as possible</instruction>
+        <steps>
+            <step>route_plan</step>
+            <step>moving_package</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>correct_positioning</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+            <step>check battery status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: assemble the product precisely according to the design plan</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>correct_positioning</step>
+            <step>moving_package</step>
+            <step>place_package</step>
+            <step>interrupt_operation</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: check if the package is ready for shipment</instruction>
+        <steps>
+            <step>package_detection</step>
+            <step>package_type</step>
+            <step>grab_package</step>
+            <step>correct_positioning</step>
+            <step>place_package</step>
+            <step>notification_exception</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: move and rearrange the packages in the warehouse</instruction>
+        <steps>
+            <step>Move to the Warehouse</step>
+            <step>Scan the Environment</step>
+            <step>Sort Items</step>
+            <step>Organize Items</step>
+            <step>Move to the Storage Area</step>
+            <step>Retrieve Tea Leaves</step>
+            <step>Retrieve a Cup</step>
+            <step>Stir the Tea</step>
+            <step>Serve the Tea</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: assemble the packages and place them in the correct position</instruction>
+        <steps>
+            <step>parallel</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: assemble the required parts and package them securely for shipping</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>grab_parts</step>
+            <step>sequence</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+            <step>correct_positioning</step>
+            <step>positioning_parts</step>
+            <step>request_help</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: correctly assemble all components after checking their position</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>parallel</step>
+            <step>sequence</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: assemble the product safely and efficiently</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>parallel</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+            <step>request_help</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execute task: ensure that parts are not damaged and missing before assembly</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>sequence</step>
+            <step>check_assembly</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform tasks: assemble the required components</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>grab_parts</step>
+            <step>correct_positioning</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+            <step>request_help</step>
+            <step>interrupt_assembly</step>
+            <step>positioning_parts</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: check the quality of assembled products</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+            <step>correct_positioning</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: assemble the car transmission system</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>grab_parts</step>
+            <step>interrupt_assembly</step>
+            <step>positioning_parts</step>
+            <step>check_assembly</step>
+            <step>request_help</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: perform the assembly process correctly and efficiently</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>parallel</step>
+            <step>correct_positioning</step>
+            <step>check_assembly</step>
+            <step>interrupt_assembly</step>
+            <step>request_help</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform tasks: check that the parts are correctly positioned</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>correct_positioning</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: assemble the components as efficiently as possible while maintaining quality standards.
+        </instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>parallel</step>
+            <step>correct_positioning</step>
+            <step>request_help</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: assemble high-quality products in a safe environment</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>parallel</step>
+            <step>request_help</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: check that the placement of the components is correct</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>correct_positioning</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: verify that the parts are correctly positioned and the assembly is of good quality</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>correct_positioning</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform tasks: check that all parts are fully assembled</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: assemble the workpiece</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>sequence</step>
+            <step>grab_parts</step>
+            <step>correct_positioning</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+            <step>interrupt_assembly</step>
+            <step>positioning_parts</step>
+            <step>request_help</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: complete the assembly of all parts</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>sequence</step>
+            <step>grab_parts</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+            <step>correct_positioning</step>
+            <step>interrupt_assembly</step>
+            <step>positioning_parts</step>
+            <step>request_help</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: ensure the quality of assembly</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>sequence</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+            <step>correct_positioning</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: perform the necessary manufacturing and assembly tasks for the specified component</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>sequence</step>
+            <step>grab_parts</step>
+            <step>correct_positioning</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+            <step>positioning_parts</step>
+            <step>request_help</step>
+            <step>interrupt_assembly</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: ensure the correct alignment of the parts during assembly</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>sequence</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+            <step>correct_positioning</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform the task of safely assembling the parts</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>sequence</step>
+            <step>grab_parts</step>
+            <step>positioning_parts</step>
+            <step>correct_positioning</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: ensure that there are sufficient raw materials for production</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>request_help</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: assemble the workpiece with high quality and safety standards</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>sequence</step>
+            <step>grab_parts</step>
+            <step>sequence</step>
+            <step>positioning_parts</step>
+            <step>correct_positioning</step>
+            <step>check_assembly</step>
+            <step>interrupt_assembly</step>
+            <step>request_help</step>
+            <step>check_battery_status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: check that the correct parts have been grabbed</instruction>
+        <steps>
+            <step>grab_parts</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>check_assembly</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: check that all parts are present and in the correct location prior to assembly</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>part_status</step>
+            <step>correct_positioning</step>
+            <step>assembly</step>
+            <step>check_assembly</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform task: troubleshoot the assembly line immediately when it fails</instruction>
+        <steps>
+            <step>envs_safety</step>
+            <step>parts_detection</step>
+            <step>selector</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>task execution: remove the stains on the carpet in the living room</instruction>
+        <steps>
+            <step>Move to the Living Room</step>
+            <step>Avoid Obstacles</step>
+            <step>Face the Cleaning Area</step>
+            <step>Scan the Environment</step>
+            <step>Pick Up Cleaning Tools</step>
+            <step>Move to Cleaning Area</step>
+            <step>Clean the Area</step>
+            <step>Put Down Cleaning Tools</step>
+            <step>Request Help</step>
+            <step>Move to the Next Cleaning Area</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: ensure that the entire house is free of dust and dirt</instruction>
+        <steps>
+            <step>Scan the Environment</step>
+            <step>Clean Area Detection</step>
+            <step>Parallel Execution</step>
+            <step>Check Cleanliness</step>
+            <step>Cleanliness</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>execution task: dust the bookshelf in the study</instruction>
+        <steps>
+            <step>Move to the Study</step>
+            <step>Face the Bookshelf</step>
+            <step>Scan the Environment</step>
+            <step>Clean Area Detection</step>
+            <step>Cleanliness</step>
+            <step>Clean Area</step>
+            <step>Check Cleanliness</step>
+            <step>Put Down Cleaning Tools</step>
+            <step>Request Help</step>
+            <step>Check Battery Status</step>
+        </steps>
+    </rule>
+    <rule>
+        <instruction>perform the cleaning task in parallel while requesting help</instruction>
+        <steps>
+            <step>parallel</step>
+            <step>request_help</step>
+        </steps>
+    </rule>
+<rule><instruction>task execution: take the coffee</instruction><steps><step>move to the coffee machine</step><step>check battery status</step><step>grab the coffee cup</step><step>move to the coffee dispenser</step><step>fill the cup with coffee</step><step>move to the user</step><step>deliver the coffee to the user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: pour it to the mug</instruction><steps><step>grab the container</step><step>move to the mug</step><step>pour the liquid into the mug</step><step>release the container</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put ice cream and the syrup to the mug</instruction><steps><step>grab ice cream</step><step>grab syrup</step><step>move to the mug</step><step>drop ice cream into the mug</step><step>drop syrup into the mug</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take all cups , mugs , spoons , and forks and place in sink</instruction><steps><step>grab cups</step><step>grab mugs</step><step>grab spoons</step><step>grab forks</step><step>move to the sink</step><step>drop cups</step><step>drop mugs</step><step>drop spoons</step><step>drop forks</step><step>check battery status</step></steps></rule><rule><instruction>task execution: toggle sink on</instruction><steps><step>move to the sink</step><step>turn on the sink</step><step>check battery status</step></steps></rule><rule><instruction>task execution: arrange all other small items on counter</instruction><steps><step>move to the counter</step><step>scan the environment</step><step>pick up small items</step><step>arrange small items on the counter</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the pot in the sink and then fill it up with water</instruction><steps><step>move to the sink</step><step>place the pot in the sink</step><step>fill the pot with water</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the pot on the stove and then turn on the stove</instruction><steps><step>move to the stove</step><step>move to the pot</step><step>grab the pot</step><step>place the pot on the stove</step><step>turn on the stove</step><step>check battery status</step></steps></rule><rule><instruction>task execution: get the ramen and put it in pot when the water in the pot is boiling</instruction><steps><step>move to the kitchen</step><step>check if water in the pot is boiling</step><step>if water is boiling, move to the pantry</step><step>grab the ramen</step><step>move to the pot</step><step>put the ramen in the pot</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place it in the microwave</instruction><steps><step>move to the microwave</step><step>open the microwave door</step><step>place the object inside the microwave</step><step>close the microwave door</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the movie in the xbox and turn the television input to xbox</instruction><steps><step>move to the xbox</step><step>insert the movie into the xbox</step><step>move to the television</step><step>change the television input to xbox</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put bag of chips on table</instruction><steps><step>grab bag of chips</step><step>move to the table</step><step>drop bag of chips</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put pillows on couch</instruction><steps><step>move to the couch</step><step>pick up pillows</step><step>place pillows on the couch</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the xbox controller and remote on the desk</instruction><steps><step>grab xbox controller</step><step>move to the desk</step><step>drop xbox controller</step><step>grab remote</step><step>move to the desk</step><step>drop remote</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the cd's on the shelf</instruction><steps><step>move to the shelf</step><step>place CDs on the shelf</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take the mug from the microwave and pour its contents into the sink and then place it in the sink</instruction><steps><step>move to the microwave</step><step>open the microwave</step><step>grab the mug</step><step>move to the sink</step><step>pour the contents into the sink</step><step>place the mug in the sink</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take coffee pot pour into the mug</instruction><steps><step>move to the coffee pot</step><step>grab the coffee pot</step><step>move to the mug</step><step>pour coffee into the mug</step><step>release the coffee pot</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take spoon from counter scoop the ice cream</instruction><steps><step>move to the counter</step><step>scan the environment</step><step>detect the spoon</step><step>grab the spoon</step><step>move to the ice cream</step><step>scoop the ice cream</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place the xbox and xbox controller underneath the television console</instruction><steps><step>move to the television console</step><step>move to the xbox</step><step>grab the xbox</step><step>move to the television console</step><step>drop the xbox</step><step>move to the xbox controller</step><step>grab the xbox controller</step><step>move to the television console</step><step>drop the xbox controller</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place all of the couches on one side of the wall , preferably facing the television</instruction><steps><step>move to the couches</step><step>grab a couch</step><step>move to the wall</step><step>place the couch against the wall</step><step>repeat for all couches</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place all of the beer and bags of chips on the white counter</instruction><steps><step>move to the beer</step><step>grab beer</step><step>move to the white counter</step><step>drop beer</step><step>move to the bags of chips</step><step>grab bags of chips</step><step>move to the white counter</step><step>drop bags of chips</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place the garbage bin near the white counter</instruction><steps><step>move to the garbage bin</step><step>move to the white counter</step><step>place the garbage bin near the white counter</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place the trash bag inside the garbage bin</instruction><steps><step>move to the garbage bin</step><step>open the garbage bin</step><step>move the trash bag towards the garbage bin</step><step>release the trash bag into the garbage bin</step><step>close the garbage bin</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn on the television to channel 3 and increase the volume to 50</instruction><steps><step>move to the television</step><step>turn on the television</step><step>change channel to 3</step><step>increase volume to 50</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place the coke can on the counter along with the beer and chips</instruction><steps><step>move to the counter</step><step>place the coke can on the counter</step><step>place the beer on the counter</step><step>place the chips on the counter</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the game in the  xbox</instruction><steps><step>grab game</step><step>move to the Xbox</step><step>insert game into the Xbox</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn off the tv</instruction><steps><step>move to the living room</step><step>turn off the TV</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put snacks and books on the table</instruction><steps><step>grab snacks</step><step>move to the table</step><step>place snacks on the table</step><step>grab books</step><step>place books on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put beer and chips in trash can</instruction><steps><step>grab beer</step><step>grab chips</step><step>move to trash can</step><step>drop beer</step><step>drop chips</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn music on</instruction><steps><step>move to the music player</step><step>turn on the music</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put beer and chips on table</instruction><steps><step>grab beer</step><step>move to table</step><step>place beer on table</step><step>grab chips</step><step>place chips on table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: grab the game cd</instruction><steps><step>grab</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place the cd in the xobx</instruction><steps><step>grab CD</step><step>move to Xbox</step><step>place CD in Xbox</step><step>check battery status</step></steps></rule><rule><instruction>task execution: prepare us food and bring the coke</instruction><steps><step>move to the kitchen</step><step>scan the environment</step><step>check battery status</step><step>grab food ingredients</step><step>move to the cooking area</step><step>prepare food</step><step>move to the refrigerator</step><step>grab a can of coke</step><step>move to the user</step><step>deliver food and coke</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take the pillow from the shelf and put it to the couch</instruction><steps><step>move to the shelf</step><step>scan the environment</step><step>grab the pillow</step><step>move to the couch</step><step>drop the pillow</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the pillows on the couch and turn the chairs towards the tv</instruction><steps><step>move to the couch</step><step>place pillows on the couch</step><step>move to the chairs</step><step>rotate chairs towards the TV</step><step>check battery status</step></steps></rule><rule><instruction>task execution: open the bag of chips and pour it onto the plate</instruction><steps><step>grab bag of chips</step><step>move to the plate</step><step>open the bag of chips</step><step>pour chips onto the plate</step><step>check battery status</step></steps></rule><rule><instruction>task execution: open refrigerator</instruction><steps><step>move to the refrigerator</step><step>open the refrigerator door</step><step>check battery status</step></steps></rule><rule><instruction>task execution: grab food and drink</instruction><steps><step>grab food</step><step>grab drink</step></steps></rule><rule><instruction>task execution: grab cups and plates</instruction><steps><step>grab cups</step><step>grab plates</step></steps></rule><rule><instruction>task execution: put all the cds on the table in front of the couch</instruction><steps><step>move to the table</step><step>scan the environment</step><step>grab a CD</step><step>move to the couch</step><step>put down the CD on the table in front of the couch</step><step>repeat for all CDs</step><step>check battery status</step></steps></rule><rule><instruction>task execution: pour some chips</instruction><steps><step>grab chips</step><step>move to the kitchen</step><step>find a bowl</step><step>pour chips into the bowl</step><step>put down the chips</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put soda on the table</instruction><steps><step>move to the table</step><step>place soda on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the pillows on the couch turn the tv on and put the xbox controller on the table</instruction><steps><step>move to the couch</step><step>place pillows on the couch</step><step>turn on the TV</step><step>move to the table</step><step>place the Xbox controller on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place the tv remote on the center table</instruction><steps><step>move to the center table</step><step>place the TV remote</step><step>check battery status</step></steps></rule><rule><instruction>task execution: plug in the xbox to the television and activate all game controllers</instruction><steps><step>move to the television</step><step>move to the xbox</step><step>plug in the xbox</step><step>move to the game controllers</step><step>activate game controllers</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place the controllers on the center table</instruction><steps><step>move to the center table</step><step>place the controllers on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place the bowl of food , beer , and coke on the center table</instruction><steps><step>grab bowl of food</step><step>move to center table</step><step>drop bowl of food</step><step>grab beer</step><step>move to center table</step><step>drop beer</step><step>grab coke</step><step>move to center table</step><step>drop coke</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn stove on</instruction><steps><step>move to the kitchen</step><step>turn on the stove</step><step>check battery status</step></steps></rule><rule><instruction>task execution: open the fridge and get the boiled egg and put it on plate 2</instruction><steps><step>move to the fridge</step><step>open the fridge</step><step>scan the fridge</step><step>grab the boiled egg</step><step>move to plate 2</step><step>put the boiled egg on plate 2</step><step>check battery status</step></steps></rule><rule><instruction>task execution: open the fridge and get the canada dry and put it next to plate 2</instruction><steps><step>move to the fridge</step><step>open the fridge</step><step>scan the fridge</step><step>grab the Canada Dry</step><step>move to plate 2</step><step>put the Canada Dry next to plate 2</step><step>check battery status</step></steps></rule><rule><instruction>task execution: grab a cup , and fill the cup with milk</instruction><steps><step>grab cup</step><step>fill cup with milk</step></steps></rule><rule><instruction>task execution: next grab a bowl</instruction><steps><step>grab bowl</step></steps></rule><rule><instruction>task execution: fill the bowl with cereal</instruction><steps><step>move to the kitchen</step><step>move to the pantry</step><step>grab a box of cereal</step><step>move to the bowl</step><step>pour cereal into the bowl</step><step>put the cereal box back in the pantry</step><step>check battery status</step></steps></rule><rule><instruction>task execution: slowly add milk to the same bowl</instruction><steps><step>move to the kitchen</step><step>move to the refrigerator</step><step>open the refrigerator door</step><step>take out the milk</step><step>close the refrigerator door</step><step>move to the table</step><step>pick up the bowl</step><step>move to the refrigerator</step><step>open the refrigerator door</step><step>pour milk into the bowl</step><step>close the refrigerator door</step><step>put down the milk</step><step>pick up the bowl</step><step>move to the table</step><step>put down the bowl</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the cup and bowl next to each other , along with a spoon</instruction><steps><step>move to the cup</step><step>grab the cup</step><step>move to the desired location</step><step>release the cup</step><step>move to the bowl</step><step>grab the bowl</step><step>move to the desired location</step><step>release the bowl</step><step>move to the spoon</step><step>grab the spoon</step><step>move to the desired location</step><step>release the spoon</step><step>check battery status</step></steps></rule><rule><instruction>task execution: open freezer door and grab ice cream</instruction><steps><step>move to the freezer</step><step>open the freezer door</step><step>grab the ice cream</step><step>check battery status</step></steps></rule><rule><instruction>task execution: grab chocolate syrup bottle and add to coffee</instruction><steps><step>grab chocolate syrup bottle</step><step>add chocolate syrup to coffee</step></steps></rule><rule><instruction>task execution: 123</instruction><steps><step>scanning</step><step>visible</step><step>battery_check</step></steps></rule><rule><instruction>task execution: grab pot and bring to sink</instruction><steps><step>grab pot</step><step>move to sink</step><step>check battery status</step></steps></rule><rule><instruction>task execution: get the syrup and squirt two tablespoons on top</instruction><steps><step>grab syrup</step><step>move to the table</step><step>squirt two tablespoons on top</step><step>check battery status</step></steps></rule><rule><instruction>task execution: serve with a spoon</instruction><steps><step>grab spoon</step><step>move to serving area</step><step>scoop food with spoon</step><step>deliver food to the user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the xbox in front of the tv and hook up the wires and plug it into an outlet</instruction><steps><step>move to the TV</step><step>move the Xbox in front of the TV</step><step>hook up the wires</step><step>plug the Xbox into an outlet</step><step>check battery status</step></steps></rule><rule><instruction>task execution: plug the controller into the xbox and put it on the table in front of the couch</instruction><steps><step>move to the xbox</step><step>move to the controller</step><step>plug the controller into the xbox</step><step>move to the table</step><step>put the controller on the table</step><step>move to the couch</step><step>check battery status</step></steps></rule><rule><instruction>task execution: change the input of the tv to display the xbox</instruction><steps><step>move to the living room</step><step>turn on the TV</step><step>move to the TV</step><step>change input to Xbox</step><step>check battery status</step></steps></rule><rule><instruction>task execution: grasp the vanilla syrup bottle</instruction><steps><step>grab</step><step>check battery status</step></steps></rule><rule><instruction>task execution: open the fridge door and place the bottle inside the fridge</instruction><steps><step>move to the fridge</step><step>open the fridge door</step><step>move to the bottle</step><step>grab the bottle</step><step>move to the fridge</step><step>place the bottle inside the fridge</step><step>check battery status</step></steps></rule><rule><instruction>task execution: close the fridge door</instruction><steps><step>move to the fridge</step><step>close the fridge door</step><step>check battery status</step></steps></rule><rule><instruction>task execution: carry glass , long cup , mug , long cup , pot , and spoon near the sink</instruction><steps><step>move to the sink</step><step>grab glass</step><step>grab long cup</step><step>grab mug</step><step>grab long cup</step><step>grab pot</step><step>grab spoon</step><step>move to the sink</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place the instant ramen , ramen , and salt bottle into their designated pantries</instruction><steps><step>grab instant ramen</step><step>move to instant ramen pantry</step><step>drop instant ramen</step><step>grab ramen</step><step>move to ramen pantry</step><step>drop ramen</step><step>grab salt bottle</step><step>move to salt bottle pantry</step><step>drop salt bottle</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put ramen in cabinet</instruction><steps><step>move to the cabinet</step><step>open the cabinet</step><step>grab the ramen</step><step>place the ramen in the cabinet</step><step>close the cabinet</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put xbox and controller on tv stand</instruction><steps><step>grab xbox</step><step>move to tv stand</step><step>place xbox on tv stand</step><step>grab controller</step><step>place controller on tv stand</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put movie in xbox</instruction><steps><step>move to the Xbox</step><step>open the Xbox disc tray</step><step>place the movie in the disc tray</step><step>close the Xbox disc tray</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the pot on the stove and turn the heat of the appropriate burner on medium</instruction><steps><step>move to the stove</step><step>move to the pot</step><step>grab the pot</step><step>place the pot on the stove</step><step>turn on the appropriate burner to medium heat</step><step>check battery status</step></steps></rule><rule><instruction>task execution: get the package of ramen and open it</instruction><steps><step>move to the location of the package</step><step>grab the package</step><step>move to a suitable location for opening</step><step>open the package</step><step>check battery status</step></steps></rule><rule><instruction>task execution: after a few minutes pour the contents of the pot into a bowl</instruction><steps><step>move to the pot</step><step>pick up the pot</step><step>move to the bowl</step><step>pour the contents into the bowl</step><step>put down the pot</step><step>check battery status</step></steps></rule><rule><instruction>task execution: serve with a fork</instruction><steps><step>grab fork</step><step>move to serving area</step><step>serve with fork</step><step>check battery status</step></steps></rule><rule><instruction>task execution: test</instruction><steps><step>parallel</step><step>selector</step><step>sequence</step></steps></rule><rule><instruction>task execution: grab cup and glass and fill with sink water</instruction><steps><step>grab cup</step><step>grab glass</step><step>move to the sink</step><step>fill cup with sink water</step><step>fill glass with sink water</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put food on plate</instruction><steps><step>move to the kitchen</step><step>grab a plate</step><step>move to the food</step><step>grab the food</step><step>place the food on the plate</step><step>put the plate on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put all the school books on the table</instruction><steps><step>move to the location of the school books</step><step>grab the school books</step><step>move to the table</step><step>place the school books on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn off the tv and pour some chips and drinks</instruction><steps><step>move to the living room</step><step>turn off the TV</step><step>move to the kitchen</step><step>grab chips</step><step>grab drinks</step><step>move to the user</step><step>put down chips</step><step>put down drinks</step><step>check battery status</step></steps></rule><rule><instruction>task execution: grab cd</instruction><steps><step>grab</step></steps></rule><rule><instruction>task execution: arrange books on table</instruction><steps><step>move to the table</step><step>scan the environment</step><step>pick up books</step><step>arrange books on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: bring us coke and the beer</instruction><steps><step>grab coke</step><step>move to the fridge</step><step>pick up coke</step><step>move to the user</step><step>deliver coke to the user</step><step>grab beer</step><step>move to the fridge</step><step>pick up beer</step><step>move to the user</step><step>deliver beer to the user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: if the bag of chips is empty throw away the bag in the garbage bag</instruction><steps><step>visible</step><step>grab bag of chips</step><step>visible</step><step>drop bag of chips in garbage bag</step></steps></rule><rule><instruction>task execution: arrange couches in organized position</instruction><steps><step>move to the living room</step><step>scan the environment</step><step>identify the couches</step><step>move the first couch to the desired position</step><step>move the second couch to the desired position</step><step>move the third couch to the desired position</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the beer bottle in the trash bin</instruction><steps><step>grab beer bottle</step><step>move to the trash bin</step><step>drop beer bottle</step><step>check battery status</step></steps></rule><rule><instruction>task execution: empty the contents of the glass and mug into the sink and rinse the dishes</instruction><steps><step>move to the glass</step><step>grab the glass</step><step>move to the sink</step><step>pour the contents of the glass into the sink</step><step>release the glass</step><step>move to the mug</step><step>grab the mug</step><step>move to the sink</step><step>pour the contents of the mug into the sink</step><step>release the mug</step><step>move to the dishes</step><step>grab the dishes</step><step>move to the sink</step><step>rinse the dishes</step><step>release the dishes</step><step>check battery status</step></steps></rule><rule><instruction>task execution: clean the sink with the running water</instruction><steps><step>move to the sink</step><step>turn on the water</step><step>grab cleaning tools</step><step>clean the sink</step><step>turn off the water</step><step>put down cleaning tools</step><step>check battery status</step></steps></rule><rule><instruction>task execution: grab the vanilla syrup bottle and chocolate syrup bottle , and open the fridge door</instruction><steps><step>grab vanilla syrup bottle</step><step>grab chocolate syrup bottle</step><step>open fridge door</step></steps></rule><rule><instruction>task execution: place the instant ramen to its designated pantry</instruction><steps><step>move to the pantry</step><step>check if the pantry is reachable</step><step>check if the pantry is visible</step><step>check battery status</step><step>move to the instant ramen</step><step>grab the instant ramen</step><step>move to the pantry</step><step>drop the instant ramen in the pantry</step><step>check battery status</step></steps></rule><rule><instruction>task execution: open the cup of instant ramen halfway and fill it up with water from the sink</instruction><steps><step>move to the cup of instant ramen</step><step>grab the cup of instant ramen</step><step>open the cup of instant ramen halfway</step><step>move to the sink</step><step>grab a container</step><step>fill the container with water from the sink</step><step>move back to the cup of instant ramen</step><step>pour water into the cup of instant ramen</step><step>release the cup of instant ramen</step><step>check battery status</step></steps></rule><rule><instruction>task execution: flatten the cover and put the instant ramen into the microwave and cook it for the specified time on the cup</instruction><steps><step>flatten the cover</step><step>put the instant ramen into the microwave</step><step>cook it for the specified time on the cup</step></steps></rule><rule><instruction>task execution: put coffee in cup open the freezer and put ice cream in it then add chocolate syrup</instruction><steps><step>move to the kitchen</step><step>move to the coffee maker</step><step>grab a cup</step><step>move to the coffee beans</step><step>grab coffee beans</step><step>move to the coffee maker</step><step>put coffee beans in the coffee maker</step><step>move to the water source</step><step>fill the cup with water</step><step>move to the coffee maker</step><step>pour water into the coffee maker</step><step>move to the freezer</step><step>open the freezer</step><step>move to the ice cream</step><step>grab ice cream</step><step>move to the freezer</step><step>put ice cream in the freezer</step><step>move to the pantry</step><step>grab chocolate syrup</step><step>move to the coffee maker</step><step>add chocolate syrup to the coffee</step></steps></rule><rule><instruction>task execution: put all the school books on the table turn off the tv and get chips and soda on the table</instruction><steps><step>move to the table</step><step>put all the school books on the table</step><step>turn off the TV</step><step>get chips and soda from the table</step><step>deliver chips and soda to the user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: bring us chips</instruction><steps><step>move to the kitchen</step><step>scan the environment</step><step>locate the chips</step><step>grab the chips</step><step>deliver the chips to the user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: collect the plates , utensils , and cups and put them in the sink</instruction><steps><step>move to the dining area</step><step>scan the environment</step><step>grab plates</step><step>move to the sink</step><step>drop plates</step><step>grab utensils</step><step>move to the sink</step><step>drop utensils</step><step>grab cups</step><step>move to the sink</step><step>drop cups</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the empty cup and the dish to the sink</instruction><steps><step>grab empty cup</step><step>move to the sink</step><step>drop empty cup</step><step>grab dish</step><step>move to the sink</step><step>drop dish</step><step>check battery status</step></steps></rule><rule><instruction>task execution: if anything is disposable and used , put it in the trash bag</instruction><steps><step>scan surroundings</step><step>identify disposable items</step><step>grab disposable items</step><step>move to trash bag</step><step>put disposable items in trash bag</step><step>check battery status</step></steps></rule><rule><instruction>task execution: if it is not disposable and on the floor , put it on the table nearest any items associated with it</instruction><steps><step>check if object is disposable</step><step>check if object is on the floor</step><step>move object to the nearest table</step><step>check if there are any items associated with the object on the table</step></steps></rule><rule><instruction>task execution: remove the trash bag from the scenario</instruction><steps><step>move to the trash can</step><step>grab the trash bag</step><step>move to the scenario</step><step>drop the trash bag</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the cd's next to the tv , trash any open food and place all the controllers and remotes on the table and pick up the pillows</instruction><steps><step>move to the TV</step><step>put CDs next to the TV</step><step>move to the kitchen</step><step>trash open food</step><step>move to the table</step><step>place controllers and remotes on the table</step><step>move to the bedroom</step><step>pick up pillows</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the pillows on the couch and the books on the table in front of the couch</instruction><steps><step>move to the couch</step><step>pick up the pillows</step><step>place the pillows on the couch</step><step>move to the table</step><step>pick up the books</step><step>place the books on the table in front of the couch</step><step>check battery status</step></steps></rule><rule><instruction>task execution: bring the other chairs around the table in front of the couch</instruction><steps><step>move to the table</step><step>move the chair to the couch</step><step>move the chair to the couch</step><step>move the chair to the couch</step><step>move the chair to the couch</step><step>check battery status</step></steps></rule><rule><instruction>task execution: bring us chips and coke</instruction><steps><step>grab chips</step><step>move to the kitchen</step><step>grab coke</step><step>move to the user</step><step>deliver chips and coke</step><step>check battery status</step></steps></rule><rule><instruction>task execution: bring us the controller</instruction><steps><step>move to the location of the controller</step><step>grab the controller</step><step>deliver the controller to the user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put all the cd's on the table get chips and soda and make sure the pillows are on the couch</instruction><steps><step>move to the CD storage area</step><step>pick up a CD</step><step>move to the table</step><step>place the CD on the table</step><step>repeat for all CDs</step><step>move to the pantry</step><step>pick up chips</step><step>move to the table</step><step>place the chips on the table</step><step>move to the refrigerator</step><step>pick up soda</step><step>move to the table</step><step>place the soda on the table</step><step>move to the couch</step><step>pick up a pillow</step><step>move to the couch</step><step>place the pillow on the couch</step><step>repeat for all pillows</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place both cd's and both books (brown and guiness) on top of the shelf in the corner of the room</instruction><steps><step>grab CD 1</step><step>move to the corner of the room</step><step>move to the top of the shelf</step><step>place CD 1 on top of the shelf</step><step>grab CD 2</step><step>move to the corner of the room</step><step>move to the top of the shelf</step><step>place CD 2 on top of the shelf</step><step>grab brown book</step><step>move to the corner of the room</step><step>move to the top of the shelf</step><step>place brown book on top of the shelf</step><step>grab Guinness book</step><step>move to the corner of the room</step><step>move to the top of the shelf</step><step>place Guinness book on top of the shelf</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put one of the cd's into the xbox console and place the xbox console near the television and turn on the power</instruction><steps><step>grab a CD</step><step>move to the Xbox console</step><step>insert the CD into the Xbox console</step><step>move to the television</step><step>place the Xbox console near the television</step><step>turn on the power</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put all cds and games next to the xbox</instruction><steps><step>move to the location of the CDs and games</step><step>grab CDs and games</step><step>move to the location of the Xbox</step><step>drop CDs and games next to the Xbox</step><step>check battery status</step></steps></rule><rule><instruction>task execution: make sure the xbox is next to the tv</instruction><steps><step>move to the xbox</step><step>move to the tv</step></steps></rule><rule><instruction>task execution: and throw out any garbage</instruction><steps><step>move to the garbage bin</step><step>open the garbage bin</step><step>grab the garbage</step><step>move to the garbage bin</step><step>drop the garbage</step><step>close the garbage bin</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the xbox and the xbox controllet on the shelf</instruction><steps><step>grab xbox</step><step>grab xbox controller</step><step>move to the shelf</step><step>place xbox on the shelf</step><step>place xbox controller on the shelf</step><step>check battery status</step></steps></rule><rule><instruction>task execution: make an egg on the stove and then bring it to me</instruction><steps><step>move to the stove</step><step>turn on the stove</step><step>place the pan on the stove</step><step>crack the egg into the pan</step><step>cook the egg on the stove</step><step>turn off the stove</step><step>move to the user</step><step>deliver the cooked egg to the user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put cs to game box</instruction><steps><step>move to the game box</step><step>open the game box</step><step>put CS in the game box</step><step>close the game box</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn on the tv and turn the volume to the max</instruction><steps><step>move to the living room</step><step>turn on the TV</step><step>adjust the volume to the maximum</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn on the tv and the xbox</instruction><steps><step>move to the TV</step><step>turn on the TV</step><step>move to the Xbox</step><step>turn on the Xbox</step><step>check battery status</step></steps></rule><rule><instruction>task execution: make sure they are connected</instruction><steps><step>visible</step><step>battery_check</step></steps></rule><rule><instruction>task execution: open the disk tray of the xbox and insert the dvd after removing it from its case</instruction><steps><step>move to the Xbox</step><step>open the disk tray</step><step>move to the DVD case</step><step>remove the DVD from the case</step><step>move to the Xbox</step><step>insert the DVD into the disk tray</step><step>check battery status</step></steps></rule><rule><instruction>task execution: close the tray</instruction><steps><step>move to the tray</step><step>close the tray</step><step>check battery status</step></steps></rule><rule><instruction>task execution: find a large bowl , and pour chips into it until it is filled</instruction><steps><step>scan surroundings</step><step>find a large bowl</step><step>move to the bowl</step><step>grab chips</step><step>move to the bowl</step><step>pour chips into the bowl</step><step>check if the bowl is filled</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take the pillows and divide them evenly among the chairs</instruction><steps><step>grab pillows</step><step>move to the chairs</step><step>divide pillows among chairs</step><step>check battery status</step></steps></rule><rule><instruction>task execution: clean anything trash unless it's needed above</instruction><steps><step>Move to the Cleaning Area</step><step>Scan the Environment</step><step>Detect Trash</step><step>Pick Up Trash</step><step>Move to Trash Bin</step><step>Drop Trash</step><step>Repeat until all trash is cleaned</step><step>Check Battery Status</step></steps></rule><rule><instruction>task execution: put the used dishes and cups in the sink and place all the items neatly on the counter</instruction><steps><step>move to the kitchen</step><step>scan the environment</step><step>grab dishes</step><step>grab cups</step><step>move to the sink</step><step>drop dishes</step><step>drop cups</step><step>move to the counter</step><step>place items neatly</step><step>check battery status</step></steps></rule><rule><instruction>task execution: hold the trash bag in one hand and place the plate inside the bag</instruction><steps><step>grab trash bag</step><step>hold trash bag</step><step>move to the plate</step><step>grab plate</step><step>place plate inside bag</step><step>check battery status</step></steps></rule><rule><instruction>task execution: arrange the couches in the correct locations in the living room</instruction><steps><step>move to the living room</step><step>scan the environment</step><step>identify the correct locations for the couches</step><step>move the first couch to its correct location</step><step>move the second couch to its correct location</step><step>move the third couch to its correct location</step><step>check battery status</step></steps></rule><rule><instruction>task execution: pick up guiness book from the floor and place on desk</instruction><steps><step>move to the floor</step><step>scan the environment</step><step>detect the guiness book</step><step>grab the guiness book</step><step>move to the desk</step><step>place the guiness book on the desk</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn off the lamp</instruction><steps><step>move to the lamp</step><step>turn off the lamp</step><step>check battery status</step></steps></rule><rule><instruction>task execution: get ramen</instruction><steps><step>move to the kitchen</step><step>check battery status</step><step>grab a bowl</step><step>fill the bowl with water</step><step>place the bowl in the microwave</step><step>set the microwave timer</step><step>wait for the microwave to finish</step><step>remove the bowl from the microwave</step><step>open the ramen package</step><step>pour the ramen into the bowl</step><step>add hot water to the bowl</step><step>wait for the ramen to cook</step><step>stir the ramen</step><step>add seasoning to the ramen</step><step>check battery status</step><step>enjoy the ramen</step></steps></rule><rule><instruction>task execution: turn on the tv and change it to a channel with a movie</instruction><steps><step>move to the living room</step><step>turn on the TV</step><step>scan the available channels</step><step>select a channel with a movie</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take beer and put it on the table in front of the couch</instruction><steps><step>grab beer</step><step>move to the couch</step><step>move to the table in front of the couch</step><step>put beer on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: make sure all the books are on the shelf</instruction><steps><step>move to the bookshelf</step><step>scan the environment</step><step>pick up a book</step><step>move to the shelf</step><step>place the book on the shelf</step><step>repeat for all books</step><step>check battery status</step></steps></rule><rule><instruction>task execution: read the instructions and prepare accordingly</instruction><steps><step>read the instructions</step><step>prepare accordingly</step></steps></rule><rule><instruction>task execution: empty contents of pot onto the plate</instruction><steps><step>move to the pot</step><step>grab the pot</step><step>move to the plate</step><step>pour contents of the pot onto the plate</step><step>release the pot</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the chocolate syrup into the fridge</instruction><steps><step>move to the fridge</step><step>open the fridge door</step><step>grab the chocolate syrup</step><step>place the chocolate syrup in the fridge</step><step>close the fridge door</step><step>check battery status</step></steps></rule><rule><instruction>task execution: remove mug and close the microwave door</instruction><steps><step>grab mug</step><step>move to microwave</step><step>open microwave door</step><step>remove mug</step><step>close microwave door</step><step>check battery status</step></steps></rule><rule><instruction>task execution: make some eggs on the stove and then put them on a plate and serve the eggs and coffee to me</instruction><steps><step>move to the stove</step><step>turn on the stove</step><step>wait for the stove to heat up</step><step>crack eggs into a bowl</step><step>whisk the eggs</step><step>pour the eggs onto the heated pan</step><step>cook the eggs</step><step>flip the eggs if necessary</step><step>wait for the eggs to cook</step><step>move to the plate</step><step>grab a plate</step><step>move back to the stove</step><step>turn off the stove</step><step>move to the pan</step><step>use a spatula to transfer the cooked eggs onto the plate</step><step>move to the coffee maker</step><step>prepare coffee</step><step>pour coffee into a cup</step><step>move to the plate</step><step>serve the eggs and coffee to the user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: get the water pour into bowl</instruction><steps><step>move to the water source</step><step>grab the water container</step><step>move to the bowl</step><step>pour water into the bowl</step><step>release the water container</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place bowl on the stove</instruction><steps><step>move to the stove</step><step>place bowl on the stove</step><step>check battery status</step></steps></rule><rule><instruction>task execution: boil water</instruction><steps><step>move to the kitchen</step><step>check battery status</step><step>grab kettle</step><step>fill kettle with water</step><step>place kettle on stove</step><step>turn on stove</step><step>wait for water to boil</step><step>check if water is boiling</step><step>turn off stove</step><step>pick up kettle</step><step>deliver kettle to user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: pour ramen into bowl</instruction><steps><step>grab ramen packet</step><step>move to the kitchen</step><step>grab a bowl</step><step>move to the pantry</step><step>grab a packet of ramen seasoning</step><step>move to the stove</step><step>boil water</step><step>open the ramen packet</step><step>pour the ramen into the bowl</step><step>add the seasoning to the ramen</step><step>stir the ramen</step><step>serve the ramen in the bowl</step><step>check battery status</step></steps></rule><rule><instruction>task execution: arrange the food on the center table</instruction><steps><step>move to the center table</step><step>scan the environment</step><step>grab food</step><step>place food on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn of the lights</instruction><steps><step>move to the location of the lights</step><step>turn off the lights</step><step>check battery status</step></steps></rule><rule><instruction>task execution: open the disk tray of the xbox and remove the video game disk from its case</instruction><steps><step>move to the Xbox</step><step>open the disk tray</step><step>remove the video game disk from its case</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place the disk in the disk tray and close the tray</instruction><steps><step>grab disk</step><step>move to the disk tray</step><step>place disk in the tray</step><step>close the tray</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place the case on the table</instruction><steps><step>move to the table</step><step>place the case on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place a large bowl on the table</instruction><steps><step>move to the table</step><step>grab a large bowl</step><step>place the bowl on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place the bag next to the bowl</instruction><steps><step>move to the bag</step><step>grab the bag</step><step>move to the bowl</step><step>drop the bag</step><step>check battery status</step></steps></rule><rule><instruction>task execution: remove anything from the table that does not contain food</instruction><steps><step>move to the table</step><step>scan the table</step><step>identify objects without food</step><step>pick up objects without food</step><step>move objects to a designated location</step><step>check battery status</step></steps></rule><rule><instruction>task execution: rotate the couches so that the backs face directly away from the tv</instruction><steps><step>move to the couches</step><step>rotate the couches</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take coffee from the container</instruction><steps><step>move to the container</step><step>open the container</step><step>grab the coffee</step><step>close the container</step><step>move to the user</step><step>deliver the coffee</step><step>check battery status</step></steps></rule><rule><instruction>task execution: pour the drink into the long glass and serve ramen on the plate</instruction><steps><step>grab drink</step><step>move to the long glass</step><step>pour drink into the long glass</step><step>grab ramen</step><step>move to the plate</step><step>serve ramen on the plate</step><step>check battery status</step></steps></rule><rule><instruction>task execution: bring us the book and the bag of chips</instruction><steps><step>grab book</step><step>move to book location</step><step>pick up book</step><step>move to user</step><step>deliver book to user</step><step>check battery status</step><step>grab bag of chips</step><step>move to bag of chips location</step><step>pick up bag of chips</step><step>move to user</step><step>deliver bag of chips to user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: prepare the coffee using hot water</instruction><steps><step>move to the kitchen</step><step>check battery status</step><step>move to the hot water dispenser</step><step>grab a cup</step><step>move to the coffee machine</step><step>pour hot water into the coffee machine</step><step>add coffee grounds</step><step>start the coffee machine</step><step>wait for the coffee to brew</step><step>grab a saucer</step><step>move to the coffee machine</step><step>pour coffee into the cup</step><step>place the cup on the saucer</step><step>deliver the coffee to the user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: drizzle with syrup</instruction><steps><step>grab syrup bottle</step><step>move to the dish</step><step>drizzle syrup on the dish</step><step>check battery status</step></steps></rule><rule><instruction>task execution: microwave the coffee in the mug for 30 seconds</instruction><steps><step>move to the kitchen</step><step>move to the microwave</step><step>open the microwave door</step><step>place the mug with coffee inside the microwave</step><step>close the microwave door</step><step>set the microwave timer to 30 seconds</step><step>start the microwave</step><step>wait for 30 seconds</step><step>stop the microwave</step><step>open the microwave door</step><step>remove the mug with coffee from the microwave</step><step>close the microwave door</step><step>deliver the mug with coffee to the user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: retrieve the coffee mug and slowly pour the contents over the ice cream</instruction><steps><step>grab coffee mug</step><step>move to the coffee mug</step><step>pick up the coffee mug</step><step>move to the ice cream</step><step>pour the contents over the ice cream</step><step>check battery status</step></steps></rule><rule><instruction>task execution: get the syrup</instruction><steps><step>move to the kitchen</step><step>scan the environment</step><step>grab the syrup</step><step>check battery status</step></steps></rule><rule><instruction>task execution: add two squirts of the bottle to the bowl</instruction><steps><step>grab bottle</step><step>move to the bowl</step><step>add two squirts to the bowl</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put game cd in xbox</instruction><steps><step>move to the Xbox</step><step>open the Xbox disc tray</step><step>take out the current disc</step><step>place the game CD in the disc tray</step><step>close the Xbox disc tray</step><step>check battery status</step></steps></rule><rule><instruction>task execution: connect xbox to tv</instruction><steps><step>move to the TV</step><step>connect Xbox to TV</step><step>check battery status</step></steps></rule><rule><instruction>task execution: gather the mustard and chocolate syrup and put it in the fridge</instruction><steps><step>grab mustard</step><step>grab chocolate syrup</step><step>move to the fridge</step><step>open the fridge</step><step>put mustard in the fridge</step><step>put chocolate syrup in the fridge</step><step>close the fridge</step><step>check battery status</step></steps></rule><rule><instruction>task execution: empty the contents of the bowl into the garbage bag</instruction><steps><step>move to the bowl</step><step>grab the bowl</step><step>move to the garbage bag</step><step>drop the contents into the garbage bag</step><step>release the bowl</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn of the television</instruction><steps><step>move to the living room</step><step>turn off the TV</step><step>check battery status</step></steps></rule><rule><instruction>task execution: bring the bowl and bag of chips to the center table and empty contents of chip bag into the bowl</instruction><steps><step>grab bowl</step><step>grab bag of chips</step><step>move to center table</step><step>place bowl on center table</step><step>place bag of chips on center table</step><step>empty contents of chip bag into bowl</step><step>check battery status</step></steps></rule><rule><instruction>task execution: cook</instruction><steps><step>move to the kitchen</step><step>check battery status</step><step>grab ingredients</step><step>check battery status</step><step>prepare cooking utensils</step><step>check battery status</step><step>follow recipe instructions</step><step>check battery status</step><step>cook the dish</step><step>check battery status</step><step>plate the dish</step><step>check battery status</step><step>clean up the kitchen</step><step>check battery status</step></steps></rule><rule><instruction>task execution: insert my gamecd into the dvd</instruction><steps><step>move to the DVD player</step><step>open the DVD player</step><step>insert the game CD</step><step>close the DVD player</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put my xbox and xbox controller on the table in front of the coach</instruction><steps><step>move to the coach</step><step>move to the table in front of the coach</step><step>put xbox on the table</step><step>put xbox controller on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the xbox and controllers away</instruction><steps><step>grab xbox</step><step>move to storage area</step><step>drop xbox</step><step>grab controllers</step><step>move to storage area</step><step>drop controllers</step><step>check battery status</step></steps></rule><rule><instruction>task execution: remove beer from the coffee table</instruction><steps><step>move to the coffee table</step><step>grab beer</step><step>move to a safe location</step><step>put down beer</step><step>check battery status</step></steps></rule><rule><instruction>task execution: bring all books to the coffee table</instruction><steps><step>move to the bookshelf</step><step>scan the bookshelf</step><step>grab a book</step><step>move to the coffee table</step><step>drop the book</step><step>repeat for all books</step><step>check battery status</step></steps></rule><rule><instruction>task execution: serve the food on the plates and pour a drink into the long cups</instruction><steps><step>move to the kitchen</step><step>grab plates</step><step>move to the food area</step><step>place food on plates</step><step>grab long cups</step><step>move to the drink area</step><step>pour drink into long cups</step><step>deliver plates and cups to the user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place the table and desk against another side of the wall</instruction><steps><step>move the table and desk to the desired location</step><step>rotate the table and desk to align with the wall</step><step>place the table and desk against the wall</step><step>check battery status</step></steps></rule><rule><instruction>task execution: pick up anything from the floor and place it to its designated location</instruction><steps><step>scan surroundings</step><step>detect movable objects</step><step>grab object</step><step>move to designated location</step><step>place object</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the food on the counter</instruction><steps><step>grab food</step><step>move to the counter</step><step>place food on the counter</step><step>check battery status</step></steps></rule><rule><instruction>task execution: empty the middle area</instruction><steps><step>move to the middle area</step><step>scan the environment</step><step>identify movable objects</step><step>pick up objects</step><step>move to a safe location</step><step>drop objects</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn on the music and increase the volume</instruction><steps><step>turn on the music</step><step>increase the volume</step></steps></rule><rule><instruction>task execution: get ramen and empty contents into pot</instruction><steps><step>grab ramen</step><step>move to the kitchen</step><step>grab pot</step><step>move to the pantry</step><step>grab ramen packet</step><step>move to the stove</step><step>turn on the stove</step><step>move to the sink</step><step>fill pot with water</step><step>move to the stove</step><step>place pot on stove</step><step>open ramen packet</step><step>empty contents into pot</step><step>turn off the stove</step><step>move to the table</step><step>serve ramen</step><step>check battery status</step></steps></rule><rule><instruction>task execution: serve on the plates</instruction><steps><step>move to the kitchen</step><step>grab plates</step><step>move to the serving area</step><step>place food on plates</step><step>deliver plates to the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put xbox controller by the xbox</instruction><steps><step>move to the xbox</step><step>put down the xbox controller</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place the dvd in the tray and close it</instruction><steps><step>grab dvd</step><step>move to the tray</step><step>place dvd in the tray</step><step>close the tray</step><step>check battery status</step></steps></rule><rule><instruction>task execution: leave the case near the xbox</instruction><steps><step>move to the xbox</step><step>place the case near the xbox</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put all drinks on the coffee table</instruction><steps><step>move to the drinks</step><step>grab a drink</step><step>move to the coffee table</step><step>drop the drink on the coffee table</step><step>repeat for all drinks</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place the chips and bowl onto the coffee table</instruction><steps><step>grab chips</step><step>move to the coffee table</step><step>place chips on the coffee table</step><step>grab bowl</step><step>place bowl on the coffee table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the far cry game cd back into its case</instruction><steps><step>move to the game CD</step><step>grab the game CD</step><step>move to the game CD case</step><step>open the game CD case</step><step>put the game CD into the case</step><step>close the game CD case</step><step>check battery status</step></steps></rule><rule><instruction>task execution: pick up the book next to the television and put it back on the desk</instruction><steps><step>move to the television</step><step>scan the environment</step><step>detect the book</step><step>grab the book</step><step>move to the desk</step><step>put down the book</step><step>check battery status</step></steps></rule><rule><instruction>task execution: clear all tables and the floor and put the contents on the shelves</instruction><steps><step>move to the first table</step><step>clear the table</step><step>move to the second table</step><step>clear the table</step><step>move to the third table</step><step>clear the table</step><step>move to the floor</step><step>clear the floor</step><step>move to the shelves</step><step>put contents on the shelves</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take the chip bowl and place it near the drinks</instruction><steps><step>grab chip bowl</step><step>move to drinks area</step><step>place chip bowl near drinks</step><step>check battery status</step></steps></rule><rule><instruction>task execution: change the tv channel until a dance music themed station is found</instruction><steps><step>move to the TV</step><step>turn on the TV</step><step>change the channel</step><step>check if the current channel is a dance music themed station</step><step>if not, repeat the previous step</step><step>if yes, stop changing the channel</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn the volume to full</instruction><steps><step>move to the TV</step><step>adjust the volume to full</step><step>check battery status</step></steps></rule><rule><instruction>task execution: make sure the chairs are rotated so that they face the room's center</instruction><steps><step>move to the first chair</step><step>rotate the first chair to face the room center</step><step>move to the second chair</step><step>rotate the second chair to face the room center</step><step>move to the third chair</step><step>rotate the third chair to face the room center</step><step>move to the fourth chair</step><step>rotate the fourth chair to face the room center</step><step>move to the fifth chair</step><step>rotate the fifth chair to face the room center</step><step>check battery status</step></steps></rule><rule><instruction>task execution: using a n ice cream scoop , add ice cream to the bowl twice</instruction><steps><step>grab ice cream scoop</step><step>move to the ice cream container</step><step>scoop ice cream</step><step>move to the bowl</step><step>add ice cream to the bowl</step><step>scoop ice cream</step><step>move to the bowl</step><step>add ice cream to the bowl</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put all dirty dishes into the sink , cups , plates , forks , the pot and all</instruction><steps><step>move to the kitchen</step><step>scan the environment</step><step>grab dirty dishes</step><step>move to the sink</step><step>drop dirty dishes into the sink</step><step>grab cups</step><step>move to the sink</step><step>drop cups into the sink</step><step>grab plates</step><step>move to the sink</step><step>drop plates into the sink</step><step>grab forks</step><step>move to the sink</step><step>drop forks into the sink</step><step>grab the pot</step><step>move to the sink</step><step>drop the pot into the sink</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put ramen into the refrigerator</instruction><steps><step>move to the kitchen</step><step>open the refrigerator</step><step>move to the counter</step><step>pick up the ramen</step><step>move to the refrigerator</step><step>put the ramen into the refrigerator</step><step>close the refrigerator</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put flavors in the cupboard</instruction><steps><step>move to the cupboard</step><step>open the cupboard</step><step>grab flavors</step><step>place flavors in the cupboard</step><step>close the cupboard</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the glasses and mugs into the sink</instruction><steps><step>grab glasses and mugs</step><step>move to the sink</step><step>drop glasses and mugs into the sink</step><step>check battery status</step></steps></rule><rule><instruction>task execution: get a cup</instruction><steps><step>move to the kitchen</step><step>open the cupboard</step><step>grab a cup</step><step>close the cupboard</step><step>check battery status</step></steps></rule><rule><instruction>task execution: open the fridge and remove milk</instruction><steps><step>move to the fridge</step><step>open the fridge</step><step>scan the fridge</step><step>identify the milk</step><step>grab the milk</step><step>close the fridge</step><step>move to the user</step><step>deliver the milk</step><step>check battery status</step></steps></rule><rule><instruction>task execution: run the gamecd</instruction><steps><step>move to the game room</step><step>turn on the game console</step><step>check battery status</step></steps></rule><rule><instruction>task execution: move drinks and food to the middle of the table</instruction><steps><step>move to the drinks</step><step>move to the food</step><step>move to the middle of the table</step></steps></rule><rule><instruction>task execution: put the pillow on the coach</instruction><steps><step>grab pillow</step><step>move to the couch</step><step>place pillow on the couch</step><step>check battery status</step></steps></rule><rule><instruction>task execution: find the movie , open the case</instruction><steps><step>scanning</step><step>selector</step><step>visible</step><step>selector</step><step>grab</step><step>move to the movie case</step><step>open the case</step></steps></rule><rule><instruction>task execution: open the xbox disk tray</instruction><steps><step>move to the xbox</step><step>press the button to open the disk tray</step><step>check battery status</step></steps></rule><rule><instruction>task execution: clear all non-food or drink items from the coffee table</instruction><steps><step>move to the coffee table</step><step>scan the environment</step><step>identify non-food or drink items</step><step>pick up non-food or drink items</step><step>move to a designated area for non-food or drink items</step><step>put down non-food or drink items</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the pots away</instruction><steps><step>move to the pots</step><step>grab pots</step><step>move to storage area</step><step>drop pots</step><step>check battery status</step></steps></rule><rule><instruction>task execution: remove cd from case and insert it into disk tray of xbox</instruction><steps><step>grab CD case</step><step>open CD case</step><step>remove CD from case</step><step>grab Xbox</step><step>move to Xbox</step><step>open Xbox disk tray</step><step>insert CD into Xbox disk tray</step><step>close Xbox disk tray</step><step>check battery status</step></steps></rule><rule><instruction>task execution: remove all non-food and drink items and put them on shelves</instruction><steps><step>move to the designated area</step><step>scan the environment</step><step>identify non-food and drink items</step><step>grab non-food and drink items</step><step>move to the shelves</step><step>put non-food and drink items on shelves</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put cds and xbox  on the cupboard next to the tv</instruction><steps><step>move to the cupboard</step><step>open the cupboard</step><step>move cds to the cupboard</step><step>move xbox to the cupboard</step><step>close the cupboard</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put pillows onto the coaches</instruction><steps><step>move to the pillows</step><step>grab pillows</step><step>move to the coaches</step><step>drop pillows onto the coaches</step><step>check battery status</step></steps></rule><rule><instruction>task execution: add the ramen to the pot</instruction><steps><step>grab ramen</step><step>move to the pot</step><step>add ramen to the pot</step><step>check battery status</step></steps></rule><rule><instruction>task execution: wait fifteen minutes</instruction><steps><step>rest</step></steps></rule><rule><instruction>task execution: put it on one of the burners , and turn it on</instruction><steps><step>grab object</step><step>move to the stove</step><step>place object on burner</step><step>turn on burner</step><step>check battery status</step></steps></rule><rule><instruction>task execution: open the gamecd with tv</instruction><steps><step>move to the TV</step><step>turn on the TV</step><step>insert the game CD into the TV</step><step>check battery status</step></steps></rule><rule><instruction>task execution: pour chips into the bowl and throw the container into the trash bag</instruction><steps><step>grab container</step><step>move to chips</step><step>grab chips</step><step>move to bowl</step><step>pour chips into bowl</step><step>move to trash bag</step><step>drop container into trash bag</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put drinks and food on the middle of the table in front of coaches</instruction><steps><step>move to the table</step><step>move to the middle of the table</step><step>place drinks on the table</step><step>place food on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: clear the table</instruction><steps><step>move to the table</step><step>remove objects from the table</step><step>place objects in appropriate locations</step><step>check battery status</step></steps></rule><rule><instruction>task execution: bring all non-alcoholic drinks to the table</instruction><steps><step>scan surroundings</step><step>identify non-alcoholic drinks</step><step>grab non-alcoholic drinks</step><step>move to the table</step><step>place non-alcoholic drinks on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put two scoops of ice cream into this white bowl , then put vanilla and chocolate syrup over it</instruction><steps><step>grab ice cream scoop</step><step>grab white bowl</step><step>scoop two scoops of ice cream into the white bowl</step><step>grab vanilla syrup</step><step>pour vanilla syrup over the ice cream</step><step>grab chocolate syrup</step><step>pour chocolate syrup over the ice cream</step><step>put down ice cream scoop</step><step>put down white bowl</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn on the television and put on a movie</instruction><steps><step>move to the living room</step><step>turn on the television</step><step>select a movie</step><step>play the movie</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put books on the table in front of the coaches</instruction><steps><step>move to the table</step><step>place books on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: get and open the instant ramen</instruction><steps><step>grab instant ramen</step><step>move to the kitchen</step><step>open the instant ramen package</step><step>check battery status</step></steps></rule><rule><instruction>task execution: add water from the faucet until it overflows</instruction><steps><step>move to the faucet</step><step>turn on the faucet</step><step>check if the water is overflowing</step><step>if not overflowing, continue adding water</step><step>if overflowing, turn off the faucet</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put instant ramen in the microwave</instruction><steps><step>move to the kitchen</step><step>move to the microwave</step><step>open the microwave door</step><step>place instant ramen in the microwave</step><step>close the microwave door</step><step>set the cooking time</step><step>start the microwave</step><step>wait for the cooking to finish</step><step>remove the instant ramen from the microwave</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn the microwave on for two minutes</instruction><steps><step>move to the microwave</step><step>turn on the microwave</step><step>set the timer for two minutes</step><step>check battery status</step></steps></rule><rule><instruction>task execution: remove the instant ramen and serve with a fork</instruction><steps><step>grab instant ramen</step><step>move to the kitchen</step><step>remove instant ramen from packaging</step><step>grab a fork</step><step>serve instant ramen with a fork</step><step>check battery status</step></steps></rule><rule><instruction>task execution: if any of the pots or dishes have food on or in them , dump them out in the garbage can , then put them in the sink</instruction><steps><step>scan pots and dishes</step><step>check for food residue</step><step>if food residue found</step><step>check battery status</step></steps></rule><rule><instruction>task execution: the syrups can go into the fridge , and the instant ramen should go back into a cabinet</instruction><steps><step>move to the fridge</step><step>open the fridge</step><step>grab the syrups</step><step>place the syrups in the fridge</step><step>close the fridge</step><step>move to the cabinet</step><step>open the cabinet</step><step>grab the instant ramen</step><step>place the instant ramen in the cabinet</step><step>close the cabinet</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put xbox and its controller on the low big table</instruction><steps><step>grab xbox</step><step>grab controller</step><step>move to the low big table</step><step>place xbox on the table</step><step>place controller on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: arrange the coaches around the table</instruction><steps><step>move to the table</step><step>scan the environment</step><step>determine the number of coaches needed</step><step>move to the coach storage area</step><step>grab the coaches</step><step>move back to the table</step><step>place the coaches around the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: add one squirt of each chocolate and vanilla syrup to the mug</instruction><steps><step>grab chocolate syrup</step><step>grab vanilla syrup</step><step>move to the mug</step><step>add one squirt of chocolate syrup to the mug</step><step>add one squirt of vanilla syrup to the mug</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put away water , ramen , and flavors in the cupboard</instruction><steps><step>move to the cupboard</step><step>open the cupboard</step><step>put away water</step><step>put away ramen</step><step>put away flavors</step><step>close the cupboard</step><step>check battery status</step></steps></rule><rule><instruction>task execution: move the two seats away from the desk</instruction><steps><step>move the first seat away from the desk</step><step>move the second seat away from the desk</step><step>check battery status</step></steps></rule><rule><instruction>task execution: move all furniture to the sides of the room</instruction><steps><step>move to the first piece of furniture</step><step>move the first piece of furniture to the side of the room</step><step>move to the next piece of furniture</step><step>move the next piece of furniture to the side of the room</step><step>repeat until all furniture is moved to the sides of the room</step><step>check battery status</step></steps></rule><rule><instruction>task execution: move the tables and chair so that they are on the wall</instruction><steps><step>move tables</step><step>move chair</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put xbox and its controller in the shelf under the tv</instruction><steps><step>move to the living room</step><step>move to the TV</step><step>move to the shelf under the TV</step><step>grab the Xbox</step><step>place the Xbox on the shelf</step><step>grab the controller</step><step>place the controller on the shelf</step><step>check battery status</step></steps></rule><rule><instruction>task execution: change the channel so a movie is playing</instruction><steps><step>move to the TV</step><step>turn on the TV</step><step>change the channel to a movie</step><step>check battery status</step></steps></rule><rule><instruction>task execution: find a white bowl</instruction><steps><step>scanning</step><step>visible</step><step>selector</step><step>grab</step><step>move to the white bowl</step><step>drop</step><step>check battery status</step></steps></rule><rule><instruction>task execution: finally , take the syrup on the counter and drizzle it over the ice cream</instruction><steps><step>move to the counter</step><step>pick up the syrup</step><step>move to the ice cream</step><step>drizzle the syrup over the ice cream</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the game into the xbox , connect xbox to television</instruction><steps><step>grab game</step><step>move to the Xbox</step><step>insert game into the Xbox</step><step>move to the television</step><step>connect Xbox to television</step><step>check battery status</step></steps></rule><rule><instruction>task execution: move the couch so that it's in front of the xbox</instruction><steps><step>move the couch</step><step>check battery status</step><step>move the couch in front of the xbox</step></steps></rule><rule><instruction>task execution: stir the mug with a clean spoon for half a minute</instruction><steps><step>grab clean spoon</step><step>stir mug for half a minute</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn on the oven for 10minutes</instruction><steps><step>move to the kitchen</step><step>turn on the oven</step><step>wait for 10 minutes</step><step>check battery status</step></steps></rule><rule><instruction>task execution: fill the pot with water up to tow thirds and boil it on the stove for 10 minutes</instruction><steps><step>move to the kitchen</step><step>move to the sink</step><step>grab the pot</step><step>move to the water source</step><step>fill the pot with water up to two thirds</step><step>move to the stove</step><step>turn on the stove</step><step>boil the water on the stove for 10 minutes</step><step>turn off the stove</step><step>check battery status</step></steps></rule><rule><instruction>task execution: heat it on the stove for 10 minutes</instruction><steps><step>move to the stove</step><step>turn on the stove</step><step>place the item on the stove</step><step>set the timer for 10 minutes</step><step>wait for 10 minutes</step><step>turn off the stove</step><step>remove the item from the stove</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take the syrup bottles and place them in the refrigerator</instruction><steps><step>grab syrup bottles</step><step>move to the refrigerator</step><step>open the refrigerator</step><step>place syrup bottles in the refrigerator</step><step>close the refrigerator</step><step>check battery status</step></steps></rule><rule><instruction>task execution: pick up all cans , bottles , and garbage and put it in the trash can</instruction><steps><step>scan surroundings</step><step>grab cans</step><step>grab bottles</step><step>grab garbage</step><step>move to trash can</step><step>drop cans</step><step>drop bottles</step><step>drop garbage</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place the cd , xbox , and controller in the cabinet under the tv</instruction><steps><step>move to the cabinet under the TV</step><step>open the cabinet</step><step>move to the CD</step><step>grab the CD</step><step>move to the cabinet under the TV</step><step>place the CD in the cabinet</step><step>move to the Xbox</step><step>grab the Xbox</step><step>move to the cabinet under the TV</step><step>place the Xbox in the cabinet</step><step>move to the controller</step><step>grab the controller</step><step>move to the cabinet under the TV</step><step>place the controller in the cabinet</step><step>close the cabinet</step><step>check battery status</step></steps></rule><rule><instruction>task execution: empty the contents of the cups and pot</instruction><steps><step>move to the cups</step><step>grab cup 1</step><step>empty cup 1</step><step>drop cup 1</step><step>grab cup 2</step><step>empty cup 2</step><step>drop cup 2</step><step>grab pot</step><step>empty pot</step><step>drop pot</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn on the xbox and play some music</instruction><steps><step>move to the living room</step><step>turn on the Xbox</step><step>play music</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take the remote off the chair and place it on the table</instruction><steps><step>move to the chair</step><step>scan the environment</step><step>grab the remote</step><step>move to the table</step><step>drop the remote</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take everything related to the xbox and put it in the cabinet under the tv</instruction><steps><step>move to the living room</step><step>scan the environment</step><step>identify Xbox-related items</step><step>grab Xbox-related items</step><step>move to the cabinet under the TV</step><step>open the cabinet</step><step>put Xbox-related items in the cabinet</step><step>close the cabinet</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put it on the back burner and boil the water</instruction><steps><step>move to the stove</step><step>put the pot on the back burner</step><step>move to the sink</step><step>fill the pot with water</step><step>move back to the stove</step><step>turn on the stove</step><step>wait for the water to boil</step><step>check if the water is boiling</step><step>turn off the stove</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take a cup out of the cabinet and pour the ginger ale on the counter into it</instruction><steps><step>move to the cabinet</step><step>open the cabinet</step><step>grab a cup</step><step>close the cabinet</step><step>move to the counter</step><step>pour ginger ale into the cup</step><step>check battery status</step></steps></rule><rule><instruction>task execution: give the ramen and ginger ale to who wants it</instruction><steps><step>grab ramen</step><step>grab ginger ale</step><step>move to the person who wants it</step><step>deliver ramen and ginger ale</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put chocolate and vanilla syrup on top</instruction><steps><step>grab chocolate syrup</step><step>grab vanilla syrup</step><step>move to the top</step><step>put chocolate syrup on top</step><step>put vanilla syrup on top</step><step>check battery status</step></steps></rule><rule><instruction>task execution: wait until the water is boiling , and then take the egg from the fridge and place it in the pot for 3 minutes</instruction><steps><step>rest</step><step>check battery status</step><step>move to the kitchen</step><step>scan the environment</step><step>move to the fridge</step><step>open the fridge</step><step>grab the egg</step><step>close the fridge</step><step>move to the stove</step><step>check if the water is boiling</step><step>if water is not boiling, rest and check again</step><step>if water is boiling, move to the pot</step><step>open the pot</step><step>place the egg in the pot</step><step>set a timer for 3 minutes</step><step>close the pot</step><step>rest</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take the egg out of the pot , place it in the bowl , and then take a cup from the counter and fill it with cold water from the sink</instruction><steps><step>move to the pot</step><step>grab the egg</step><step>move to the bowl</step><step>drop the egg</step><step>move to the counter</step><step>grab a cup</step><step>move to the sink</step><step>fill the cup with cold water</step><step>move to the user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: fill the cup with energy drink until halfway full , and then serve both the egg and the cup</instruction><steps><step>move to the kitchen</step><step>move to the cupboard</step><step>open the cupboard</step><step>grab the energy drink</step><step>move to the table</step><step>grab the cup</step><step>move to the energy drink</step><step>pour energy drink into the cup</step><step>check the level of the energy drink in the cup</step><step>if halfway full, move to the fridge</step><step>move to the fridge</step><step>open the fridge</step><step>grab the egg</step><step>close the fridge</step><step>move to the table</step><step>place the egg on the table</step><step>place the cup on the table</step><step>serve the egg and the cup</step><step>check battery status</step></steps></rule><rule><instruction>task execution: also , bring the salt shaker</instruction><steps><step>grab salt shaker</step><step>move to the kitchen</step><step>deliver salt shaker to the user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: change the channel to channel 5</instruction><steps><step>move to the TV</step><step>turn on the TV</step><step>navigate to the channel selection menu</step><step>select channel 5</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the xbox in front of the tv and put in the game</instruction><steps><step>move to the TV</step><step>move to the Xbox</step><step>grab the Xbox</step><step>move to the front of the TV</step><step>drop the Xbox</step><step>insert the game into the Xbox</step><step>check battery status</step></steps></rule><rule><instruction>task execution: serve them to me at the counter</instruction><steps><step>move to the counter</step><step>grab the items</step><step>place the items on the counter</step><step>deliver the items to the user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: dispose of trash</instruction><steps><step>move to the trash can</step><step>open the trash can lid</step><step>grab the trash bag</step><step>lift the trash bag out of the trash can</step><step>tie the trash bag</step><step>move to the dumpster</step><step>open the dumpster lid</step><step>drop the trash bag into the dumpster</step><step>close the dumpster lid</step><step>check battery status</step></steps></rule><rule><instruction>task execution: dispose of can</instruction><steps><step>grab can</step><step>move to trash bin</step><step>drop can in trash bin</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn on xbox</instruction><steps><step>move to the living room</step><step>turn on the Xbox</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take pot</instruction><steps><step>move to the kitchen</step><step>grab pot</step><step>check battery status</step></steps></rule><rule><instruction>task execution: wait until it boils</instruction><steps><step>rest</step><step>scanning</step><step>battery_check</step></steps></rule><rule><instruction>task execution: pick up long cup and carry it to the tap</instruction><steps><step>grab long cup</step><step>move to the tap</step><step>check battery status</step></steps></rule><rule><instruction>task execution: fill long cup with water</instruction><steps><step>move to the water source</step><step>grab the long cup</step><step>move to the water source</step><step>fill the long cup with water</step><step>move to the user</step><step>deliver the filled long cup to the user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place in microwave and heat</instruction><steps><step>move to the microwave</step><step>open the microwave door</step><step>place the object inside the microwave</step><step>close the microwave door</step><step>set the heating time and power level</step><step>start the microwave</step><step>wait for the heating process to finish</step><step>stop the microwave</step><step>open the microwave door</step><step>remove the object from the microwave</step><step>close the microwave door</step><step>check battery status</step></steps></rule><rule><instruction>task execution: remove the xbox from the desk</instruction><steps><step>move to the desk</step><step>grab the xbox</step><step>move away from the desk</step><step>put down the xbox</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place chips in bowl</instruction><steps><step>grab chips</step><step>move to the bowl</step><step>drop chips in bowl</step><step>check battery status</step></steps></rule><rule><instruction>task execution: pick up the cd and put it in the xbox</instruction><steps><step>grab cd</step><step>move to xbox</step><step>insert cd into xbox</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place the bottle on the table</instruction><steps><step>move to the table</step><step>place the bottle on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: organize the chairs so that they face the tv</instruction><steps><step>move to the chairs</step><step>scan the environment</step><step>rotate the chairs to face the TV</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn to channel 3 on the tv</instruction><steps><step>move to the TV</step><step>turn on the TV</step><step>change channel to 3</step><step>check battery status</step></steps></rule><rule><instruction>task execution: get instant ramen cup</instruction><steps><step>move to the kitchen</step><step>scan the environment</step><step>locate the instant ramen cup</step><step>grab the instant ramen cup</step><step>check battery status</step></steps></rule><rule><instruction>task execution: bring energy drink from the fridge</instruction><steps><step>move to the fridge</step><step>open the fridge</step><step>scan the fridge</step><step>identify the energy drink</step><step>grab the energy drink</step><step>close the fridge</step><step>deliver the energy drink to the user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: bring boiled egg from the fridge</instruction><steps><step>move to the fridge</step><step>open the fridge</step><step>locate the boiled egg</step><step>grab the boiled egg</step><step>close the fridge</step><step>deliver the boiled egg to the user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put energy drink in class and egg on plate</instruction><steps><step>move to the classroom</step><step>move to the table</step><step>grab energy drink</step><step>move to the desk</step><step>place energy drink on the desk</step><step>move to the kitchen</step><step>move to the table</step><step>grab egg</step><step>move to the dining table</step><step>place egg on the plate</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put cd into tv to watch movie</instruction><steps><step>move to the TV</step><step>open the CD tray</step><step>insert the CD into the tray</step><step>close the CD tray</step><step>turn on the TV</step><step>select the CD input</step><step>play the movie</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take out food from the refrigerator , place it on a plate and then heat it in the microwave</instruction><steps><step>move to the refrigerator</step><step>open the refrigerator door</step><step>scan the refrigerator contents</step><step>identify the food item</step><step>grab the food item</step><step>move to the kitchen counter</step><step>place the food item on a plate</step><step>move to the microwave</step><step>open the microwave door</step><step>place the plate with the food item inside the microwave</step><step>set the desired heating time</step><step>start the microwave</step><step>wait for the microwave to finish heating</step><step>stop the microwave</step><step>remove the plate with the heated food item from the microwave</step><step>deliver the plate with the heated food item to the user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place the mug and plate on the table</instruction><steps><step>move to the table</step><step>place the mug on the table</step><step>place the plate on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: push coffee table against wall</instruction><steps><step>move to the coffee table</step><step>push the coffee table against the wall</step><step>check battery status</step></steps></rule><rule><instruction>task execution: open the refrigerator and scoop some ice cream onto the plate</instruction><steps><step>move to the refrigerator</step><step>open the refrigerator</step><step>move to the ice cream</step><step>scoop ice cream onto the plate</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take the syrup bottle and squeeze some on the plate</instruction><steps><step>grab syrup bottle</step><step>move to the plate</step><step>squeeze syrup on the plate</step><step>check battery status</step></steps></rule><rule><instruction>task execution: clean up xbox and xbox controller</instruction><steps><step>move to the Xbox</step><step>pick up the Xbox</step><step>move to the cleaning area</step><step>clean the Xbox</step><step>put down the Xbox</step><step>move to the Xbox controller</step><step>pick up the Xbox controller</step><step>move to the cleaning area</step><step>clean the Xbox controller</step><step>put down the Xbox controller</step><step>check battery status</step></steps></rule><rule><instruction>task execution: push all furniture against wall</instruction><steps><step>move to the first furniture</step><step>bypass the furniture</step><step>move the furniture against the wall</step><step>move to the next furniture</step><step>bypass the furniture</step><step>move the furniture against the wall</step><step>move to the next furniture</step><step>bypass the furniture</step><step>move the furniture against the wall</step><step>move to the next furniture</step><step>bypass the furniture</step><step>move the furniture against the wall</step><step>move to the next furniture</step><step>bypass the furniture</step><step>move the furniture against the wall</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put all drinks on end table , and fill bowl with chips</instruction><steps><step>move to the drinks</step><step>grab a drink</step><step>move to the end table</step><step>drop the drink on the end table</step><step>move to the chips</step><step>grab a bag of chips</step><step>move to the bowl</step><step>fill the bowl with chips</step><step>drop the bag of chips</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place the bag of chips and the bottle on the low table</instruction><steps><step>move to the low table</step><step>drop bag of chips</step><step>drop bottle</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the coke and the bag of chips on the table</instruction><steps><step>grab coke</step><step>move to the table</step><step>drop coke</step><step>grab bag of chips</step><step>move to the table</step><step>drop bag of chips</step><step>check battery status</step></steps></rule><rule><instruction>task execution: move each table to a corner of the room</instruction><steps><step>move table 1 to corner 1</step><step>move table 2 to corner 2</step><step>move table 3 to corner 3</step><step>move table 4 to corner 4</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put egg on plate</instruction><steps><step>move to the kitchen</step><step>move to the refrigerator</step><step>open the refrigerator door</step><step>take out the egg from the refrigerator</step><step>close the refrigerator door</step><step>move to the counter</step><step>move to the plate</step><step>place the egg on the plate</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put all bottles in the refrigerator</instruction><steps><step>move to the bottles</step><step>grab a bottle</step><step>move to the refrigerator</step><step>open the refrigerator</step><step>put the bottle in the refrigerator</step><step>close the refrigerator</step><step>repeat for all bottles</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place chip bag in garbage bag</instruction><steps><step>grab chip bag</step><step>move to garbage bag</step><step>drop chip bag</step><step>check battery status</step></steps></rule><rule><instruction>task execution: bring pillows from shelf and place on couches</instruction><steps><step>move to the shelf</step><step>scan the environment</step><step>grab pillows</step><step>move to the couches</step><step>place pillows on couches</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn on the stove until the water is 100 degrees celcius</instruction><steps><step>move to the stove</step><step>turn on the stove</step><step>check water temperature</step><step>if water temperature is not 100 degrees Celsius, continue heating</step><step>check battery status</step></steps></rule><rule><instruction>task execution: make sure all food is on the coffee table</instruction><steps><step>move to the coffee table</step><step>scan the environment</step><step>grab food items</step><step>place food items on the coffee table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: dispose of trash and place bottle on the coffee table</instruction><steps><step>move to the trash can</step><step>pick up the trash</step><step>dispose of the trash</step><step>move to the coffee table</step><step>place the bottle on the coffee table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: pick up the pot and put it under the faucet</instruction><steps><step>grab pot</step><step>move to faucet</step><step>place pot under faucet</step></steps></rule><rule><instruction>task execution: pick up the bottle of syrup and put some on the scooped ice cream</instruction><steps><step>grab bottle of syrup</step><step>move to scooped ice cream</step><step>put syrup on ice cream</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put pot in the sink and toggle the tap until the pot is 80 percent full</instruction><steps><step>move to the sink</step><step>put pot in the sink</step><step>toggle the tap</step><step>check water level</step><step>if water level is less than 80 percent, repeat toggle the tap</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the container in the microwave and turn on the microwave</instruction><steps><step>move to the microwave</step><step>open the microwave door</step><step>place the container in the microwave</step><step>close the microwave door</step><step>turn on the microwave</step><step>check battery status</step></steps></rule><rule><instruction>task execution: make sure there is a book on the table in front of the couch</instruction><steps><step>move to the couch</step><step>move forward</step><step>move left</step><step>move right</step><step>move to the table</step><step>check if there is a book on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the bag of chips on the shelf</instruction><steps><step>grab bag of chips</step><step>move to the shelf</step><step>place bag of chips on the shelf</step><step>check battery status</step></steps></rule><rule><instruction>task execution: also , put the beer , the coke and the bowl on the shelf</instruction><steps><step>grab beer</step><step>move to the shelf</step><step>place beer on the shelf</step><step>grab coke</step><step>move to the shelf</step><step>place coke on the shelf</step><step>grab bowl</step><step>move to the shelf</step><step>place bowl on the shelf</step><step>check battery status</step></steps></rule><rule><instruction>task execution: then turn of the tap</instruction><steps><step>move to the sink</step><step>turn off the tap</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the xbox on the table next to the lamp</instruction><steps><step>move to the table</step><step>move to the lamp</step><step>move to the xbox</step><step>grab the xbox</step><step>move to the table</step><step>place the xbox on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn on the tv and scroll down to the movie channel</instruction><steps><step>move to the TV</step><step>turn on the TV</step><step>scroll down to the movie channel</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put the pillow on the big chair</instruction><steps><step>move to the big chair</step><step>pick up the pillow</step><step>place the pillow on the chair</step><step>check battery status</step></steps></rule><rule><instruction>task execution: open the bottle of canada dry and pour into the long glass</instruction><steps><step>move to the location of the bottle</step><step>grab the bottle</step><step>move to the location of the long glass</step><step>pour the contents of the bottle into the long glass</step><step>put down the bottle</step><step>check battery status</step></steps></rule><rule><instruction>task execution: bring the large couch one meter away from the tv</instruction><steps><step>move to the large couch</step><step>grab the large couch</step><step>move the large couch one meter away from the TV</step><step>release the large couch</step><step>check battery status</step></steps></rule><rule><instruction>task execution: prepare ramen and place in the mug</instruction><steps><step>move to the kitchen</step><step>grab ingredients</step><step>boil water</step><step>add noodles to boiling water</step><step>cook noodles</step><step>drain noodles</step><step>add seasoning to noodles</step><step>mix noodles and seasoning</step><step>prepare mug</step><step>place noodles in mug</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn on the tv to a music channel</instruction><steps><step>move to the living room</step><step>turn on the TV</step><step>select music channel</step><step>check battery status</step></steps></rule><rule><instruction>task execution: clear table by dumping contents of bowl in sink and throwing away beer and coke in trash</instruction><steps><step>move to the table</step><step>grab bowl</step><step>move to the sink</step><step>dump contents of bowl in sink</step><step>grab beer</step><step>grab coke</step><step>move to the trash</step><step>throw away beer and coke</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take remote from shelf and turn off the tv , then replace remote on shelf</instruction><steps><step>move to the shelf</step><step>grab the remote</step><step>move to the TV</step><step>turn off the TV</step><step>move back to the shelf</step><step>replace the remote on the shelf</step><step>check battery status</step></steps></rule><rule><instruction>task execution: arrange couches in front of the tv , put the far cry game inside the xbox , turn on the tv and the xbox , and put out coke cans and open the chips bag</instruction><steps><step>move to the living room</step><step>arrange couches in front of the TV</step><step>move to the Xbox</step><step>insert the Far Cry game into the Xbox</step><step>turn on the TV</step><step>turn on the Xbox</step><step>move to the kitchen</step><step>take out coke cans</step><step>open the chips bag</step><step>move back to the living room</step><step>deliver coke cans and chips to the user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take the dishes and place them on top of each other</instruction><steps><step>grab dishes</step><step>move to the table</step><step>place dishes on top of each other</step><step>check battery status</step></steps></rule><rule><instruction>task execution: stack the cups</instruction><steps><step>move to the cup stack</step><step>grab a cup</step><step>move to the desired location</step><step>place the cup on top of the stack</step><step>repeat until all cups are stacked</step><step>check battery status</step></steps></rule><rule><instruction>task execution: pick up remote and switch channel to a music channel</instruction><steps><step>grab remote</step><step>switch channel to music channel</step></steps></rule><rule><instruction>task execution: remove beer , bowl , and trash bag on floor and dispose</instruction><steps><step>move to the beer</step><step>grab the beer</step><step>move to the trash bag</step><step>drop the beer into the trash bag</step><step>move to the bowl</step><step>grab the bowl</step><step>move to the trash bag</step><step>drop the bowl into the trash bag</step><step>dispose the trash bag</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put perishable items in the refrigerator</instruction><steps><step>move to the refrigerator</step><step>open the refrigerator door</step><step>grab perishable items</step><step>place perishable items in the refrigerator</step><step>close the refrigerator door</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take the red cup and fill it with water at the sink</instruction><steps><step>grab red cup</step><step>move to sink</step><step>fill cup with water</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place the cup in the microwave and heat until it is the appropriate temperature</instruction><steps><step>move to the microwave</step><step>open the microwave door</step><step>place the cup inside the microwave</step><step>close the microwave door</step><step>set the desired temperature</step><step>start the microwave</step><step>wait for the cup to reach the appropriate temperature</step><step>stop the microwave</step><step>open the microwave door</step><step>remove the cup from the microwave</step><step>close the microwave door</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place the game back in its case</instruction><steps><step>grab game</step><step>move to the game case</step><step>drop game in case</step><step>check battery status</step></steps></rule><rule><instruction>task execution: wash mug , long cups , spoon and bowl and place in cabinets</instruction><steps><step>move to the kitchen</step><step>grab mug</step><step>move to the sink</step><step>wash mug</step><step>move to the cabinet</step><step>place mug in cabinet</step><step>grab long cups</step><step>move to the sink</step><step>wash long cups</step><step>move to the cabinet</step><step>place long cups in cabinet</step><step>grab spoon</step><step>move to the sink</step><step>wash spoon</step><step>move to the cabinet</step><step>place spoon in cabinet</step><step>grab bowl</step><step>move to the sink</step><step>wash bowl</step><step>move to the cabinet</step><step>place bowl in cabinet</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place chocolate and vanilla syrup , and ramen in pantry</instruction><steps><step>move to the pantry</step><step>place chocolate syrup in the pantry</step><step>place vanilla syrup in the pantry</step><step>place ramen in the pantry</step><step>check battery status</step></steps></rule><rule><instruction>task execution: make ramen and put it in a plate</instruction><steps><step>move to the kitchen</step><step>check battery status</step><step>grab ingredients</step><step>boil water</step><step>cook noodles</step><step>prepare seasoning</step><step>drain noodles</step><step>mix noodles with seasoning</step><step>plate the ramen</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take both items and serve them to whomever it is meant for</instruction><steps><step>grab both items</step><step>move to the designated person</step><step>deliver the items to the designated person</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn off the water</instruction><steps><step>move to the water source</step><step>turn off the water</step><step>check battery status</step></steps></rule><rule><instruction>task execution: get the ice cream and the syrup from the counter and put it on the plate</instruction><steps><step>move to the counter</step><step>grab ice cream</step><step>grab syrup</step><step>move to the plate</step><step>drop ice cream on the plate</step><step>drop syrup on the plate</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn tv on with remote and find movie (lincoln)</instruction><steps><step>move to the living room</step><step>grab the TV remote</step><step>turn on the TV</step><step>search for the movie "Lincoln"</step><step>check battery status</step></steps></rule><rule><instruction>task execution: throw away beer and soda , and place book of records on shelf with brown book</instruction><steps><step>grab beer</step><step>move to trash can</step><step>drop beer</step><step>grab soda</step><step>move to trash can</step><step>drop soda</step><step>move to shelf</step><step>grab book of records</step><step>move to shelf</step><step>drop book of records</step><step>grab brown book</step><step>move to shelf</step><step>drop brown book</step><step>check battery status</step></steps></rule><rule><instruction>task execution: pick up the controller on the floor and place on the table</instruction><steps><step>move to the floor</step><step>scan the environment</step><step>detect the controller</step><step>grab the controller</step><step>move to the table</step><step>place the controller on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: then take the chips bag and pour its contents inside the bowl next to it and bring the bowl to the table near the couches</instruction><steps><step>grab chips bag</step><step>move to the bowl</step><step>pour chips into the bowl</step><step>move to the table near the couches</step><step>deliver the bowl to the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: once it is boiling , open the lid of the ramen cup and pour boiling water in until it reaches the top of the container</instruction><steps><step>move to the stove</step><step>wait for water to boil</step><step>move to the ramen cup</step><step>open the lid of the ramen cup</step><step>move to the kettle</step><step>pour boiling water into the ramen cup</step><step>check battery status</step></steps></rule><rule><instruction>task execution: open fridge and freezer and pick a drink</instruction><steps><step>move to the kitchen</step><step>open the fridge</step><step>open the freezer</step><step>scan the contents of the fridge</step><step>scan the contents of the freezer</step><step>pick a drink</step><step>check battery status</step></steps></rule><rule><instruction>task execution: remove boiled egg as well and place on plate</instruction><steps><step>grab boiled egg</step><step>move to the stove</step><step>remove boiled egg</step><step>move to the plate</step><step>place boiled egg on plate</step><step>check battery status</step></steps></rule><rule><instruction>task execution: pour said drink in a long cup or mug</instruction><steps><step>move to the location of the drink</step><step>pick up the long cup or mug</step><step>pour the drink into the cup or mug</step><step>put down the cup or mug</step><step>check battery status</step></steps></rule><rule><instruction>task execution: bring cup , plate , and possibly salt to whomever is eating , with plate in one hand and drink in the other</instruction><steps><step>grab cup</step><step>move to the kitchen</step><step>grab plate</step><step>move to the kitchen</step><step>grab salt</step><step>move to the dining area</step><step>deliver cup to the user</step><step>deliver plate to the user</step><step>deliver salt to the user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: get the tall cup with water in it and put it in the microwave</instruction><steps><step>grab tall cup</step><step>move to water source</step><step>fill cup with water</step><step>move to microwave</step><step>open microwave door</step><step>place cup in microwave</step><step>close microwave door</step><step>check battery status</step></steps></rule><rule><instruction>task execution: then take the ramen on the counter and pour its contents in the cup that was in the microwave</instruction><steps><step>move to the counter</step><step>grab the ramen</step><step>move to the microwave</step><step>open the microwave</step><step>take out the cup</step><step>move to the counter</step><step>pour the contents of the ramen into the cup</step><step>check battery status</step></steps></rule><rule><instruction>task execution: throw out the bottle , can and chips</instruction><steps><step>move to the location of the bottle</step><step>grab the bottle</step><step>move to the trash can</step><step>drop the bottle into the trash can</step><step>move to the location of the can</step><step>grab the can</step><step>move to the trash can</step><step>drop the can into the trash can</step><step>move to the location of the chips</step><step>grab the chips</step><step>move to the trash can</step><step>drop the chips into the trash can</step><step>check battery status</step></steps></rule><rule><instruction>task execution: pick up the xbox and controller and place on coffee table</instruction><steps><step>grab xbox</step><step>grab controller</step><step>move to coffee table</step><step>drop xbox</step><step>drop controller</step></steps></rule><rule><instruction>task execution: dump contents of mug , long cup , and pot in sink</instruction><steps><step>move to the sink</step><step>grab mug</step><step>dump contents of mug in sink</step><step>grab long cup</step><step>dump contents of long cup in sink</step><step>grab pot</step><step>dump contents of pot in sink</step><step>check battery status</step></steps></rule><rule><instruction>task execution: wash mug etc by soaping with sponge (robot waterproof?) , turning on the water , rinsing , turning off water</instruction><steps><step>move to the sink</step><step>grab sponge</step><step>grab mug</step><step>soap the mug with sponge</step><step>turn on the water</step><step>rinse the mug</step><step>turn off the water</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put mug and long cup with the plate</instruction><steps><step>grab mug</step><step>grab long cup</step><step>grab plate</step><step>move to the table</step><step>place mug on the table</step><step>place long cup on the table</step><step>place plate on the table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put syrup , ramen , and salt in pantry</instruction><steps><step>grab syrup</step><step>move to pantry</step><step>put syrup in pantry</step><step>grab ramen</step><step>move to pantry</step><step>put ramen in pantry</step><step>grab salt</step><step>move to pantry</step><step>put salt in pantry</step><step>check battery status</step></steps></rule><rule><instruction>task execution: place on coffee table</instruction><steps><step>move to coffee table</step><step>place object on coffee table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put away pillows , empty bowl , throw out drinks</instruction><steps><step>grab pillows</step><step>move to storage area</step><step>drop pillows</step><step>grab bowl</step><step>move to trash can</step><step>drop bowl</step><step>grab drinks</step><step>move to trash can</step><step>drop drinks</step><step>check battery status</step></steps></rule><rule><instruction>task execution: go to the refrigerator and open it to get the boiled egg and the coke can</instruction><steps><step>move to the refrigerator</step><step>open the refrigerator</step><step>grab the boiled egg</step><step>grab the coke can</step><step>check battery status</step></steps></rule><rule><instruction>task execution: then go to the counter and get the plate and put the egg on the plate</instruction><steps><step>move to the counter</step><step>get the plate</step><step>put the egg on the plate</step><step>check battery status</step></steps></rule><rule><instruction>task execution: gather ingredients (egg from fridge , ramen from counter) microwave water in cup , or boil water in pot (process described in previous scenario)</instruction><steps><step>move to the fridge</step><step>open the fridge</step><step>grab an egg</step><step>close the fridge</step><step>move to the counter</step><step>grab a pack of ramen</step><step>move to the microwave</step><step>open the microwave</step><step>place the cup with water inside the microwave</step><step>close the microwave</step><step>start the microwave</step><step>wait for the microwave to finish</step><step>open the microwave</step><step>take out the cup with water</step><step>close the microwave</step><step>move to the pot</step><step>fill the pot with water</step><step>place the pot on the stove</step><step>turn on the stove</step><step>wait for the water to boil</step><step>turn off the stove</step><step>move to the counter</step><step>check battery status</step></steps></rule><rule><instruction>task execution: pour soup base</instruction><steps><step>move to the kitchen</step><step>grab soup base</step><step>move to the pot</step><step>pour soup base into the pot</step><step>check battery status</step></steps></rule><rule><instruction>task execution: peel egg and add to ramen and throw shell in trash</instruction><steps><step>grab egg</step><step>move to the kitchen</step><step>find a trash can</step><step>peel the egg</step><step>add the peeled egg to the ramen</step><step>throw the eggshell in the trash</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take the xbox off the floor and place on shelf</instruction><steps><step>move to the floor</step><step>scan the environment</step><step>detect the Xbox</step><step>grab the Xbox</step><step>move to the shelf</step><step>place the Xbox on the shelf</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take the dishes and stack neatly</instruction><steps><step>move to the kitchen</step><step>grab dishes</step><step>move to the dish rack</step><step>stack dishes neatly</step><step>check battery status</step></steps></rule><rule><instruction>task execution: open freezer , remove icecream , close freezer</instruction><steps><step>move to the freezer</step><step>open the freezer</step><step>grab the ice cream</step><step>close the freezer</step><step>deliver the ice cream to the user</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn off the tv , put all the pillows back on the top shelf , empty the contents of the bowl , throw out empty bottles and cans , and take out the trash</instruction><steps><step>move to the living room</step><step>turn off the TV</step><step>move to the shelf</step><step>put all the pillows back on the top shelf</step><step>move to the kitchen</step><step>empty the contents of the bowl</step><step>move to the trash can</step><step>throw out empty bottles and cans</step><step>move to the trash bin</step><step>take out the trash</step><step>check battery status</step></steps></rule><rule><instruction>task execution: put coffee in the tall glass</instruction><steps><step>move to the coffee machine</step><step>grab a coffee cup</step><step>move to the tall glass</step><step>pour coffee into the tall glass</step><step>put down the coffee cup</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take far cry game cd and put in xbox by pressig eject to open drive</instruction><steps><step>move to the location of the game CD</step><step>grab the game CD</step><step>move to the Xbox</step><step>press the eject button to open the drive</step><step>put the game CD into the drive</step><step>close the drive</step><step>check battery status</step></steps></rule><rule><instruction>task execution: throw out beer , coke , and sketchy stuff in bowl</instruction><steps><step>move to the bowl</step><step>grab beer</step><step>drop beer</step><step>grab coke</step><step>drop coke</step><step>grab sketchy stuff</step><step>drop sketchy stuff</step><step>check battery status</step></steps></rule><rule><instruction>task execution: dump the bowl's contents and fill it with chips</instruction><steps><step>grab bowl</step><step>move to trash can</step><step>dump contents of bowl</step><step>move to chip bag</step><step>grab chips</step><step>move to bowl</step><step>fill bowl with chips</step><step>put down bowl</step><step>check battery status</step></steps></rule><rule><instruction>task execution: replace ice cream in freezer</instruction><steps><step>move to the freezer</step><step>open the freezer door</step><step>remove the old ice cream</step><step>place the new ice cream in the freezer</step><step>close the freezer door</step><step>check battery status</step></steps></rule><rule><instruction>task execution: take book of records and place on table with brown book</instruction><steps><step>grab book of records</step><step>move to table</step><step>place book of records on table</step><step>grab brown book</step><step>move to table</step><step>place brown book on table</step><step>check battery status</step></steps></rule><rule><instruction>task execution: turn on tv with remote and turn to lincoln</instruction><steps><step>grab remote</step><step>move to the living room</step><step>turn on the TV</step><step>use the remote to change the channel to Lincoln</step><step>check battery status</step></steps></rule></root>

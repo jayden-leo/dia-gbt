@@ -1,0 +1,19 @@
+<root>
+    <action name="interrupt_assembly">
+        <explanation>to interrupt and stop during the assembly process for unexpected situations or situations that require manual intervention</explanation>
+        <synonyms>halt integration</synonyms>
+        <synonyms>disrupt assembly</synonyms>
+        <synonyms>break off construction</synonyms>
+        <synonyms>suspend joining</synonyms>
+        <synonyms>interrupt the assembly</synonyms>
+        <synonyms>abort integration</synonyms>
+        <synonyms>cease assembly</synonyms>
+        <synonyms>pause construction</synonyms>
+        <synonyms>interrupt operation</synonyms>
+        <synonyms>interrupted assembly</synonyms>
+        <synonyms>hold up integration</synonyms>
+        <synonyms>terminate joining</synonyms>
+        <pattern>^(halt|disrupt|break.*off|suspend|terminat).*(integration|assembly|construction|joining|operation)$</pattern>
+        <pattern>^(interrupt|abort|ceas|paus|hold.*up).*(integration|assembly|construction|joining|operation)$</pattern>
+    </action>
+</root>

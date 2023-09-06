@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <task name="temp">
+    <bt>
+      <sequence name="sequence">
+        <sequence name="sequence">
+          <obstacle_detection name="obstacle_detection"/>
+          <bypass name="bypass"/>
+        </sequence>
+        <selector name="selector">
+          <battery_check name="battery_check"/>
+          <charging name="charging"/>
+        </selector>
+      </sequence>
+    </bt>
+  </task>
+</root>
